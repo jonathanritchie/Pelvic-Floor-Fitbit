@@ -15,6 +15,7 @@
 		97CCDF531CE997B7009E8AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CCDF511CE997B7009E8AA3 /* LaunchScreen.storyboard */; };
 		97CCDF5E1CE997B7009E8AA3 /* Pelvic_Floor_FitbitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF5D1CE997B7009E8AA3 /* Pelvic_Floor_FitbitTests.swift */; };
 		97CCDF691CE997B7009E8AA3 /* Pelvic_Floor_FitbitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF681CE997B7009E8AA3 /* Pelvic_Floor_FitbitUITests.swift */; };
+		97CCDF7A1CEA6C1E009E8AA3 /* BluetoothConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF791CEA6C1E009E8AA3 /* BluetoothConnect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		97CCDF681CE997B7009E8AA3 /* Pelvic_Floor_FitbitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pelvic_Floor_FitbitUITests.swift; sourceTree = "<group>"; };
 		97CCDF6A1CE997B7009E8AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97CCDF781CE9E4E4009E8AA3 /* Pelvic Floor Fitbit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Pelvic Floor Fitbit.entitlements"; sourceTree = "<group>"; };
+		97CCDF791CEA6C1E009E8AA3 /* BluetoothConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothConnect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				97CCDF781CE9E4E4009E8AA3 /* Pelvic Floor Fitbit.entitlements */,
 				97CCDF461CE997B7009E8AA3 /* AppDelegate.swift */,
 				97CCDF481CE997B7009E8AA3 /* FirstViewController.swift */,
+				97CCDF791CEA6C1E009E8AA3 /* BluetoothConnect.swift */,
 				97CCDF4A1CE997B7009E8AA3 /* SecondViewController.swift */,
 				97CCDF4C1CE997B7009E8AA3 /* Main.storyboard */,
 				97CCDF4F1CE997B7009E8AA3 /* Assets.xcassets */,
@@ -198,7 +201,6 @@
 				TargetAttributes = {
 					97CCDF421CE997B7009E8AA3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = SHAQC265VT;
 						SystemCapabilities = {
 							com.apple.HealthKit = {
 								enabled = 0;
@@ -270,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97CCDF4B1CE997B7009E8AA3 /* SecondViewController.swift in Sources */,
+				97CCDF7A1CEA6C1E009E8AA3 /* BluetoothConnect.swift in Sources */,
 				97CCDF471CE997B7009E8AA3 /* AppDelegate.swift in Sources */,
 				97CCDF491CE997B7009E8AA3 /* FirstViewController.swift in Sources */,
 			);

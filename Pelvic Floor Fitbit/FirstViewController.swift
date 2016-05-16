@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  WorkoutViewController.swift
 //  Pelvic Floor Fitbit
 //
 //  Created by Jonathan Ritchie on 16/05/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class WorkoutViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +21,13 @@ class FirstViewController: UIViewController {
     }
 
 
+    /*@IBAction func BluetoothConnect(sender: UIButton) {
+        
+        
+        
+    }*/
 }
+
+
+
 

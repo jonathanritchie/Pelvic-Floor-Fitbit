@@ -8,7 +8,7 @@
         <!--Workout-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Pelvic_Floor_Fitbit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="WorkoutViewController" customModule="Pelvic_Floor_Fitbit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -16,13 +16,30 @@
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="etx-06-ejY">
+                                <rect key="frame" x="162" y="221" width="277" height="157"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <state key="normal" title="  Connect Fitbit" image="Link Filled-50">
+                                    <color key="titleColor" red="1" green="0.41025304537994645" blue="0.72661059116895577" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="BluetoothConnect:" destination="9pv-A4-QxB" eventType="touchUpInside" id="EU0-wQ-bLl"/>
+                                    <action selector="checkBluetoothState:" destination="9pv-A4-QxB" eventType="touchUpInside" id="8Q7-eS-CDI"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="etx-06-ejY" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="Oz6-cC-y6S"/>
+                            <constraint firstItem="etx-06-ejY" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="kB8-bg-JQH"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Workout" image="Female Filled-50" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="750" y="-308"/>
         </scene>
         <!--Calendar-->
         <scene sceneID="wg7-f3-ORb">
@@ -109,6 +126,7 @@
         <image name="Calendar Filled-50" width="25" height="25"/>
         <image name="Clock Filled-50" width="25" height="25"/>
         <image name="Female Filled-50" width="25" height="25"/>
+        <image name="Link Filled-50" width="25" height="25"/>
         <image name="Settings Filled-50" width="25" height="25"/>
     </resources>
 </document>
