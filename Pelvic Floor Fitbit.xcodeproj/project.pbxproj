@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9766566B1CEB36860045CBEF /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766566A1CEB36860045CBEF /* BluetoothManager.swift */; };
 		97CCDF471CE997B7009E8AA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF461CE997B7009E8AA3 /* AppDelegate.swift */; };
 		97CCDF491CE997B7009E8AA3 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF481CE997B7009E8AA3 /* WorkoutViewController.swift */; };
 		97CCDF4B1CE997B7009E8AA3 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF4A1CE997B7009E8AA3 /* CalendarViewController.swift */; };
@@ -35,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9766566A1CEB36860045CBEF /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BluetoothManager.swift; path = "Pelvic Floor Fitbit/BluetoothManager.swift"; sourceTree = SOURCE_ROOT; };
 		97CCDF431CE997B7009E8AA3 /* Pelvic Floor Fitbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pelvic Floor Fitbit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CCDF461CE997B7009E8AA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97CCDF481CE997B7009E8AA3 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		97CCDF481CE997B7009E8AA3 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WorkoutViewController.swift; path = "Pelvic Floor Fitbit/WorkoutViewController.swift"; sourceTree = SOURCE_ROOT; };
 		97CCDF4A1CE997B7009E8AA3 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		97CCDF4D1CE997B7009E8AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97CCDF4F1CE997B7009E8AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				97CCDF781CE9E4E4009E8AA3 /* Pelvic Floor Fitbit.entitlements */,
+				9766566A1CEB36860045CBEF /* BluetoothManager.swift */,
 				97CCDF461CE997B7009E8AA3 /* AppDelegate.swift */,
 				97CCDF481CE997B7009E8AA3 /* WorkoutViewController.swift */,
 				97CCDF4A1CE997B7009E8AA3 /* CalendarViewController.swift */,
@@ -270,6 +273,7 @@
 			files = (
 				97CCDF4B1CE997B7009E8AA3 /* CalendarViewController.swift in Sources */,
 				97CCDF471CE997B7009E8AA3 /* AppDelegate.swift in Sources */,
+				9766566B1CEB36860045CBEF /* BluetoothManager.swift in Sources */,
 				97CCDF491CE997B7009E8AA3 /* WorkoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

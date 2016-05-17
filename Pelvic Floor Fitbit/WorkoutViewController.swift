@@ -9,27 +9,17 @@
 import UIKit
 import CoreBluetooth
 
-class WorkoutViewController: UIViewController, CBCentralManagerDelegate {
+class WorkoutViewController: UIViewController {
     
-    var isBluetoothPoweredOn = false
     var centralManager = CBCentralManager()
-    
-    func centralManagerDidUpdateState(central: CBCentralManager) {
-        
-        switch (central.state) {
-        case .PoweredOn:
-            isBluetoothPoweredOn = true
-        case .PoweredOff:
-            isBluetoothPoweredOn = false
-        default:
-            break
-        }
-    }
+    var BLEManager = BluetoothManager()
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        centralManager = CBCentralManager(delegate: self, queue: nil)
+        
+        // Initialise the BluetoothManager
+        BLEManager = BluetoothManager()
     }
 
     override func didReceiveMemoryWarning() {
@@ -39,8 +29,9 @@ class WorkoutViewController: UIViewController, CBCentralManagerDelegate {
     
     // Custom Alert Dialog on "Connect Fitbit" button press
     override func shouldPerformSegueWithIdentifier(identifier: String, sender: AnyObject?) -> Bool {
+        BLEManager.centralManagerDidUpdateState(centralManager)
         if identifier == "connectSearchSegue" {
-            if !isBluetoothPoweredOn {
+            if !BLEManager.isBluetoothPoweredOn {
                 showAlertForSettings()
                 return false;
             }
@@ -48,6 +39,7 @@ class WorkoutViewController: UIViewController, CBCentralManagerDelegate {
         return true;
     }
 
+    // Function to display an custom alert dialog if Bluetooth is turned OFF.
     private func showAlertForSettings() {
         let alertController = UIAlertController(title: "Pelvic Floor Fitbit", message: "Turn on Bluetooth to connect to Fitbit", preferredStyle: .Alert)
         
