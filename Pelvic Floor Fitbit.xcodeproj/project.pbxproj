@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		97CCDF471CE997B7009E8AA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF461CE997B7009E8AA3 /* AppDelegate.swift */; };
-		97CCDF491CE997B7009E8AA3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF481CE997B7009E8AA3 /* FirstViewController.swift */; };
-		97CCDF4B1CE997B7009E8AA3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF4A1CE997B7009E8AA3 /* SecondViewController.swift */; };
+		97CCDF491CE997B7009E8AA3 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF481CE997B7009E8AA3 /* WorkoutViewController.swift */; };
+		97CCDF4B1CE997B7009E8AA3 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF4A1CE997B7009E8AA3 /* CalendarViewController.swift */; };
 		97CCDF4E1CE997B7009E8AA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CCDF4C1CE997B7009E8AA3 /* Main.storyboard */; };
 		97CCDF501CE997B7009E8AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97CCDF4F1CE997B7009E8AA3 /* Assets.xcassets */; };
 		97CCDF531CE997B7009E8AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CCDF511CE997B7009E8AA3 /* LaunchScreen.storyboard */; };
@@ -37,8 +37,8 @@
 /* Begin PBXFileReference section */
 		97CCDF431CE997B7009E8AA3 /* Pelvic Floor Fitbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pelvic Floor Fitbit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CCDF461CE997B7009E8AA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97CCDF481CE997B7009E8AA3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		97CCDF4A1CE997B7009E8AA3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		97CCDF481CE997B7009E8AA3 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		97CCDF4A1CE997B7009E8AA3 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		97CCDF4D1CE997B7009E8AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97CCDF4F1CE997B7009E8AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97CCDF521CE997B7009E8AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -102,8 +102,8 @@
 			children = (
 				97CCDF781CE9E4E4009E8AA3 /* Pelvic Floor Fitbit.entitlements */,
 				97CCDF461CE997B7009E8AA3 /* AppDelegate.swift */,
-				97CCDF481CE997B7009E8AA3 /* FirstViewController.swift */,
-				97CCDF4A1CE997B7009E8AA3 /* SecondViewController.swift */,
+				97CCDF481CE997B7009E8AA3 /* WorkoutViewController.swift */,
+				97CCDF4A1CE997B7009E8AA3 /* CalendarViewController.swift */,
 				97CCDF4C1CE997B7009E8AA3 /* Main.storyboard */,
 				97CCDF4F1CE997B7009E8AA3 /* Assets.xcassets */,
 				97CCDF511CE997B7009E8AA3 /* LaunchScreen.storyboard */,
@@ -198,7 +198,6 @@
 				TargetAttributes = {
 					97CCDF421CE997B7009E8AA3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = SHAQC265VT;
 						SystemCapabilities = {
 							com.apple.HealthKit = {
 								enabled = 0;
@@ -269,9 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97CCDF4B1CE997B7009E8AA3 /* SecondViewController.swift in Sources */,
+				97CCDF4B1CE997B7009E8AA3 /* CalendarViewController.swift in Sources */,
 				97CCDF471CE997B7009E8AA3 /* AppDelegate.swift in Sources */,
-				97CCDF491CE997B7009E8AA3 /* FirstViewController.swift in Sources */,
+				97CCDF491CE997B7009E8AA3 /* WorkoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +503,7 @@
 				97CCDF6F1CE997B7009E8AA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97CCDF701CE997B7009E8AA3 /* Build configuration list for PBXNativeTarget "Pelvic Floor FitbitTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +512,7 @@
 				97CCDF721CE997B7009E8AA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97CCDF731CE997B7009E8AA3 /* Build configuration list for PBXNativeTarget "Pelvic Floor FitbitUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +521,7 @@
 				97CCDF751CE997B7009E8AA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
