@@ -24,8 +24,7 @@
                                     <color key="titleColor" red="1" green="0.41025304537994645" blue="0.72661059116895577" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="BluetoothConnect:" destination="9pv-A4-QxB" eventType="touchUpInside" id="EU0-wQ-bLl"/>
-                                    <action selector="checkBluetoothState:" destination="9pv-A4-QxB" eventType="touchUpInside" id="8Q7-eS-CDI"/>
+                                    <segue destination="lwL-gp-S8X" kind="showDetail" identifier="connectSearchSegue" id="nFr-Sg-oUl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -41,10 +40,39 @@
             </objects>
             <point key="canvasLocation" x="750" y="-308"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="YPT-az-BtZ">
+            <objects>
+                <viewController id="lwL-gp-S8X" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BFC-bM-HaT"/>
+                        <viewControllerLayoutGuide type="bottom" id="PWj-eD-4tU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bbb-YG-wt8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Searching for Fitbit..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dgu-5U-P3R">
+                                <rect key="frame" x="197" y="285" width="206" height="30"/>
+                                <color key="textColor" red="1" green="0.3641568401570533" blue="0.99466378041813697" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dgu-5U-P3R" firstAttribute="centerY" secondItem="bbb-YG-wt8" secondAttribute="centerY" id="U1o-cu-C88"/>
+                            <constraint firstItem="dgu-5U-P3R" firstAttribute="centerX" secondItem="bbb-YG-wt8" secondAttribute="centerX" id="W1s-sh-oge"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B2L-YG-dQ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1480" y="-308"/>
+        </scene>
         <!--Calendar-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Pelvic_Floor_Fitbit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
@@ -57,6 +85,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Calendar" image="Calendar Filled-50" id="cPa-gy-q4n"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
         </scene>
