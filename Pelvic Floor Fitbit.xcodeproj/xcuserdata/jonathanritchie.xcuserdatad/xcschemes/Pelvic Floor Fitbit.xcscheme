@@ -48,6 +48,16 @@
                ReferencedContainer = "container:Pelvic Floor Fitbit.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "979A80011CEDDD1200D419C1"
+               BuildableName = "Resolve Issues.xctest"
+               BlueprintName = "Resolve Issues"
+               ReferencedContainer = "container:Pelvic Floor Fitbit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

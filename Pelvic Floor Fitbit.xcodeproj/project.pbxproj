@@ -20,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		979A80071CEDDD1200D419C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97CCDF3B1CE997B7009E8AA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97CCDF421CE997B7009E8AA3;
+			remoteInfo = "Pelvic Floor Fitbit";
+		};
 		97CCDF5A1CE997B7009E8AA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 97CCDF3B1CE997B7009E8AA3 /* Project object */;
@@ -39,6 +46,7 @@
 /* Begin PBXFileReference section */
 		9766566A1CEB36860045CBEF /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BluetoothManager.swift; path = "Pelvic Floor Fitbit/BluetoothManager.swift"; sourceTree = SOURCE_ROOT; };
 		9766566C1CEB44CE0045CBEF /* DeviceConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceConnectViewController.swift; sourceTree = "<group>"; };
+		979A80021CEDDD1200D419C1 /* Resolve Issues.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Resolve Issues.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CCDF431CE997B7009E8AA3 /* Pelvic Floor Fitbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pelvic Floor Fitbit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CCDF461CE997B7009E8AA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97CCDF481CE997B7009E8AA3 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WorkoutViewController.swift; path = "Pelvic Floor Fitbit/WorkoutViewController.swift"; sourceTree = SOURCE_ROOT; };
@@ -57,6 +65,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		979A7FFF1CEDDD1200D419C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97CCDF401CE997B7009E8AA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,6 +112,7 @@
 				97CCDF431CE997B7009E8AA3 /* Pelvic Floor Fitbit.app */,
 				97CCDF591CE997B7009E8AA3 /* Pelvic Floor Fitbit.xctest */,
 				97CCDF641CE997B7009E8AA3 /* Pelvic Floor Fitbit.xctest */,
+				979A80021CEDDD1200D419C1 /* Resolve Issues.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,6 +155,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		979A80011CEDDD1200D419C1 /* Resolve Issues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979A80091CEDDD1200D419C1 /* Build configuration list for PBXNativeTarget "Resolve Issues" */;
+			buildPhases = (
+				979A7FFE1CEDDD1200D419C1 /* Sources */,
+				979A7FFF1CEDDD1200D419C1 /* Frameworks */,
+				979A80001CEDDD1200D419C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979A80081CEDDD1200D419C1 /* PBXTargetDependency */,
+			);
+			name = "Resolve Issues";
+			productName = "Resolve Issues";
+			productReference = 979A80021CEDDD1200D419C1 /* Resolve Issues.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		97CCDF421CE997B7009E8AA3 /* Pelvic Floor Fitbit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97CCDF6D1CE997B7009E8AA3 /* Build configuration list for PBXNativeTarget "Pelvic Floor Fitbit" */;
@@ -202,6 +236,11 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Jonathan Ritchie";
 				TargetAttributes = {
+					979A80011CEDDD1200D419C1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SHAQC265VT;
+						TestTargetID = 97CCDF421CE997B7009E8AA3;
+					};
 					97CCDF421CE997B7009E8AA3 = {
 						CreatedOnToolsVersion = 7.3.1;
 						SystemCapabilities = {
@@ -238,11 +277,19 @@
 				97CCDF421CE997B7009E8AA3 /* Pelvic Floor Fitbit */,
 				97CCDF581CE997B7009E8AA3 /* Pelvic Floor FitbitTests */,
 				97CCDF631CE997B7009E8AA3 /* Pelvic Floor FitbitUITests */,
+				979A80011CEDDD1200D419C1 /* Resolve Issues */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		979A80001CEDDD1200D419C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97CCDF411CE997B7009E8AA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,6 +317,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		979A7FFE1CEDDD1200D419C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97CCDF3F1CE997B7009E8AA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,6 +355,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		979A80081CEDDD1200D419C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97CCDF421CE997B7009E8AA3 /* Pelvic Floor Fitbit */;
+			targetProxy = 979A80071CEDDD1200D419C1 /* PBXContainerItemProxy */;
+		};
 		97CCDF5B1CE997B7009E8AA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 97CCDF421CE997B7009E8AA3 /* Pelvic Floor Fitbit */;
@@ -333,6 +392,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		979A800A1CEDDD1200D419C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Resolve Issues/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unisolutions.jnritchie.Resolve-Issues";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pelvic Floor Fitbit.app/Pelvic Floor Fitbit";
+			};
+			name = Debug;
+		};
+		979A800B1CEDDD1200D419C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Resolve Issues/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unisolutions.jnritchie.Resolve-Issues";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pelvic Floor Fitbit.app/Pelvic Floor Fitbit";
+			};
+			name = Release;
+		};
 		97CCDF6B1CE997B7009E8AA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -420,17 +503,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				CODE_SIGN_IDENTITY = "iPhone Developer: jonathan.ritchie@hotmail.co.nz (FZJB8L8YP9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jonathan.ritchie@hotmail.co.nz (FZJB8L8YP9)";
 				INFOPLIST_FILE = "Pelvic Floor Fitbit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.unisolutions.jnritchie.Pelvic-Floor-Fitbit";
 				PRODUCT_NAME = "Pelvic Floor Fitbit";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "c9d70f0d-f010-4a1a-bc11-562e6a06023d";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -439,17 +518,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				CODE_SIGN_IDENTITY = "iPhone Developer: jonathan.ritchie@hotmail.co.nz (FZJB8L8YP9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jonathan.ritchie@hotmail.co.nz (FZJB8L8YP9)";
 				INFOPLIST_FILE = "Pelvic Floor Fitbit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.unisolutions.jnritchie.Pelvic-Floor-Fitbit";
 				PRODUCT_NAME = "Pelvic Floor Fitbit";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "c9d70f0d-f010-4a1a-bc11-562e6a06023d";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -503,6 +578,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		979A80091CEDDD1200D419C1 /* Build configuration list for PBXNativeTarget "Resolve Issues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979A800A1CEDDD1200D419C1 /* Debug */,
+				979A800B1CEDDD1200D419C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		97CCDF3E1CE997B7009E8AA3 /* Build configuration list for PBXProject "Pelvic Floor Fitbit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
