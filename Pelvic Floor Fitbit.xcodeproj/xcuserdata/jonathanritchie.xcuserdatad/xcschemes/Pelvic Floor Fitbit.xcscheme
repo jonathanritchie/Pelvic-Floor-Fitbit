@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "97CCDF421CE997B7009E8AA3"
                BuildableName = "Intim8.app"
-               BlueprintName = "Intim8"
-               ReferencedContainer = "container:Intim8.xcodeproj">
+               BlueprintName = "Pelvic Floor Fitbit"
+               ReferencedContainer = "container:Pelvic Floor Fitbit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "97CCDF581CE997B7009E8AA3"
-               BuildableName = "Intim8.xctest"
-               BlueprintName = "Intim8Tests"
-               ReferencedContainer = "container:Intim8.xcodeproj">
+               BuildableName = "Pelvic Floor Fitbit.xctest"
+               BlueprintName = "Pelvic Floor FitbitTests"
+               ReferencedContainer = "container:Pelvic Floor Fitbit.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "97CCDF631CE997B7009E8AA3"
-               BuildableName = "Intim8.xctest"
-               BlueprintName = "Intim8UITests"
-               ReferencedContainer = "container:Intim8.xcodeproj">
+               BuildableName = "Pelvic Floor Fitbit.xctest"
+               BlueprintName = "Pelvic Floor FitbitUITests"
+               ReferencedContainer = "container:Pelvic Floor Fitbit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -54,8 +54,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "97CCDF421CE997B7009E8AA3"
             BuildableName = "Intim8.app"
-            BlueprintName = "Intim8"
-            ReferencedContainer = "container:Intim8.xcodeproj">
+            BlueprintName = "Pelvic Floor Fitbit"
+            ReferencedContainer = "container:Pelvic Floor Fitbit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -77,8 +77,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "97CCDF421CE997B7009E8AA3"
             BuildableName = "Intim8.app"
-            BlueprintName = "Intim8"
-            ReferencedContainer = "container:Intim8.xcodeproj">
+            BlueprintName = "Pelvic Floor Fitbit"
+            ReferencedContainer = "container:Pelvic Floor Fitbit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,8 +96,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "97CCDF421CE997B7009E8AA3"
             BuildableName = "Intim8.app"
-            BlueprintName = "Intim8"
-            ReferencedContainer = "container:Intim8.xcodeproj">
+            BlueprintName = "Pelvic Floor Fitbit"
+            ReferencedContainer = "container:Pelvic Floor Fitbit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

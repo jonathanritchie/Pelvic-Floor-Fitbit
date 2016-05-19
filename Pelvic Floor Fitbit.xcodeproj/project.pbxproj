@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		9766566A1CEB36860045CBEF /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BluetoothManager.swift; path = "Pelvic Floor Fitbit/BluetoothManager.swift"; sourceTree = SOURCE_ROOT; };
 		9766566C1CEB44CE0045CBEF /* DeviceConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceConnectViewController.swift; sourceTree = "<group>"; };
-		97CCDF431CE997B7009E8AA3 /* Intim8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intim8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97CCDF431CE997B7009E8AA3 /* Pelvic Floor Fitbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pelvic Floor Fitbit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CCDF461CE997B7009E8AA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97CCDF481CE997B7009E8AA3 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WorkoutViewController.swift; path = "Pelvic Floor Fitbit/WorkoutViewController.swift"; sourceTree = SOURCE_ROOT; };
 		97CCDF4A1CE997B7009E8AA3 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
@@ -47,10 +47,10 @@
 		97CCDF4F1CE997B7009E8AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97CCDF521CE997B7009E8AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97CCDF541CE997B7009E8AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97CCDF591CE997B7009E8AA3 /* Intim8.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Intim8.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97CCDF591CE997B7009E8AA3 /* Pelvic Floor Fitbit.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pelvic Floor Fitbit.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CCDF5D1CE997B7009E8AA3 /* Pelvic_Floor_FitbitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pelvic_Floor_FitbitTests.swift; sourceTree = "<group>"; };
 		97CCDF5F1CE997B7009E8AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97CCDF641CE997B7009E8AA3 /* Intim8.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Intim8.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97CCDF641CE997B7009E8AA3 /* Pelvic Floor Fitbit.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pelvic Floor Fitbit.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CCDF681CE997B7009E8AA3 /* Pelvic_Floor_FitbitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pelvic_Floor_FitbitUITests.swift; sourceTree = "<group>"; };
 		97CCDF6A1CE997B7009E8AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97CCDF781CE9E4E4009E8AA3 /* Pelvic Floor Fitbit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Pelvic Floor Fitbit.entitlements"; sourceTree = "<group>"; };
@@ -94,9 +94,9 @@
 		97CCDF441CE997B7009E8AA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97CCDF431CE997B7009E8AA3 /* Intim8.app */,
-				97CCDF591CE997B7009E8AA3 /* Intim8.xctest */,
-				97CCDF641CE997B7009E8AA3 /* Intim8.xctest */,
+				97CCDF431CE997B7009E8AA3 /* Pelvic Floor Fitbit.app */,
+				97CCDF591CE997B7009E8AA3 /* Pelvic Floor Fitbit.xctest */,
+				97CCDF641CE997B7009E8AA3 /* Pelvic Floor Fitbit.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,9 +139,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		97CCDF421CE997B7009E8AA3 /* Intim8 */ = {
+		97CCDF421CE997B7009E8AA3 /* Pelvic Floor Fitbit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97CCDF6D1CE997B7009E8AA3 /* Build configuration list for PBXNativeTarget "Intim8" */;
+			buildConfigurationList = 97CCDF6D1CE997B7009E8AA3 /* Build configuration list for PBXNativeTarget "Pelvic Floor Fitbit" */;
 			buildPhases = (
 				97CCDF3F1CE997B7009E8AA3 /* Sources */,
 				97CCDF401CE997B7009E8AA3 /* Frameworks */,
@@ -151,14 +151,14 @@
 			);
 			dependencies = (
 			);
-			name = Intim8;
+			name = "Pelvic Floor Fitbit";
 			productName = "Pelvic Floor Fitbit";
-			productReference = 97CCDF431CE997B7009E8AA3 /* Intim8.app */;
+			productReference = 97CCDF431CE997B7009E8AA3 /* Pelvic Floor Fitbit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		97CCDF581CE997B7009E8AA3 /* Intim8Tests */ = {
+		97CCDF581CE997B7009E8AA3 /* Pelvic Floor FitbitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97CCDF701CE997B7009E8AA3 /* Build configuration list for PBXNativeTarget "Intim8Tests" */;
+			buildConfigurationList = 97CCDF701CE997B7009E8AA3 /* Build configuration list for PBXNativeTarget "Pelvic Floor FitbitTests" */;
 			buildPhases = (
 				97CCDF551CE997B7009E8AA3 /* Sources */,
 				97CCDF561CE997B7009E8AA3 /* Frameworks */,
@@ -169,14 +169,14 @@
 			dependencies = (
 				97CCDF5B1CE997B7009E8AA3 /* PBXTargetDependency */,
 			);
-			name = Intim8Tests;
+			name = "Pelvic Floor FitbitTests";
 			productName = "Pelvic Floor FitbitTests";
-			productReference = 97CCDF591CE997B7009E8AA3 /* Intim8.xctest */;
+			productReference = 97CCDF591CE997B7009E8AA3 /* Pelvic Floor Fitbit.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		97CCDF631CE997B7009E8AA3 /* Intim8UITests */ = {
+		97CCDF631CE997B7009E8AA3 /* Pelvic Floor FitbitUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97CCDF731CE997B7009E8AA3 /* Build configuration list for PBXNativeTarget "Intim8UITests" */;
+			buildConfigurationList = 97CCDF731CE997B7009E8AA3 /* Build configuration list for PBXNativeTarget "Pelvic Floor FitbitUITests" */;
 			buildPhases = (
 				97CCDF601CE997B7009E8AA3 /* Sources */,
 				97CCDF611CE997B7009E8AA3 /* Frameworks */,
@@ -187,9 +187,9 @@
 			dependencies = (
 				97CCDF661CE997B7009E8AA3 /* PBXTargetDependency */,
 			);
-			name = Intim8UITests;
+			name = "Pelvic Floor FitbitUITests";
 			productName = "Pelvic Floor FitbitUITests";
-			productReference = 97CCDF641CE997B7009E8AA3 /* Intim8.xctest */;
+			productReference = 97CCDF641CE997B7009E8AA3 /* Pelvic Floor Fitbit.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -222,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 97CCDF3E1CE997B7009E8AA3 /* Build configuration list for PBXProject "Intim8" */;
+			buildConfigurationList = 97CCDF3E1CE997B7009E8AA3 /* Build configuration list for PBXProject "Pelvic Floor Fitbit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -235,9 +235,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97CCDF421CE997B7009E8AA3 /* Intim8 */,
-				97CCDF581CE997B7009E8AA3 /* Intim8Tests */,
-				97CCDF631CE997B7009E8AA3 /* Intim8UITests */,
+				97CCDF421CE997B7009E8AA3 /* Pelvic Floor Fitbit */,
+				97CCDF581CE997B7009E8AA3 /* Pelvic Floor FitbitTests */,
+				97CCDF631CE997B7009E8AA3 /* Pelvic Floor FitbitUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -303,12 +303,12 @@
 /* Begin PBXTargetDependency section */
 		97CCDF5B1CE997B7009E8AA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 97CCDF421CE997B7009E8AA3 /* Intim8 */;
+			target = 97CCDF421CE997B7009E8AA3 /* Pelvic Floor Fitbit */;
 			targetProxy = 97CCDF5A1CE997B7009E8AA3 /* PBXContainerItemProxy */;
 		};
 		97CCDF661CE997B7009E8AA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 97CCDF421CE997B7009E8AA3 /* Intim8 */;
+			target = 97CCDF421CE997B7009E8AA3 /* Pelvic Floor Fitbit */;
 			targetProxy = 97CCDF651CE997B7009E8AA3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,7 +429,7 @@
 				INFOPLIST_FILE = "Pelvic Floor Fitbit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.unisolutions.jnritchie.Pelvic-Floor-Fitbit";
-				PRODUCT_NAME = Intim8;
+				PRODUCT_NAME = "Pelvic Floor Fitbit";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -448,7 +448,7 @@
 				INFOPLIST_FILE = "Pelvic Floor Fitbit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.unisolutions.jnritchie.Pelvic-Floor-Fitbit";
-				PRODUCT_NAME = Intim8;
+				PRODUCT_NAME = "Pelvic Floor Fitbit";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -461,8 +461,8 @@
 				INFOPLIST_FILE = "Pelvic Floor FitbitTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.unisolutions.jnritchie.Pelvic-Floor-FitbitTests";
-				PRODUCT_NAME = Intim8;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intim8.app/Intim8";
+				PRODUCT_NAME = "Pelvic Floor Fitbit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pelvic Floor Fitbit.app/Pelvic Floor Fitbit";
 			};
 			name = Debug;
 		};
@@ -473,8 +473,8 @@
 				INFOPLIST_FILE = "Pelvic Floor FitbitTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.unisolutions.jnritchie.Pelvic-Floor-FitbitTests";
-				PRODUCT_NAME = Intim8;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intim8.app/Intim8";
+				PRODUCT_NAME = "Pelvic Floor Fitbit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pelvic Floor Fitbit.app/Pelvic Floor Fitbit";
 			};
 			name = Release;
 		};
@@ -484,7 +484,7 @@
 				INFOPLIST_FILE = "Pelvic Floor FitbitUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.unisolutions.jnritchie.Pelvic-Floor-FitbitUITests";
-				PRODUCT_NAME = Intim8;
+				PRODUCT_NAME = "Pelvic Floor Fitbit";
 				TEST_TARGET_NAME = "Pelvic Floor Fitbit";
 			};
 			name = Debug;
@@ -495,7 +495,7 @@
 				INFOPLIST_FILE = "Pelvic Floor FitbitUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.unisolutions.jnritchie.Pelvic-Floor-FitbitUITests";
-				PRODUCT_NAME = Intim8;
+				PRODUCT_NAME = "Pelvic Floor Fitbit";
 				TEST_TARGET_NAME = "Pelvic Floor Fitbit";
 			};
 			name = Release;
@@ -503,7 +503,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		97CCDF3E1CE997B7009E8AA3 /* Build configuration list for PBXProject "Intim8" */ = {
+		97CCDF3E1CE997B7009E8AA3 /* Build configuration list for PBXProject "Pelvic Floor Fitbit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97CCDF6B1CE997B7009E8AA3 /* Debug */,
@@ -512,7 +512,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97CCDF6D1CE997B7009E8AA3 /* Build configuration list for PBXNativeTarget "Intim8" */ = {
+		97CCDF6D1CE997B7009E8AA3 /* Build configuration list for PBXNativeTarget "Pelvic Floor Fitbit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97CCDF6E1CE997B7009E8AA3 /* Debug */,
@@ -521,7 +521,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97CCDF701CE997B7009E8AA3 /* Build configuration list for PBXNativeTarget "Intim8Tests" */ = {
+		97CCDF701CE997B7009E8AA3 /* Build configuration list for PBXNativeTarget "Pelvic Floor FitbitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97CCDF711CE997B7009E8AA3 /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97CCDF731CE997B7009E8AA3 /* Build configuration list for PBXNativeTarget "Intim8UITests" */ = {
+		97CCDF731CE997B7009E8AA3 /* Build configuration list for PBXNativeTarget "Pelvic Floor FitbitUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97CCDF741CE997B7009E8AA3 /* Debug */,
