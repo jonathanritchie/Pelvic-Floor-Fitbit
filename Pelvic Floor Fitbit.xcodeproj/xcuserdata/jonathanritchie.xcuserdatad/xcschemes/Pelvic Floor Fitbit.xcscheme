@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "97CCDF421CE997B7009E8AA3"
-               BuildableName = "Intim8.app"
+               BuildableName = "Pelvic Floor Fitbit.app"
                BlueprintName = "Pelvic Floor Fitbit"
                ReferencedContainer = "container:Pelvic Floor Fitbit.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "97CCDF421CE997B7009E8AA3"
-            BuildableName = "Intim8.app"
+            BuildableName = "Pelvic Floor Fitbit.app"
             BlueprintName = "Pelvic Floor Fitbit"
             ReferencedContainer = "container:Pelvic Floor Fitbit.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "97CCDF421CE997B7009E8AA3"
-            BuildableName = "Intim8.app"
+            BuildableName = "Pelvic Floor Fitbit.app"
             BlueprintName = "Pelvic Floor Fitbit"
             ReferencedContainer = "container:Pelvic Floor Fitbit.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "97CCDF421CE997B7009E8AA3"
-            BuildableName = "Intim8.app"
+            BuildableName = "Pelvic Floor Fitbit.app"
             BlueprintName = "Pelvic Floor Fitbit"
             ReferencedContainer = "container:Pelvic Floor Fitbit.xcodeproj">
          </BuildableReference>
