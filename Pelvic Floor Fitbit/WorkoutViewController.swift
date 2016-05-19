@@ -27,6 +27,12 @@ class WorkoutViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func ConnectFitbitPressed() {
+        if BLEManager.isBluetoothPoweredOn {
+            performSegueWithIdentifier("connectSearchSegue", sender: self)
+        }
+    }
+    
     // Custom Alert Dialog on "Connect Fitbit" button press
     override func shouldPerformSegueWithIdentifier(identifier: String, sender: AnyObject?) -> Bool {
         BLEManager.centralManagerDidUpdateState(centralManager)
@@ -41,7 +47,7 @@ class WorkoutViewController: UIViewController {
 
     // Function to display an custom alert dialog if Bluetooth is turned OFF.
     private func showAlertForSettings() {
-        let alertController = UIAlertController(title: "Pelvic Floor Fitbit", message: "Turn on Bluetooth to connect to Fitbit", preferredStyle: .Alert)
+        let alertController = UIAlertController(title: "Turn On Bluetooth to Allow \"Intim8\" to Connect to Accessories", message: nil, preferredStyle: .Alert)
         
         let cancelAction = UIAlertAction(title: "Settings", style: .Cancel) { (action) in
             if NSURL(string:"prefs:root=Bluetooth") != nil {

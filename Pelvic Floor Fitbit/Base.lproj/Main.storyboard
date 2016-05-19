@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -8,7 +8,7 @@
         <!--Workout-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="WorkoutViewController" customModule="Pelvic_Floor_Fitbit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="WorkoutViewController" customModule="Intim8" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -24,6 +24,7 @@
                                     <color key="titleColor" red="1" green="0.41025304537994645" blue="0.72661059116895577" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="ConnectFitbitPressed" destination="9pv-A4-QxB" eventType="touchUpInside" id="yHz-iV-ic1"/>
                                     <segue destination="lwL-gp-S8X" kind="showDetail" identifier="connectSearchSegue" id="nFr-Sg-oUl"/>
                                 </connections>
                             </button>
@@ -48,7 +49,7 @@
                         <viewControllerLayoutGuide type="top" id="BFC-bM-HaT"/>
                         <viewControllerLayoutGuide type="bottom" id="PWj-eD-4tU"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="bbb-YG-wt8">
+                    <view key="view" userInteractionEnabled="NO" contentMode="scaleToFill" id="bbb-YG-wt8" customClass="DeviceConnectViewController">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -94,7 +95,7 @@
         <!--Calendar-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="CalendarViewController" customModule="Pelvic_Floor_Fitbit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="CalendarViewController" customModule="Intim8" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
