@@ -1,0 +1,12 @@
+PODS:
+  - PasscodeLock (1.0.2)
+
+DEPENDENCIES:
+  - PasscodeLock (~> 1.0)
+
+SPEC CHECKSUMS:
+  PasscodeLock: 4ae42c094224a01de3773fcd69ae33886394d959
+
+PODFILE CHECKSUM: 48ea84fdde9469ed670f0241042992020fce3eea
+
+COCOAPODS: 1.0.0

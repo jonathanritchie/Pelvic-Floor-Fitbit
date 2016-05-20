@@ -1,0 +1,1067 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		094DC915B110D6B7018ABA03A5C0A046 /* PasscodeLockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E08395D19BDE2562A86F686A10872F /* PasscodeLockViewController.swift */; };
+		0A2258B079C90FA54B04CD9C1E87093D /* PasscodeSignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D56EA7DE4C68F757D4CAE238FFF5F3D /* PasscodeSignButton.swift */; };
+		0ED7D19B16C7F492A1B04EE62C195740 /* PasscodeRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB7D83F49EEF944BFFE152BF0F8BDB /* PasscodeRepositoryType.swift */; };
+		17AACDA4176BF53122DEE26E111B25BA /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AB93CED14D52A09469B3E2C261BA4C /* Functions.swift */; };
+		1B2827EBB6685C875DA445AACF0E93C1 /* PasscodeLock.h in Headers */ = {isa = PBXBuildFile; fileRef = DB147CB65E2F18FF75913870BF5F3CF5 /* PasscodeLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		282134342BFCF8A598E95E81758DB753 /* Pods-Resolve Issues-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A012460AFF62097B187871D3E691949 /* Pods-Resolve Issues-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F18AA2CC3416AEA6B7CAFBCEA74F58D /* PasscodeLockType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5303B30948825B73A40A697A1C22C5 /* PasscodeLockType.swift */; };
+		2F939CF983F67EB2902CC7E05CC26D78 /* EnterPasscodeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741607638C6EF6766878B8239E13905D /* EnterPasscodeState.swift */; };
+		34BF3DA931833B571C0809C535BB656E /* PasscodeLock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E819F8870D2AB733E213DFCE5AB4AEC3 /* PasscodeLock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39148D23D5224E34F23101E605E6446E /* PasscodeLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9945AB7B495670629DA98AF5A5EC679 /* PasscodeLock-dummy.m */; };
+		3C9A0A361ABACB7DF6BA945511F097FA /* Pods-Pelvic Floor FitbitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6710BC33C518E6BDD46723C2F5BE2D2F /* Pods-Pelvic Floor FitbitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E82A6656994F76E910A19EBEDACB545 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		4715A472747706D3B189EBE61A88EBAB /* PasscodeLockPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15EDAA5994CB2B37C9195CF4F5AE1B8 /* PasscodeLockPresenter.swift */; };
+		5F4D35E6FE0D020D8E833454A229D585 /* SetPasscodeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F673C64212E156BCDA0C0AC2A5E92166 /* SetPasscodeState.swift */; };
+		6EDB380414B0E5EF1258D480A0C8B701 /* ChangePasscodeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327F403DC2CFA75283B3DFF2E0B35549 /* ChangePasscodeState.swift */; };
+		71D6EE79F3E1CCFAC61218174FE61618 /* Pods-Pelvic Floor FitbitUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F7F24E3273C139D1685D9D9712CCBF /* Pods-Pelvic Floor FitbitUITests-dummy.m */; };
+		7ABFB401D28569E422CE656F7B16D85E /* PasscodeLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9120DB00B8CFE6E733C5C8F39DBD385 /* PasscodeLock.swift */; };
+		890A37D70AE44A97BCAFEC5637C40661 /* Pods-Pelvic Floor FitbitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9EBB1A2435C39A67DD93A5EECCE10D /* Pods-Pelvic Floor FitbitTests-dummy.m */; };
+		90D46D190E9E3962DD5801F540428E57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9653493316275DB55693DBADBEC5C5A9 /* Pods-Resolve Issues-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE28CDBAF29FC4B4B85DB25646FE40 /* Pods-Resolve Issues-dummy.m */; };
+		9A8FA088505B6D5F3C8A79720106D009 /* Pods-Pelvic Floor FitbitUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C69C47F917044E7A9A57E7EFEE8524 /* Pods-Pelvic Floor FitbitUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3B06437EC5926482381251689914E76 /* PasscodeLockConfigurationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5228DF6033261BF70D70711520BA75E9 /* PasscodeLockConfigurationType.swift */; };
+		B387995458AF0B6A16629D5743A37059 /* PasscodeLockStateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060FD01FEE35D12DD54F165A5EDB005 /* PasscodeLockStateType.swift */; };
+		B914E8BDFC18B5DD8CC8F54DCE771163 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C097B111F05FFAF514104E550DA9B4FF /* Pods-Pelvic Floor Fitbit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D7F3A69A617DC5155FC9B781BB88A /* Pods-Pelvic Floor Fitbit-dummy.m */; };
+		C502C4220F3FEA714A4ECE4889E2C893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		CAF471615301BAB50BAE663EF2F98EF5 /* PasscodeLockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1E379998BF7F216B629B1E3EED6AF9 /* PasscodeLockView.xib */; };
+		D41AFCB39F4325CDD4A9804BC8B1DE7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E0111BB2402096122822D15CB1B72A89 /* ConfirmPasscodeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D6AB1FFDF8396810E49897B9562759 /* ConfirmPasscodeState.swift */; };
+		EEA442FC4B39208978991B2F3934899C /* PasscodeLock.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15F5021F18474F4852F65887D7C6BC22 /* PasscodeLock.strings */; };
+		F1DFDE67C3AF51851FD2EEA64DEB203B /* Pods-Pelvic Floor Fitbit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0002C847F6D2B7DA9D8B7515160A740E /* Pods-Pelvic Floor Fitbit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1E66038537D98993633DB3320F8F5A1 /* PasscodeSignPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9BA6A0C789461740E78994EFB79C2E /* PasscodeSignPlaceholderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0C3B2F3FBB1932C1F1BD520FE675EC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A40BAC0F60288F9EE81B4B77874D321;
+			remoteInfo = PasscodeLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0002C847F6D2B7DA9D8B7515160A740E /* Pods-Pelvic Floor Fitbit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pelvic Floor Fitbit-umbrella.h"; sourceTree = "<group>"; };
+		0436BDAB363FCADB1A8F5D1A1D5D89D3 /* PasscodeLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PasscodeLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E09E3FB42339628AA31E6FA7C5A9F22 /* Pods-Pelvic Floor Fitbit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pelvic Floor Fitbit.modulemap"; sourceTree = "<group>"; };
+		15F5021F18474F4852F65887D7C6BC22 /* PasscodeLock.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = PasscodeLock.strings; path = en.lproj/PasscodeLock.strings; sourceTree = "<group>"; };
+		174931D9B4F096269A9015CC1E49D86B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19CE1916C30391E8367FA59DBA8E5542 /* Pods-Pelvic Floor FitbitUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pelvic Floor FitbitUITests.modulemap"; sourceTree = "<group>"; };
+		1B5303B30948825B73A40A697A1C22C5 /* PasscodeLockType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasscodeLockType.swift; path = PasscodeLock/Protocols/PasscodeLockType.swift; sourceTree = "<group>"; };
+		1D4933B01734F4E4CB6DD347AC196470 /* Pods-Pelvic Floor FitbitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pelvic Floor FitbitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2487D43E19EDF872D7554CAA92AD4CE6 /* Pods-Pelvic Floor FitbitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pelvic Floor FitbitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		29EF0B76E46EEFF9167E170D36D75C08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C9BA6A0C789461740E78994EFB79C2E /* PasscodeSignPlaceholderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasscodeSignPlaceholderView.swift; path = PasscodeLock/Views/PasscodeSignPlaceholderView.swift; sourceTree = "<group>"; };
+		2D56EA7DE4C68F757D4CAE238FFF5F3D /* PasscodeSignButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasscodeSignButton.swift; path = PasscodeLock/Views/PasscodeSignButton.swift; sourceTree = "<group>"; };
+		307064122F626C0AB4357350F84C63BE /* Pods-Pelvic Floor Fitbit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pelvic Floor Fitbit-resources.sh"; sourceTree = "<group>"; };
+		31B9BDDBBCEFF71816839F53C99592C0 /* Pods_Pelvic_Floor_FitbitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pelvic_Floor_FitbitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		327F403DC2CFA75283B3DFF2E0B35549 /* ChangePasscodeState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChangePasscodeState.swift; path = PasscodeLock/PasscodeLock/ChangePasscodeState.swift; sourceTree = "<group>"; };
+		35B9CA872E08DCB927C86F9A323C2AE9 /* PasscodeLock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasscodeLock-prefix.pch"; sourceTree = "<group>"; };
+		386C46874366933D10A08FF7624CFFBF /* Pods-Resolve Issues-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Resolve Issues-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A1E379998BF7F216B629B1E3EED6AF9 /* PasscodeLockView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PasscodeLockView.xib; path = PasscodeLock/Views/PasscodeLockView.xib; sourceTree = "<group>"; };
+		3CBE28CDBAF29FC4B4B85DB25646FE40 /* Pods-Resolve Issues-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Resolve Issues-dummy.m"; sourceTree = "<group>"; };
+		3F73E4E8773C43192F6587BFE9BAE01D /* Pods-Pelvic Floor FitbitTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pelvic Floor FitbitTests-frameworks.sh"; sourceTree = "<group>"; };
+		49A7DF720A8CDCAC2E9E21BFAEF5F4B5 /* Pods-Pelvic Floor Fitbit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pelvic Floor Fitbit.release.xcconfig"; sourceTree = "<group>"; };
+		4A012460AFF62097B187871D3E691949 /* Pods-Resolve Issues-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Resolve Issues-umbrella.h"; sourceTree = "<group>"; };
+		4A64E2A5735B59A0F8B7D73A4046F8EB /* Pods-Pelvic Floor Fitbit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pelvic Floor Fitbit.debug.xcconfig"; sourceTree = "<group>"; };
+		4C3C69E998047011312455104706B91E /* Pods_Resolve_Issues.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resolve_Issues.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5060FD01FEE35D12DD54F165A5EDB005 /* PasscodeLockStateType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasscodeLockStateType.swift; path = PasscodeLock/Protocols/PasscodeLockStateType.swift; sourceTree = "<group>"; };
+		5228DF6033261BF70D70711520BA75E9 /* PasscodeLockConfigurationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasscodeLockConfigurationType.swift; path = PasscodeLock/Protocols/PasscodeLockConfigurationType.swift; sourceTree = "<group>"; };
+		54E094316AA0EEB3C89986620AC50FA4 /* PasscodeLock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasscodeLock.xcconfig; sourceTree = "<group>"; };
+		6077AE4DB66FF38EC65509C096F306FC /* Pods-Pelvic Floor FitbitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pelvic Floor FitbitTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		625CB9C29CFBC7507958D1CDDEF54C7D /* Pods-Pelvic Floor FitbitUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pelvic Floor FitbitUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6710BC33C518E6BDD46723C2F5BE2D2F /* Pods-Pelvic Floor FitbitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pelvic Floor FitbitTests-umbrella.h"; sourceTree = "<group>"; };
+		68E08395D19BDE2562A86F686A10872F /* PasscodeLockViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasscodeLockViewController.swift; path = PasscodeLock/PasscodeLockViewController.swift; sourceTree = "<group>"; };
+		6A8FE4ACA9939E5EE84A2DAEE32FF09E /* Pods-Resolve Issues-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Resolve Issues-frameworks.sh"; sourceTree = "<group>"; };
+		70CB7D83F49EEF944BFFE152BF0F8BDB /* PasscodeRepositoryType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasscodeRepositoryType.swift; path = PasscodeLock/Protocols/PasscodeRepositoryType.swift; sourceTree = "<group>"; };
+		741607638C6EF6766878B8239E13905D /* EnterPasscodeState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnterPasscodeState.swift; path = PasscodeLock/PasscodeLock/EnterPasscodeState.swift; sourceTree = "<group>"; };
+		75AB93CED14D52A09469B3E2C261BA4C /* Functions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functions.swift; path = PasscodeLock/Functions.swift; sourceTree = "<group>"; };
+		7896612EEBE02C014CE420C983C32DA7 /* Pods-Pelvic Floor Fitbit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pelvic Floor Fitbit-frameworks.sh"; sourceTree = "<group>"; };
+		798D7F3A69A617DC5155FC9B781BB88A /* Pods-Pelvic Floor Fitbit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pelvic Floor Fitbit-dummy.m"; sourceTree = "<group>"; };
+		7A5CE2B94A68668302C44F30EAD6F76D /* Pods-Pelvic Floor Fitbit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pelvic Floor Fitbit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8613975BA38BDEC7B643721DCD8767E8 /* Pods-Resolve Issues-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Resolve Issues-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97F7F24E3273C139D1685D9D9712CCBF /* Pods-Pelvic Floor FitbitUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pelvic Floor FitbitUITests-dummy.m"; sourceTree = "<group>"; };
+		9E40D9F0C34F889EDFF820D36CB7F477 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15EDAA5994CB2B37C9195CF4F5AE1B8 /* PasscodeLockPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasscodeLockPresenter.swift; path = PasscodeLock/PasscodeLockPresenter.swift; sourceTree = "<group>"; };
+		A2CB17C8ED486EDB5D84B67F5A285A84 /* Pods-Pelvic Floor FitbitUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pelvic Floor FitbitUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A3BB61C17A98E58A162DB3F845A61537 /* Pods-Pelvic Floor FitbitTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pelvic Floor FitbitTests-resources.sh"; sourceTree = "<group>"; };
+		A3D6AB1FFDF8396810E49897B9562759 /* ConfirmPasscodeState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmPasscodeState.swift; path = PasscodeLock/PasscodeLock/ConfirmPasscodeState.swift; sourceTree = "<group>"; };
+		AF0BC93A4C825C3D330D7E8FE0E6D66F /* Pods-Resolve Issues.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Resolve Issues.modulemap"; sourceTree = "<group>"; };
+		AFB9269EE124812CB0CB7B8858DDF493 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9120DB00B8CFE6E733C5C8F39DBD385 /* PasscodeLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasscodeLock.swift; path = PasscodeLock/PasscodeLock/PasscodeLock.swift; sourceTree = "<group>"; };
+		B9945AB7B495670629DA98AF5A5EC679 /* PasscodeLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PasscodeLock-dummy.m"; sourceTree = "<group>"; };
+		BC8CF0F99FBC51792BCF307C50A7F31F /* PasscodeLock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PasscodeLock.modulemap; sourceTree = "<group>"; };
+		BF9EBB1A2435C39A67DD93A5EECCE10D /* Pods-Pelvic Floor FitbitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pelvic Floor FitbitTests-dummy.m"; sourceTree = "<group>"; };
+		C277F1E8D7C3306F2D7099DC2603A8EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5C69C47F917044E7A9A57E7EFEE8524 /* Pods-Pelvic Floor FitbitUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pelvic Floor FitbitUITests-umbrella.h"; sourceTree = "<group>"; };
+		CAFC7121120D808D4CF314BA46756605 /* Pods-Resolve Issues-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Resolve Issues-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1A08989DB3E7EB4888A30AB5101BB92 /* Pods-Pelvic Floor FitbitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pelvic Floor FitbitTests.release.xcconfig"; sourceTree = "<group>"; };
+		D656B0B8048A79DDD6AEA6C909AA2B17 /* Pods_Pelvic_Floor_Fitbit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pelvic_Floor_Fitbit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB147CB65E2F18FF75913870BF5F3CF5 /* PasscodeLock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PasscodeLock.h; path = PasscodeLock/PasscodeLock.h; sourceTree = "<group>"; };
+		DBB596740CC57F22E91E0EE3F767822F /* Pods_Pelvic_Floor_FitbitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pelvic_Floor_FitbitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E819F8870D2AB733E213DFCE5AB4AEC3 /* PasscodeLock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasscodeLock-umbrella.h"; sourceTree = "<group>"; };
+		EA129A5160CFB69008F662850F477BF7 /* Pods-Pelvic Floor FitbitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pelvic Floor FitbitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EBB8237DDB02F62B5AA78E7D527EB2FD /* Pods-Pelvic Floor Fitbit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pelvic Floor Fitbit-acknowledgements.plist"; sourceTree = "<group>"; };
+		ECA641CB368AD4ACCEB27730EE436BD6 /* Pods-Resolve Issues.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Resolve Issues.release.xcconfig"; sourceTree = "<group>"; };
+		F1E918778D8C02BA2DEA3D44BAE65224 /* Pods-Pelvic Floor FitbitUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pelvic Floor FitbitUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4F5D50D2A6F3B4CB772C544EF58A249 /* Pods-Pelvic Floor FitbitUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pelvic Floor FitbitUITests-resources.sh"; sourceTree = "<group>"; };
+		F673C64212E156BCDA0C0AC2A5E92166 /* SetPasscodeState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SetPasscodeState.swift; path = PasscodeLock/PasscodeLock/SetPasscodeState.swift; sourceTree = "<group>"; };
+		FB702D35A2FB28B12E85CC04494AF24F /* Pods-Pelvic Floor FitbitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pelvic Floor FitbitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC3526D7A95DDA31616C523E9FD4FB1F /* Pods-Pelvic Floor FitbitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pelvic Floor FitbitTests.modulemap"; sourceTree = "<group>"; };
+		FFBEF55F3C4696F1EE797C685F10F901 /* Pods-Resolve Issues.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Resolve Issues.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A4340EA0C99FEE431E9C00F8DF15399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B914E8BDFC18B5DD8CC8F54DCE771163 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B2417306B0BE7FEC77690ED7755F643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41AFCB39F4325CDD4A9804BC8B1DE7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D6911AEA6E9CF90C5C08AAE2BEF208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E82A6656994F76E910A19EBEDACB545 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF51978DC0B396D5A8A3FDA3DB09E303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D46D190E9E3962DD5801F540428E57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC8FF6BA5350EAF5FEC497F88A3B38A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C502C4220F3FEA714A4ECE4889E2C893 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26141E91DD97B4108653111546D6C36D /* Pods-Pelvic Floor FitbitTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB9269EE124812CB0CB7B8858DDF493 /* Info.plist */,
+				FC3526D7A95DDA31616C523E9FD4FB1F /* Pods-Pelvic Floor FitbitTests.modulemap */,
+				EA129A5160CFB69008F662850F477BF7 /* Pods-Pelvic Floor FitbitTests-acknowledgements.markdown */,
+				6077AE4DB66FF38EC65509C096F306FC /* Pods-Pelvic Floor FitbitTests-acknowledgements.plist */,
+				BF9EBB1A2435C39A67DD93A5EECCE10D /* Pods-Pelvic Floor FitbitTests-dummy.m */,
+				3F73E4E8773C43192F6587BFE9BAE01D /* Pods-Pelvic Floor FitbitTests-frameworks.sh */,
+				A3BB61C17A98E58A162DB3F845A61537 /* Pods-Pelvic Floor FitbitTests-resources.sh */,
+				6710BC33C518E6BDD46723C2F5BE2D2F /* Pods-Pelvic Floor FitbitTests-umbrella.h */,
+				2487D43E19EDF872D7554CAA92AD4CE6 /* Pods-Pelvic Floor FitbitTests.debug.xcconfig */,
+				D1A08989DB3E7EB4888A30AB5101BB92 /* Pods-Pelvic Floor FitbitTests.release.xcconfig */,
+			);
+			name = "Pods-Pelvic Floor FitbitTests";
+			path = "Target Support Files/Pods-Pelvic Floor FitbitTests";
+			sourceTree = "<group>";
+		};
+		28B81D7EE9B5D4D0AB34B8AB42390C11 /* Pods-Pelvic Floor Fitbit */ = {
+			isa = PBXGroup;
+			children = (
+				29EF0B76E46EEFF9167E170D36D75C08 /* Info.plist */,
+				0E09E3FB42339628AA31E6FA7C5A9F22 /* Pods-Pelvic Floor Fitbit.modulemap */,
+				7A5CE2B94A68668302C44F30EAD6F76D /* Pods-Pelvic Floor Fitbit-acknowledgements.markdown */,
+				EBB8237DDB02F62B5AA78E7D527EB2FD /* Pods-Pelvic Floor Fitbit-acknowledgements.plist */,
+				798D7F3A69A617DC5155FC9B781BB88A /* Pods-Pelvic Floor Fitbit-dummy.m */,
+				7896612EEBE02C014CE420C983C32DA7 /* Pods-Pelvic Floor Fitbit-frameworks.sh */,
+				307064122F626C0AB4357350F84C63BE /* Pods-Pelvic Floor Fitbit-resources.sh */,
+				0002C847F6D2B7DA9D8B7515160A740E /* Pods-Pelvic Floor Fitbit-umbrella.h */,
+				4A64E2A5735B59A0F8B7D73A4046F8EB /* Pods-Pelvic Floor Fitbit.debug.xcconfig */,
+				49A7DF720A8CDCAC2E9E21BFAEF5F4B5 /* Pods-Pelvic Floor Fitbit.release.xcconfig */,
+			);
+			name = "Pods-Pelvic Floor Fitbit";
+			path = "Target Support Files/Pods-Pelvic Floor Fitbit";
+			sourceTree = "<group>";
+		};
+		2B561AF4AC953809B1D403438DD46DBB /* PasscodeLock */ = {
+			isa = PBXGroup;
+			children = (
+				327F403DC2CFA75283B3DFF2E0B35549 /* ChangePasscodeState.swift */,
+				A3D6AB1FFDF8396810E49897B9562759 /* ConfirmPasscodeState.swift */,
+				741607638C6EF6766878B8239E13905D /* EnterPasscodeState.swift */,
+				75AB93CED14D52A09469B3E2C261BA4C /* Functions.swift */,
+				DB147CB65E2F18FF75913870BF5F3CF5 /* PasscodeLock.h */,
+				B9120DB00B8CFE6E733C5C8F39DBD385 /* PasscodeLock.swift */,
+				5228DF6033261BF70D70711520BA75E9 /* PasscodeLockConfigurationType.swift */,
+				A15EDAA5994CB2B37C9195CF4F5AE1B8 /* PasscodeLockPresenter.swift */,
+				5060FD01FEE35D12DD54F165A5EDB005 /* PasscodeLockStateType.swift */,
+				1B5303B30948825B73A40A697A1C22C5 /* PasscodeLockType.swift */,
+				68E08395D19BDE2562A86F686A10872F /* PasscodeLockViewController.swift */,
+				70CB7D83F49EEF944BFFE152BF0F8BDB /* PasscodeRepositoryType.swift */,
+				2D56EA7DE4C68F757D4CAE238FFF5F3D /* PasscodeSignButton.swift */,
+				2C9BA6A0C789461740E78994EFB79C2E /* PasscodeSignPlaceholderView.swift */,
+				F673C64212E156BCDA0C0AC2A5E92166 /* SetPasscodeState.swift */,
+				CF25970F7C0F50689F61BDF49B5FAE7B /* Resources */,
+				96A5AE75DFC6302C86F670E6AB76D4DE /* Support Files */,
+			);
+			path = PasscodeLock;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		61C81DF18DB5E97FB998D983E07F830B /* Pods-Pelvic Floor FitbitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E40D9F0C34F889EDFF820D36CB7F477 /* Info.plist */,
+				19CE1916C30391E8367FA59DBA8E5542 /* Pods-Pelvic Floor FitbitUITests.modulemap */,
+				F1E918778D8C02BA2DEA3D44BAE65224 /* Pods-Pelvic Floor FitbitUITests-acknowledgements.markdown */,
+				625CB9C29CFBC7507958D1CDDEF54C7D /* Pods-Pelvic Floor FitbitUITests-acknowledgements.plist */,
+				97F7F24E3273C139D1685D9D9712CCBF /* Pods-Pelvic Floor FitbitUITests-dummy.m */,
+				A2CB17C8ED486EDB5D84B67F5A285A84 /* Pods-Pelvic Floor FitbitUITests-frameworks.sh */,
+				F4F5D50D2A6F3B4CB772C544EF58A249 /* Pods-Pelvic Floor FitbitUITests-resources.sh */,
+				C5C69C47F917044E7A9A57E7EFEE8524 /* Pods-Pelvic Floor FitbitUITests-umbrella.h */,
+				FB702D35A2FB28B12E85CC04494AF24F /* Pods-Pelvic Floor FitbitUITests.debug.xcconfig */,
+				1D4933B01734F4E4CB6DD347AC196470 /* Pods-Pelvic Floor FitbitUITests.release.xcconfig */,
+			);
+			name = "Pods-Pelvic Floor FitbitUITests";
+			path = "Target Support Files/Pods-Pelvic Floor FitbitUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BAB99D2B0305196D64CE5CECC3D8CAEE /* Pods */,
+				C29634774B86F2198230D89D050CFA54 /* Products */,
+				DBE93A9EF60625020C09DFF88FA1DB37 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F8617C8ACD729D498AF1574FF479E75 /* Pods-Resolve Issues */ = {
+			isa = PBXGroup;
+			children = (
+				C277F1E8D7C3306F2D7099DC2603A8EC /* Info.plist */,
+				AF0BC93A4C825C3D330D7E8FE0E6D66F /* Pods-Resolve Issues.modulemap */,
+				386C46874366933D10A08FF7624CFFBF /* Pods-Resolve Issues-acknowledgements.markdown */,
+				CAFC7121120D808D4CF314BA46756605 /* Pods-Resolve Issues-acknowledgements.plist */,
+				3CBE28CDBAF29FC4B4B85DB25646FE40 /* Pods-Resolve Issues-dummy.m */,
+				6A8FE4ACA9939E5EE84A2DAEE32FF09E /* Pods-Resolve Issues-frameworks.sh */,
+				8613975BA38BDEC7B643721DCD8767E8 /* Pods-Resolve Issues-resources.sh */,
+				4A012460AFF62097B187871D3E691949 /* Pods-Resolve Issues-umbrella.h */,
+				FFBEF55F3C4696F1EE797C685F10F901 /* Pods-Resolve Issues.debug.xcconfig */,
+				ECA641CB368AD4ACCEB27730EE436BD6 /* Pods-Resolve Issues.release.xcconfig */,
+			);
+			name = "Pods-Resolve Issues";
+			path = "Target Support Files/Pods-Resolve Issues";
+			sourceTree = "<group>";
+		};
+		96A5AE75DFC6302C86F670E6AB76D4DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				174931D9B4F096269A9015CC1E49D86B /* Info.plist */,
+				BC8CF0F99FBC51792BCF307C50A7F31F /* PasscodeLock.modulemap */,
+				54E094316AA0EEB3C89986620AC50FA4 /* PasscodeLock.xcconfig */,
+				B9945AB7B495670629DA98AF5A5EC679 /* PasscodeLock-dummy.m */,
+				35B9CA872E08DCB927C86F9A323C2AE9 /* PasscodeLock-prefix.pch */,
+				E819F8870D2AB733E213DFCE5AB4AEC3 /* PasscodeLock-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PasscodeLock";
+			sourceTree = "<group>";
+		};
+		BAB99D2B0305196D64CE5CECC3D8CAEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B561AF4AC953809B1D403438DD46DBB /* PasscodeLock */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C29634774B86F2198230D89D050CFA54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0436BDAB363FCADB1A8F5D1A1D5D89D3 /* PasscodeLock.framework */,
+				D656B0B8048A79DDD6AEA6C909AA2B17 /* Pods_Pelvic_Floor_Fitbit.framework */,
+				31B9BDDBBCEFF71816839F53C99592C0 /* Pods_Pelvic_Floor_FitbitTests.framework */,
+				DBB596740CC57F22E91E0EE3F767822F /* Pods_Pelvic_Floor_FitbitUITests.framework */,
+				4C3C69E998047011312455104706B91E /* Pods_Resolve_Issues.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF25970F7C0F50689F61BDF49B5FAE7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9673C696E0090676D214F6C3FC225719 /* PasscodeLock.strings */,
+				3A1E379998BF7F216B629B1E3EED6AF9 /* PasscodeLockView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DBE93A9EF60625020C09DFF88FA1DB37 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28B81D7EE9B5D4D0AB34B8AB42390C11 /* Pods-Pelvic Floor Fitbit */,
+				26141E91DD97B4108653111546D6C36D /* Pods-Pelvic Floor FitbitTests */,
+				61C81DF18DB5E97FB998D983E07F830B /* Pods-Pelvic Floor FitbitUITests */,
+				7F8617C8ACD729D498AF1574FF479E75 /* Pods-Resolve Issues */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		88263A845D9BCC39F54D071A02169D21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BF3DA931833B571C0809C535BB656E /* PasscodeLock-umbrella.h in Headers */,
+				1B2827EBB6685C875DA445AACF0E93C1 /* PasscodeLock.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A104238D4B46FCBB984E3F784EB10587 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DFDE67C3AF51851FD2EEA64DEB203B /* Pods-Pelvic Floor Fitbit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30FDAE5D4112A348A88F322AF72DC58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8FA088505B6D5F3C8A79720106D009 /* Pods-Pelvic Floor FitbitUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B428FC08E37DFAEE1B07E217EEA0F4EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282134342BFCF8A598E95E81758DB753 /* Pods-Resolve Issues-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC4352029CDFE1F5CBA30196A8175D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9A0A361ABACB7DF6BA945511F097FA /* Pods-Pelvic Floor FitbitTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A40BAC0F60288F9EE81B4B77874D321 /* PasscodeLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FC78FD9691329B21E9B6EAA84E3FE4 /* Build configuration list for PBXNativeTarget "PasscodeLock" */;
+			buildPhases = (
+				67D5E78DD3559AE455DBAB0BD820215C /* Sources */,
+				FCC8FF6BA5350EAF5FEC497F88A3B38A /* Frameworks */,
+				88263A845D9BCC39F54D071A02169D21 /* Headers */,
+				DAB396DE077927D3C6E2759C9FADDB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasscodeLock;
+			productName = PasscodeLock;
+			productReference = 0436BDAB363FCADB1A8F5D1A1D5D89D3 /* PasscodeLock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F6E48F28AED893149EE20359DDA907F /* Pods-Resolve Issues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D0EF9E904AA3CDA77884303335628B /* Build configuration list for PBXNativeTarget "Pods-Resolve Issues" */;
+			buildPhases = (
+				C88F2A0591A12DAB62E780327839D649 /* Sources */,
+				CF51978DC0B396D5A8A3FDA3DB09E303 /* Frameworks */,
+				B428FC08E37DFAEE1B07E217EEA0F4EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Resolve Issues";
+			productName = "Pods-Resolve Issues";
+			productReference = 4C3C69E998047011312455104706B91E /* Pods_Resolve_Issues.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B2058EC6975545DC93587BA507CB85E /* Pods-Pelvic Floor FitbitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5E25D9B06A93077698E3AFA931C012 /* Build configuration list for PBXNativeTarget "Pods-Pelvic Floor FitbitTests" */;
+			buildPhases = (
+				C5AC0597E8A335EE2028170B25063D02 /* Sources */,
+				0A4340EA0C99FEE431E9C00F8DF15399 /* Frameworks */,
+				BEC4352029CDFE1F5CBA30196A8175D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Pelvic Floor FitbitTests";
+			productName = "Pods-Pelvic Floor FitbitTests";
+			productReference = 31B9BDDBBCEFF71816839F53C99592C0 /* Pods_Pelvic_Floor_FitbitTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2A838EE9311050260084840C4BA26E4 /* Pods-Pelvic Floor Fitbit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0C8AFBE100A1E73107B78033CC35117 /* Build configuration list for PBXNativeTarget "Pods-Pelvic Floor Fitbit" */;
+			buildPhases = (
+				0B557E534D209A7CE162EA438B18CEA8 /* Sources */,
+				B7D6911AEA6E9CF90C5C08AAE2BEF208 /* Frameworks */,
+				A104238D4B46FCBB984E3F784EB10587 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61191541D843C8AB0B11AB9D008B127 /* PBXTargetDependency */,
+			);
+			name = "Pods-Pelvic Floor Fitbit";
+			productName = "Pods-Pelvic Floor Fitbit";
+			productReference = D656B0B8048A79DDD6AEA6C909AA2B17 /* Pods_Pelvic_Floor_Fitbit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E05A5C087935EEA6605CA54ACE39B487 /* Pods-Pelvic Floor FitbitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B79D9F8A7E384E347874E499DDAFA1 /* Build configuration list for PBXNativeTarget "Pods-Pelvic Floor FitbitUITests" */;
+			buildPhases = (
+				F387F317126ABCF78A4BCEF886E63133 /* Sources */,
+				9B2417306B0BE7FEC77690ED7755F643 /* Frameworks */,
+				A30FDAE5D4112A348A88F322AF72DC58 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Pelvic Floor FitbitUITests";
+			productName = "Pods-Pelvic Floor FitbitUITests";
+			productReference = DBB596740CC57F22E91E0EE3F767822F /* Pods_Pelvic_Floor_FitbitUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C29634774B86F2198230D89D050CFA54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A40BAC0F60288F9EE81B4B77874D321 /* PasscodeLock */,
+				A2A838EE9311050260084840C4BA26E4 /* Pods-Pelvic Floor Fitbit */,
+				9B2058EC6975545DC93587BA507CB85E /* Pods-Pelvic Floor FitbitTests */,
+				E05A5C087935EEA6605CA54ACE39B487 /* Pods-Pelvic Floor FitbitUITests */,
+				4F6E48F28AED893149EE20359DDA907F /* Pods-Resolve Issues */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB396DE077927D3C6E2759C9FADDB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA442FC4B39208978991B2F3934899C /* PasscodeLock.strings in Resources */,
+				CAF471615301BAB50BAE663EF2F98EF5 /* PasscodeLockView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B557E534D209A7CE162EA438B18CEA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C097B111F05FFAF514104E550DA9B4FF /* Pods-Pelvic Floor Fitbit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D5E78DD3559AE455DBAB0BD820215C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EDB380414B0E5EF1258D480A0C8B701 /* ChangePasscodeState.swift in Sources */,
+				E0111BB2402096122822D15CB1B72A89 /* ConfirmPasscodeState.swift in Sources */,
+				2F939CF983F67EB2902CC7E05CC26D78 /* EnterPasscodeState.swift in Sources */,
+				17AACDA4176BF53122DEE26E111B25BA /* Functions.swift in Sources */,
+				39148D23D5224E34F23101E605E6446E /* PasscodeLock-dummy.m in Sources */,
+				7ABFB401D28569E422CE656F7B16D85E /* PasscodeLock.swift in Sources */,
+				A3B06437EC5926482381251689914E76 /* PasscodeLockConfigurationType.swift in Sources */,
+				4715A472747706D3B189EBE61A88EBAB /* PasscodeLockPresenter.swift in Sources */,
+				B387995458AF0B6A16629D5743A37059 /* PasscodeLockStateType.swift in Sources */,
+				2F18AA2CC3416AEA6B7CAFBCEA74F58D /* PasscodeLockType.swift in Sources */,
+				094DC915B110D6B7018ABA03A5C0A046 /* PasscodeLockViewController.swift in Sources */,
+				0ED7D19B16C7F492A1B04EE62C195740 /* PasscodeRepositoryType.swift in Sources */,
+				0A2258B079C90FA54B04CD9C1E87093D /* PasscodeSignButton.swift in Sources */,
+				F1E66038537D98993633DB3320F8F5A1 /* PasscodeSignPlaceholderView.swift in Sources */,
+				5F4D35E6FE0D020D8E833454A229D585 /* SetPasscodeState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AC0597E8A335EE2028170B25063D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890A37D70AE44A97BCAFEC5637C40661 /* Pods-Pelvic Floor FitbitTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88F2A0591A12DAB62E780327839D649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9653493316275DB55693DBADBEC5C5A9 /* Pods-Resolve Issues-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F387F317126ABCF78A4BCEF886E63133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D6EE79F3E1CCFAC61218174FE61618 /* Pods-Pelvic Floor FitbitUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C61191541D843C8AB0B11AB9D008B127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PasscodeLock;
+			target = 2A40BAC0F60288F9EE81B4B77874D321 /* PasscodeLock */;
+			targetProxy = B0C3B2F3FBB1932C1F1BD520FE675EC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9673C696E0090676D214F6C3FC225719 /* PasscodeLock.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15F5021F18474F4852F65887D7C6BC22 /* PasscodeLock.strings */,
+			);
+			name = PasscodeLock.strings;
+			path = PasscodeLock;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07B7E8AE4E2E2AFB115E4FA593FBE74F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A64E2A5735B59A0F8B7D73A4046F8EB /* Pods-Pelvic Floor Fitbit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pelvic Floor Fitbit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pelvic Floor Fitbit/Pods-Pelvic Floor Fitbit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pelvic_Floor_Fitbit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		08650414486A1561155C525DED77F2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A7DF720A8CDCAC2E9E21BFAEF5F4B5 /* Pods-Pelvic Floor Fitbit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pelvic Floor Fitbit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pelvic Floor Fitbit/Pods-Pelvic Floor Fitbit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pelvic_Floor_Fitbit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A2B7CC7B87CD1FB49DFDDC57E047AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFBEF55F3C4696F1EE797C685F10F901 /* Pods-Resolve Issues.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Resolve Issues/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Resolve Issues/Pods-Resolve Issues.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Resolve_Issues;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C7F7DBCCCE1B633424AD1096AF492F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E094316AA0EEB3C89986620AC50FA4 /* PasscodeLock.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PasscodeLock/PasscodeLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PasscodeLock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PasscodeLock/PasscodeLock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PasscodeLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5FD133028FA69D2C577DCD3503F31114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A08989DB3E7EB4888A30AB5101BB92 /* Pods-Pelvic Floor FitbitTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pelvic Floor FitbitTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pelvic Floor FitbitTests/Pods-Pelvic Floor FitbitTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pelvic_Floor_FitbitTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B5033FE3D7D0BB5CA440D784D813780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D4933B01734F4E4CB6DD347AC196470 /* Pods-Pelvic Floor FitbitUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pelvic Floor FitbitUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pelvic Floor FitbitUITests/Pods-Pelvic Floor FitbitUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pelvic_Floor_FitbitUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A07156ACB02FCADC8AC2F6CEF860BD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB702D35A2FB28B12E85CC04494AF24F /* Pods-Pelvic Floor FitbitUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pelvic Floor FitbitUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pelvic Floor FitbitUITests/Pods-Pelvic Floor FitbitUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pelvic_Floor_FitbitUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5DCC53A76390C944918A39AE8D5E143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2487D43E19EDF872D7554CAA92AD4CE6 /* Pods-Pelvic Floor FitbitTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pelvic Floor FitbitTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pelvic Floor FitbitTests/Pods-Pelvic Floor FitbitTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pelvic_Floor_FitbitTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7AD8B9730AE1EB72712CF91D98A3319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA641CB368AD4ACCEB27730EE436BD6 /* Pods-Resolve Issues.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Resolve Issues/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Resolve Issues/Pods-Resolve Issues.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Resolve_Issues;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB6EB9D2A78ED49DB6226867D8C9A11E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E094316AA0EEB3C89986620AC50FA4 /* PasscodeLock.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PasscodeLock/PasscodeLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PasscodeLock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PasscodeLock/PasscodeLock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PasscodeLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B79D9F8A7E384E347874E499DDAFA1 /* Build configuration list for PBXNativeTarget "Pods-Pelvic Floor FitbitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07156ACB02FCADC8AC2F6CEF860BD68 /* Debug */,
+				9B5033FE3D7D0BB5CA440D784D813780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D0EF9E904AA3CDA77884303335628B /* Build configuration list for PBXNativeTarget "Pods-Resolve Issues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2B7CC7B87CD1FB49DFDDC57E047AB0 /* Debug */,
+				D7AD8B9730AE1EB72712CF91D98A3319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FC78FD9691329B21E9B6EAA84E3FE4 /* Build configuration list for PBXNativeTarget "PasscodeLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6EB9D2A78ED49DB6226867D8C9A11E /* Debug */,
+				2C7F7DBCCCE1B633424AD1096AF492F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5E25D9B06A93077698E3AFA931C012 /* Build configuration list for PBXNativeTarget "Pods-Pelvic Floor FitbitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5DCC53A76390C944918A39AE8D5E143 /* Debug */,
+				5FD133028FA69D2C577DCD3503F31114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0C8AFBE100A1E73107B78033CC35117 /* Build configuration list for PBXNativeTarget "Pods-Pelvic Floor Fitbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B7E8AE4E2E2AFB115E4FA593FBE74F /* Debug */,
+				08650414486A1561155C525DED77F2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
