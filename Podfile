@@ -8,6 +8,9 @@ target 'Pelvic Floor Fitbit' do
   # Pods for Pelvic Floor Fitbit
 
   pod 'PasscodeLock', '~> 1.0'
+  pod 'FSCalendar'
+  pod 'SwiftySettings'
+  pod 'SwiftyUserDefaults'
 
   target 'Pelvic Floor FitbitTests' do
     inherit! :search_paths

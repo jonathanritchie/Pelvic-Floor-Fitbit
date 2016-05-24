@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import PasscodeLock
 
 class PasscodeRepository: PasscodeRepositoryType {
     

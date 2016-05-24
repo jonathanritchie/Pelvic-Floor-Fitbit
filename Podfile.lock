@@ -1,12 +1,21 @@
 PODS:
+  - FSCalendar (2.1.1)
   - PasscodeLock (1.0.2)
+  - SwiftySettings (0.0.3)
+  - SwiftyUserDefaults (2.2.0)
 
 DEPENDENCIES:
+  - FSCalendar
   - PasscodeLock (~> 1.0)
+  - SwiftySettings
+  - SwiftyUserDefaults
 
 SPEC CHECKSUMS:
+  FSCalendar: 04dc531f06fbde8a8e5b7394e9d4edebd45a591f
   PasscodeLock: 4ae42c094224a01de3773fcd69ae33886394d959
+  SwiftySettings: 93eea276ba534d80e07208a94a3df05aee520e3d
+  SwiftyUserDefaults: e7c8197a9d4068702e7f2406a968cae413b8de27
 
-PODFILE CHECKSUM: 48ea84fdde9469ed670f0241042992020fce3eea
+PODFILE CHECKSUM: 5cf4af5ab418024e884e234724850060df477643
 
 COCOAPODS: 1.0.0

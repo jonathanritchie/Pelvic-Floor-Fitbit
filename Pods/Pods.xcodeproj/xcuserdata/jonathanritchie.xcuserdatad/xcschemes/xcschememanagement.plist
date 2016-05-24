@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>FSCalendar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>PasscodeLock.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -29,6 +34,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftySettings.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyUserDefaults.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -42,12 +57,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>5353B6A521F3C9DB65F5A50849138AD2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9B2058EC6975545DC93587BA507CB85E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A2A838EE9311050260084840C4BA26E4</key>
+		<key>A1E4939E8B6998F61CA636C4E76F841F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B2619B2813D910DBC9FE9714E0788D55</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF625230BB2DAA15DC720384310E6A66</key>
 		<dict>
 			<key>primary</key>
 			<true/>
