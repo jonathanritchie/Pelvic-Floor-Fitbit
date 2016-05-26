@@ -1,21 +1,27 @@
 PODS:
   - FSCalendar (2.1.1)
   - PasscodeLock (1.0.2)
+  - Sherpa (0.1.0)
   - SwiftySettings (0.0.3)
   - SwiftyUserDefaults (2.2.0)
+  - TableViewModel (0.1.2)
 
 DEPENDENCIES:
   - FSCalendar
   - PasscodeLock (~> 1.0)
+  - Sherpa (~> 0.1.0)
   - SwiftySettings
   - SwiftyUserDefaults
+  - TableViewModel
 
 SPEC CHECKSUMS:
   FSCalendar: 04dc531f06fbde8a8e5b7394e9d4edebd45a591f
   PasscodeLock: 4ae42c094224a01de3773fcd69ae33886394d959
+  Sherpa: 753c2f08d6635e8055b879ebdc5d0722486fc167
   SwiftySettings: 93eea276ba534d80e07208a94a3df05aee520e3d
   SwiftyUserDefaults: e7c8197a9d4068702e7f2406a968cae413b8de27
+  TableViewModel: c33085e5e2e87dd8942a974e1eecbc2569a0a5c5
 
-PODFILE CHECKSUM: 5cf4af5ab418024e884e234724850060df477643
+PODFILE CHECKSUM: 3897c822a818221cf1286c90b23ef4ad1fc6e792
 
 COCOAPODS: 1.0.0

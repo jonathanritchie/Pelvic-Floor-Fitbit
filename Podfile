@@ -11,6 +11,8 @@ target 'Pelvic Floor Fitbit' do
   pod 'FSCalendar'
   pod 'SwiftySettings'
   pod 'SwiftyUserDefaults'
+  pod 'TableViewModel'
+  pod 'Sherpa', '~> 0.1.0'
 
   target 'Pelvic Floor FitbitTests' do
     inherit! :search_paths

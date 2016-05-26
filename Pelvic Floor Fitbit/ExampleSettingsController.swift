@@ -78,6 +78,25 @@ class ExampleSettingsController: SwiftySettingsViewController {
                     },
                     Switch(key: "automatic-shut-down", title: "Automatic Power-Off")]
                 },
+             Section(title: "Workout Reminders") {
+                [OptionsButton(key: "reminder-time", title: "Reminder Time") {
+                    [Option(title: "7:00am", optionId: 1),
+                        Option(title: "8:00am", optionId: 2),
+                        Option(title: "9:00am", optionId: 3),
+                        Option(title: "10:00am", optionId: 4),
+                        Option(title: "11:00am", optionId: 5),
+                        Option(title: "12:00pm", optionId: 6),
+                        Option(title: "1:00pm", optionId: 7),
+                        Option(title: "2:00pm", optionId: 8),
+                        Option(title: "3:00pm", optionId: 9),
+                        Option(title: "4:00pm", optionId: 10),
+                        Option(title: "5:00pm", optionId: 11),
+                        Option(title: "6:00pm", optionId: 12),
+                        Option(title: "7:00pm", optionId: 13),
+                        Option(title: "8:00pm", optionId: 14),
+                        Option(title: "9:00pm", optionId: 15),
+                        Option(title: "10:00pm", optionId: 16)]}]
+                },
              Section(title: "Personal Profile") {
                 [TextField(key: "name", title: "Name", secureTextEntry: false),
                     TextField(key: "age", title: "Age", secureTextEntry: false),

@@ -11,14 +11,24 @@
 		7A523BDB0B9A2F907AE2342D /* Pods_Pelvic_Floor_Fitbit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3866B030C17F44AD1D31C9 /* Pods_Pelvic_Floor_Fitbit.framework */; };
 		970D612C1CF3E4E600531FA0 /* ExampleSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D612B1CF3E4E600531FA0 /* ExampleSettingsController.swift */; };
 		973665BE1CEE88E70049C2E6 /* PasscodeRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973665BD1CEE88E70049C2E6 /* PasscodeRepositoryType.swift */; };
-		973665C01CEE89590049C2E6 /* PasscodeLockConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973665BF1CEE89590049C2E6 /* PasscodeLockConfiguration.swift */; };
 		9766566B1CEB36860045CBEF /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766566A1CEB36860045CBEF /* BluetoothManager.swift */; };
 		9766566D1CEB44CE0045CBEF /* DeviceConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766566C1CEB44CE0045CBEF /* DeviceConnectViewController.swift */; };
+		97A5A6041CF4125600E6041E /* HistoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A6031CF4125600E6041E /* HistoryListViewController.swift */; };
+		97A5A6201CF520A500E6041E /* FeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97A5A61A1CF520A500E6041E /* FeedCell.xib */; };
+		97A5A6211CF520A500E6041E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A61B1CF520A500E6041E /* FeedCell.swift */; };
+		97A5A6221CF520A500E6041E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A61C1CF520A500E6041E /* User.swift */; };
+		97A5A6251CF520A500E6041E /* SpacerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97A5A61F1CF520A500E6041E /* SpacerCell.xib */; };
+		97A5A6271CF520E900E6041E /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A6261CF520E900E6041E /* FeedItem.swift */; };
+		97A5A6291CF5296300E6041E /* PasscodeLockConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A6281CF5296300E6041E /* PasscodeLockConfiguration.swift */; };
+		97A5A62B1CF55DE700E6041E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97A5A62A1CF55DE600E6041E /* Images.xcassets */; };
+		97A5A62D1CF5C4D400E6041E /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A62C1CF5C4D300E6041E /* ActivitiesViewController.swift */; };
+		97A5A6411CF69BA100E6041E /* UserGuide.json in Resources */ = {isa = PBXBuildFile; fileRef = 97A5A6401CF69BA000E6041E /* UserGuide.json */; };
+		97A5A6471CF6ABA300E6041E /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A6461CF6ABA300E6041E /* TabBar.swift */; };
+		97A5A6491CF6CB7B00E6041E /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A6481CF6CB7B00E6041E /* ConnectViewController.swift */; };
 		97CCDF471CE997B7009E8AA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF461CE997B7009E8AA3 /* AppDelegate.swift */; };
 		97CCDF491CE997B7009E8AA3 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF481CE997B7009E8AA3 /* WorkoutViewController.swift */; };
 		97CCDF4B1CE997B7009E8AA3 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF4A1CE997B7009E8AA3 /* CalendarViewController.swift */; };
 		97CCDF4E1CE997B7009E8AA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CCDF4C1CE997B7009E8AA3 /* Main.storyboard */; };
-		97CCDF501CE997B7009E8AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97CCDF4F1CE997B7009E8AA3 /* Assets.xcassets */; };
 		97CCDF531CE997B7009E8AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CCDF511CE997B7009E8AA3 /* LaunchScreen.storyboard */; };
 		97CCDF5E1CE997B7009E8AA3 /* Pelvic_Floor_FitbitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF5D1CE997B7009E8AA3 /* Pelvic_Floor_FitbitTests.swift */; };
 		97CCDF691CE997B7009E8AA3 /* Pelvic_Floor_FitbitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF681CE997B7009E8AA3 /* Pelvic_Floor_FitbitUITests.swift */; };
@@ -61,17 +71,27 @@
 		8B3183CD227381D4673D54FA /* Pods-Pelvic Floor FitbitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelvic Floor FitbitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pelvic Floor FitbitUITests/Pods-Pelvic Floor FitbitUITests.release.xcconfig"; sourceTree = "<group>"; };
 		970D612B1CF3E4E600531FA0 /* ExampleSettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleSettingsController.swift; sourceTree = "<group>"; };
 		973665BD1CEE88E70049C2E6 /* PasscodeRepositoryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeRepositoryType.swift; sourceTree = "<group>"; };
-		973665BF1CEE89590049C2E6 /* PasscodeLockConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasscodeLockConfiguration.swift; path = Assets.xcassets/PasscodeLockConfiguration.swift; sourceTree = "<group>"; };
 		973665C11CEEAEF50049C2E6 /* PelvicFloorFitbit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PelvicFloorFitbit-Bridging-Header.h"; sourceTree = "<group>"; };
 		9766566A1CEB36860045CBEF /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BluetoothManager.swift; path = "Pelvic Floor Fitbit/BluetoothManager.swift"; sourceTree = SOURCE_ROOT; };
 		9766566C1CEB44CE0045CBEF /* DeviceConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceConnectViewController.swift; sourceTree = "<group>"; };
 		979A80021CEDDD1200D419C1 /* Resolve Issues.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Resolve Issues.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A5A6031CF4125600E6041E /* HistoryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryListViewController.swift; sourceTree = "<group>"; };
+		97A5A61A1CF520A500E6041E /* FeedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FeedCell.xib; path = "../../../../Downloads/TableViewModel-master/Example/TableViewModel/FeedExample/FeedCell.xib"; sourceTree = "<group>"; };
+		97A5A61B1CF520A500E6041E /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedCell.swift; path = "../../../../Downloads/TableViewModel-master/Example/TableViewModel/FeedExample/FeedCell.swift"; sourceTree = "<group>"; };
+		97A5A61C1CF520A500E6041E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = "../../../../Downloads/TableViewModel-master/Example/TableViewModel/FeedExample/User.swift"; sourceTree = "<group>"; };
+		97A5A61F1CF520A500E6041E /* SpacerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SpacerCell.xib; path = "../../../../Downloads/TableViewModel-master/Example/TableViewModel/FeedExample/SpacerCell.xib"; sourceTree = "<group>"; };
+		97A5A6261CF520E900E6041E /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedItem.swift; path = "../../../../Downloads/TableViewModel-master/Example/TableViewModel/FeedExample/Model/FeedItem.swift"; sourceTree = "<group>"; };
+		97A5A6281CF5296300E6041E /* PasscodeLockConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasscodeLockConfiguration.swift; path = ../PasscodeLockConfiguration.swift; sourceTree = "<group>"; };
+		97A5A62A1CF55DE600E6041E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Images.xcassets/Images.xcassets; sourceTree = "<group>"; };
+		97A5A62C1CF5C4D300E6041E /* ActivitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
+		97A5A6401CF69BA000E6041E /* UserGuide.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = UserGuide.json; path = "../../../../Downloads/ios-sherpa-master/example/SherpaExample/UserGuide.json"; sourceTree = "<group>"; };
+		97A5A6461CF6ABA300E6041E /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		97A5A6481CF6CB7B00E6041E /* ConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
 		97CCDF431CE997B7009E8AA3 /* Pelvic Floor Fitbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pelvic Floor Fitbit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CCDF461CE997B7009E8AA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97CCDF481CE997B7009E8AA3 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WorkoutViewController.swift; path = "Pelvic Floor Fitbit/WorkoutViewController.swift"; sourceTree = SOURCE_ROOT; };
 		97CCDF4A1CE997B7009E8AA3 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		97CCDF4D1CE997B7009E8AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		97CCDF4F1CE997B7009E8AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97CCDF521CE997B7009E8AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97CCDF541CE997B7009E8AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97CCDF591CE997B7009E8AA3 /* Pelvic Floor Fitbit.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pelvic Floor Fitbit.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +154,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		97A5A6191CF5209500E6041E /* History */ = {
+			isa = PBXGroup;
+			children = (
+				97A5A61A1CF520A500E6041E /* FeedCell.xib */,
+				97A5A61B1CF520A500E6041E /* FeedCell.swift */,
+				97A5A61C1CF520A500E6041E /* User.swift */,
+				97A5A6261CF520E900E6041E /* FeedItem.swift */,
+				97A5A61F1CF520A500E6041E /* SpacerCell.xib */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
 		97CCDF3A1CE997B6009E8AA3 = {
 			isa = PBXGroup;
 			children = (
@@ -160,18 +192,24 @@
 		97CCDF451CE997B7009E8AA3 /* Pelvic Floor Fitbit */ = {
 			isa = PBXGroup;
 			children = (
+				97A5A6191CF5209500E6041E /* History */,
 				97CCDF781CE9E4E4009E8AA3 /* Pelvic Floor Fitbit.entitlements */,
 				9766566A1CEB36860045CBEF /* BluetoothManager.swift */,
+				97A5A6461CF6ABA300E6041E /* TabBar.swift */,
 				97CCDF461CE997B7009E8AA3 /* AppDelegate.swift */,
 				97CCDF481CE997B7009E8AA3 /* WorkoutViewController.swift */,
 				973665BD1CEE88E70049C2E6 /* PasscodeRepositoryType.swift */,
-				973665BF1CEE89590049C2E6 /* PasscodeLockConfiguration.swift */,
 				9766566C1CEB44CE0045CBEF /* DeviceConnectViewController.swift */,
+				97A5A6281CF5296300E6041E /* PasscodeLockConfiguration.swift */,
 				973665C11CEEAEF50049C2E6 /* PelvicFloorFitbit-Bridging-Header.h */,
+				97A5A6401CF69BA000E6041E /* UserGuide.json */,
 				97CCDF4A1CE997B7009E8AA3 /* CalendarViewController.swift */,
 				97CCDF4C1CE997B7009E8AA3 /* Main.storyboard */,
+				97A5A6481CF6CB7B00E6041E /* ConnectViewController.swift */,
+				97A5A62C1CF5C4D300E6041E /* ActivitiesViewController.swift */,
+				97A5A62A1CF55DE600E6041E /* Images.xcassets */,
 				970D612B1CF3E4E600531FA0 /* ExampleSettingsController.swift */,
-				97CCDF4F1CE997B7009E8AA3 /* Assets.xcassets */,
+				97A5A6031CF4125600E6041E /* HistoryListViewController.swift */,
 				97CCDF511CE997B7009E8AA3 /* LaunchScreen.storyboard */,
 				97CCDF541CE997B7009E8AA3 /* Info.plist */,
 			);
@@ -332,7 +370,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 97CCDF3E1CE997B7009E8AA3 /* Build configuration list for PBXProject "Pelvic Floor Fitbit" */;
+			buildConfigurationList = 97CCDF3E1CE997B7009E8AA3 /* Build configuration list for PBXProject "Intim8" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -366,8 +404,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				97CCDF531CE997B7009E8AA3 /* LaunchScreen.storyboard in Resources */,
-				97CCDF501CE997B7009E8AA3 /* Assets.xcassets in Resources */,
+				97A5A62B1CF55DE700E6041E /* Images.xcassets in Resources */,
+				97A5A6201CF520A500E6041E /* FeedCell.xib in Resources */,
+				97A5A6411CF69BA100E6041E /* UserGuide.json in Resources */,
 				97CCDF4E1CE997B7009E8AA3 /* Main.storyboard in Resources */,
+				97A5A6251CF520A500E6041E /* SpacerCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,14 +608,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97A5A6491CF6CB7B00E6041E /* ConnectViewController.swift in Sources */,
 				9766566D1CEB44CE0045CBEF /* DeviceConnectViewController.swift in Sources */,
-				973665C01CEE89590049C2E6 /* PasscodeLockConfiguration.swift in Sources */,
+				97A5A6291CF5296300E6041E /* PasscodeLockConfiguration.swift in Sources */,
+				97A5A6211CF520A500E6041E /* FeedCell.swift in Sources */,
 				973665BE1CEE88E70049C2E6 /* PasscodeRepositoryType.swift in Sources */,
+				97A5A62D1CF5C4D400E6041E /* ActivitiesViewController.swift in Sources */,
 				97CCDF4B1CE997B7009E8AA3 /* CalendarViewController.swift in Sources */,
 				97CCDF471CE997B7009E8AA3 /* AppDelegate.swift in Sources */,
 				9766566B1CEB36860045CBEF /* BluetoothManager.swift in Sources */,
+				97A5A6471CF6ABA300E6041E /* TabBar.swift in Sources */,
 				97CCDF491CE997B7009E8AA3 /* WorkoutViewController.swift in Sources */,
+				97A5A6271CF520E900E6041E /* FeedItem.swift in Sources */,
 				970D612C1CF3E4E600531FA0 /* ExampleSettingsController.swift in Sources */,
+				97A5A6041CF4125600E6041E /* HistoryListViewController.swift in Sources */,
+				97A5A6221CF520A500E6041E /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -845,7 +893,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97CCDF3E1CE997B7009E8AA3 /* Build configuration list for PBXProject "Pelvic Floor Fitbit" */ = {
+		97CCDF3E1CE997B7009E8AA3 /* Build configuration list for PBXProject "Intim8" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97CCDF6B1CE997B7009E8AA3 /* Debug */,

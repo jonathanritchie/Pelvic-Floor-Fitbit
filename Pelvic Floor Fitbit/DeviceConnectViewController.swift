@@ -12,6 +12,8 @@ class DeviceConnectViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        sleep(5)
+        self.dismissViewControllerAnimated(false, completion: nil)
     }
     
     override func didReceiveMemoryWarning() {

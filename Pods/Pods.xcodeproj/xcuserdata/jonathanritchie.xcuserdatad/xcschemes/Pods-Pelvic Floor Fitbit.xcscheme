@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5353B6A521F3C9DB65F5A50849138AD2"
+               BlueprintIdentifier = "D59763E6066D91ED5EB3E7F946FE79CE"
                BuildableName = "Pods_Pelvic_Floor_Fitbit.framework"
                BlueprintName = "Pods-Pelvic Floor Fitbit"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5353B6A521F3C9DB65F5A50849138AD2"
+            BlueprintIdentifier = "D59763E6066D91ED5EB3E7F946FE79CE"
             BuildableName = "Pods_Pelvic_Floor_Fitbit.framework"
             BlueprintName = "Pods-Pelvic Floor Fitbit"
             ReferencedContainer = "container:Pods.xcodeproj">

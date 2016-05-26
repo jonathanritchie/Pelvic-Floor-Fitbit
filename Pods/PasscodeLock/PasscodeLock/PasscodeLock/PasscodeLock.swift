@@ -69,7 +69,7 @@ public class PasscodeLock: PasscodeLockType {
         
         let context = LAContext()
         let reason: String
-        if let configReason = configuration.touchIdReason {
+        if let configReason = configuration.touchIDReason {
             reason = configReason
         }else {
             reason = localizedStringFor("PasscodeLockTouchIDReason", comment: "TouchID authentication reason")
