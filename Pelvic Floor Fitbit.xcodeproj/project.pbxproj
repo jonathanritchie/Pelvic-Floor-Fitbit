@@ -370,7 +370,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 97CCDF3E1CE997B7009E8AA3 /* Build configuration list for PBXProject "Intim8" */;
+			buildConfigurationList = 97CCDF3E1CE997B7009E8AA3 /* Build configuration list for PBXProject "Pelvic Floor Fitbit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -893,7 +893,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97CCDF3E1CE997B7009E8AA3 /* Build configuration list for PBXProject "Intim8" */ = {
+		97CCDF3E1CE997B7009E8AA3 /* Build configuration list for PBXProject "Pelvic Floor Fitbit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97CCDF6B1CE997B7009E8AA3 /* Debug */,
