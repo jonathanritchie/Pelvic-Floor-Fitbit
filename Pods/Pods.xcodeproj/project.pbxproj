@@ -1,0 +1,2186 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016C32FA241E98E2A0AD967B0983FBBA /* SwiftyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1F73FA3955D2BF20A1F741DF43A79 /* SwiftyUserDefaults.swift */; };
+		067A296EC895D5C0615781E6AB07BDDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		078D4DF75013A50AAFBCC75467214CFB /* NSString+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 643015F8BF1F3570FAEF27991FEF90CD /* NSString+FSExtension.m */; };
+		082C46A244A1077339875D1132DF9874 /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C16E3D3BEF0DC8B2695AB9524B6D23E /* FSCalendarAppearance.m */; };
+		094DC915B110D6B7018ABA03A5C0A046 /* PasscodeLockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99F46BB8D06678605B6BF1C7457285D /* PasscodeLockViewController.swift */; };
+		0A2258B079C90FA54B04CD9C1E87093D /* PasscodeSignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4500687A5953B6F609EC6FEA4F426E /* PasscodeSignButton.swift */; };
+		0E44012DD097816D61C9AF7B4D509469 /* FSCalendarHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB2AB2125265E78FE61215D12871ABA /* FSCalendarHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ED7D19B16C7F492A1B04EE62C195740 /* PasscodeRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE9E5E30FDFDAB4F63D710B912F4B6 /* PasscodeRepositoryType.swift */; };
+		11F20D807E923A4DBE6CDFDA9A73C229 /* FSCalendarCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 121819EC38CE3586AA697DD8C957D3E0 /* FSCalendarCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16CA565CC2A7BC20BEA063F82D7FA3CC /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FB0F43F20451EE0E038AAF0C526094 /* ArticleViewController.swift */; };
+		17AACDA4176BF53122DEE26E111B25BA /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D8CA1C377C5CA05D34118FEA8186B6 /* Functions.swift */; };
+		17D7C14E87CA70E1CCA1B9730518EF63 /* TableViewModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE81D9A5BDC6C26CA2A2DDC7AE472BE /* TableViewModel-dummy.m */; };
+		19773F31DFDCCD48D9EE19511D3B5260 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123DC848B7DAD4A183A0A413E08765A1 /* ListViewController.swift */; };
+		1B2827EBB6685C875DA445AACF0E93C1 /* PasscodeLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 8904FDC0AD7DB1E227438636462DB3BB /* PasscodeLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21209814564B699E013C0579D7617C88 /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F2E18CF66F74D28CAD192B3D8FAEB2 /* FSCalendarCell.m */; };
+		282134342BFCF8A598E95E81758DB753 /* Pods-Resolve Issues-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A012460AFF62097B187871D3E691949 /* Pods-Resolve Issues-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F18AA2CC3416AEA6B7CAFBCEA74F58D /* PasscodeLockType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1580D16D471C880A23E235C29A1608 /* PasscodeLockType.swift */; };
+		2F939CF983F67EB2902CC7E05CC26D78 /* EnterPasscodeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDA600B1810EE7786E387103089A10 /* EnterPasscodeState.swift */; };
+		2FCE1C00460CF74F457E0093A676A834 /* FSCalendarConstance.h in Headers */ = {isa = PBXBuildFile; fileRef = E6AC1A44E4F99DC33B20DD1BB366272D /* FSCalendarConstance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		345D5A9ED9BFE445F2BC1311EDCEBAB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		34BF3DA931833B571C0809C535BB656E /* PasscodeLock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC2B4E83B7AE295D0E1A84F1FCE62EE4 /* PasscodeLock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		356435FF8231C909DAF6BE695632119C /* SwiftySettings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB23DED2A01682358CB57D51299C6D26 /* SwiftySettings-dummy.m */; };
+		35723F9E90CB25C525674D42DD17719F /* UITableView+ReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D656A5154C403EE156D1872910245E0 /* UITableView+ReuseIdentifier.swift */; };
+		36571E1BD182F51D893E068E2961644B /* SherpaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A03CA2BA5A9734045F88307BDE2335A /* SherpaViewController.swift */; };
+		3765DA79176E0F5AA936CFAE2FC7D470 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4141F0BAD15A64BD8316EE6C56105F44 /* SettingsViewController.swift */; };
+		39148D23D5224E34F23101E605E6446E /* PasscodeLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B529E6B9A1A830957B55F5149E802447 /* PasscodeLock-dummy.m */; };
+		39582F80068C0DEF708DEE01B8C053F7 /* NSDate+FSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B854B2B511A8693A321849AF6D653CE /* NSDate+FSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B202C12728218C238D98AEE659FF7D1 /* FSCalendarHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D4EA2E26F7F6E82F50630F008E79CF /* FSCalendarHeader.m */; };
+		3C9A0A361ABACB7DF6BA945511F097FA /* Pods-Pelvic Floor FitbitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6710BC33C518E6BDD46723C2F5BE2D2F /* Pods-Pelvic Floor FitbitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CBF88CA2DE4F67B82C36AE6290DCC90 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 637AF5CB1A046A18387F366606D013A8 /* FSCalendarStickyHeader.m */; };
+		3D17E283C7F341AB7DA5F07B86553740 /* Pods-Pelvic Floor Fitbit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D7F3A69A617DC5155FC9B781BB88A /* Pods-Pelvic Floor Fitbit-dummy.m */; };
+		42E18A7773D704188DAE03B594B0B690 /* UIView+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FF99DEB9E35E320FB45C9C95C56BEC /* UIView+FSExtension.m */; };
+		4715A472747706D3B189EBE61A88EBAB /* PasscodeLockPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA0229A44845FF68967B92E760CE1B /* PasscodeLockPresenter.swift */; };
+		4814EE71271BC074621A5ABB07525ACF /* FSCalendar+IBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A28DA8B4F82CC970518D0361959E887 /* FSCalendar+IBExtension.m */; };
+		51D1AC1D010EA99E078E75C69C6D2111 /* FSCalendarEventIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = C9700BF7927B87C5F76C14D31A13EE43 /* FSCalendarEventIndicator.m */; };
+		58A0F4F99BAD8356299C54937919F825 /* TableViewModel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3E7A115C7C7DCE777A0171B6CB0FF9B7 /* TableViewModel.bundle */; };
+		59D0C44703E328D5CBE51B612B15BEA9 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BEA680CF9A29D78589CED69C2EC50C /* TableViewModel.swift */; };
+		5C88EB02C6D789D20C6298CF77049112 /* FSCalendar+IBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = D123628193C9F22B436B7559AD9F2666 /* FSCalendar+IBExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F4D35E6FE0D020D8E833454A229D585 /* SetPasscodeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590BDFB4879D5675DDFE328CFE305F77 /* SetPasscodeState.swift */; };
+		68482DD8A169863AEDCEE325FCE1EA71 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FAAE6887AF20AFDBF3908E9AFB654C /* SliderCell.swift */; };
+		6983260381111B42F335961452EEE2B0 /* FSCalendarFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5975E89CB0DEF41BFBB78179BFF8910E /* FSCalendarFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A18A345B871F8EA55FBBE32B6B277E9 /* UIColor+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = C513152226E6B15C9D602678ECB5FAF2 /* UIColor+Default.swift */; };
+		6C92086C1DC08BB2A45B0A66F839CA48 /* FSCalendarFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB988A8FF1BBD1108BF78F17E3DEE19 /* FSCalendarFlowLayout.m */; };
+		6D7E4C39E46AC21A441905A16EBB6288 /* OptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F4BF694F5DED42EA3DC02644B4F363 /* OptionCell.swift */; };
+		6ECD11C96CBDCA50F0331F3FBDAECE64 /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DCDE1486892F6103C4A8151EE49AB /* FSCalendar.m */; };
+		6EDB380414B0E5EF1258D480A0C8B701 /* ChangePasscodeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F75A50069E53E548187F561860DF46D /* ChangePasscodeState.swift */; };
+		706BBE93D3FE4FAF04496A4AFCF0AAC8 /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E3F6AB58E7368F71BF17C13167193 /* SwitchCell.swift */; };
+		71D6EE79F3E1CCFAC61218174FE61618 /* Pods-Pelvic Floor FitbitUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F7F24E3273C139D1685D9D9712CCBF /* Pods-Pelvic Floor FitbitUITests-dummy.m */; };
+		76A0E42854018ED8A3CE4F3FB1955260 /* TableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C972341B5DC9BFBBDAB4EAE4DD17E91 /* TableSection.swift */; };
+		7809AA924DA6A77DB380CF2A5A6974B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */; };
+		785778BB36B2F9B21FAE5E476E1B6E2E /* FSCalendarAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AB985ECDDC6638C159E9D21970C2C6 /* FSCalendarAnimator.m */; };
+		78F4A1B48D13D132A0C3DBD814A580E4 /* Sherpa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94480880615FA363D05198EE9E5047BA /* Sherpa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A779B7652F894A80FBCAF67E3E960FA /* FSCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF0DD2FAE88F182987C2F3D03F147F5 /* FSCalendar-dummy.m */; };
+		7ABFB401D28569E422CE656F7B16D85E /* PasscodeLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE38267729ED6A17EDDBF756B61AE5 /* PasscodeLock.swift */; };
+		7E1B58C9322E8E27C3376E330C124FC7 /* CALayer+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 856410B24E9310F7ECF71867E985B122 /* CALayer+FSExtension.m */; };
+		7FE3ECFE7843570AAFAD9216E3546026 /* FSCalendarStickyHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DD9111894DB875FC61FC34BDD67334 /* FSCalendarStickyHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81C8B6E1AF08FF55F6E5EC1B7D134651 /* SwiftyUserDefaults-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7601E26714DAF60099118A15A756497A /* SwiftyUserDefaults-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		869AE1ECA7C5EBF2917887484D1914F6 /* SwiftySettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CC510D6A907C01B020A74D12CD4A0C /* SwiftySettingsViewController.swift */; };
+		890A37D70AE44A97BCAFEC5637C40661 /* Pods-Pelvic Floor FitbitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9EBB1A2435C39A67DD93A5EECCE10D /* Pods-Pelvic Floor FitbitTests-dummy.m */; };
+		8AD7788A3F4C0CE12D7D8AB510B2A0F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		90D46D190E9E3962DD5801F540428E57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		923963117F3FDD3F31E7F3453BD63F79 /* SwiftyUserDefaults-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0263656F2410FA4BEDBB0A2264922 /* SwiftyUserDefaults-dummy.m */; };
+		9522DA78F08119D9EAFA3E30698BDE41 /* FSCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 58485BCC2BDB25DB6F7E0499402C90BB /* FSCalendarCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9653493316275DB55693DBADBEC5C5A9 /* Pods-Resolve Issues-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE28CDBAF29FC4B4B85DB25646FE40 /* Pods-Resolve Issues-dummy.m */; };
+		970E75ED81B8DD255BD7165C89E77E9F /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B77B87A68F667AB2E2849D358F7A99 /* TextFieldCell.swift */; };
+		9A5AE57F3C60C01E7F5EE05457C8F324 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		9A8FA088505B6D5F3C8A79720106D009 /* Pods-Pelvic Floor FitbitUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C69C47F917044E7A9A57E7EFEE8524 /* Pods-Pelvic Floor FitbitUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E8416A0D4991BCCCA20FE018899CC38 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EC6A84D8A94C0E702F86E07F109B53 /* SettingsCell.swift */; };
+		9EFD5A3145CC48882E4B6F6A71EE1505 /* NSDate+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C665D995F422484DE2E1CE9FB2C8B8D /* NSDate+FSExtension.m */; };
+		A1DC76E7984033B4208848F5FC6646E7 /* Sherpa.h in Headers */ = {isa = PBXBuildFile; fileRef = 987E18C1DE633BD1B60197C296EC5419 /* Sherpa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3B06437EC5926482381251689914E76 /* PasscodeLockConfigurationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E432F217AA3B394044F94F80BC3A8587 /* PasscodeLockConfigurationType.swift */; };
+		A572FB0032B0CFB592BE607D98CE8574 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */; };
+		A69318AD4F6FB4D85235C569B552A521 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071F0080FEB68A0E671DF0E43C0D2781 /* Document.swift */; };
+		B08294E2247DE35943C7180A647EE72D /* NSString+FSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C5102DCC00EE822481AE40981B2C76 /* NSString+FSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B387995458AF0B6A16629D5743A37059 /* PasscodeLockStateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79BD72910A3FD7A108E2E9F305F3F18 /* PasscodeLockStateType.swift */; };
+		B7A2C33F449D7498A1FF54F7CBAF2E93 /* SectionHeaderFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9E7FC4B1688C4835C5E48238EFC2B0 /* SectionHeaderFooter.swift */; };
+		B914E8BDFC18B5DD8CC8F54DCE771163 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		C10D61600C6A487CA0252F899D751A44 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C61BC081E2D2D74E399928D2D377C80 /* DataSource.swift */; };
+		C17B63D63425ED26125A32CC2E15B2A6 /* UIView+FSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 99414A5B283CD8E88BA2C0AEBE4F3B1F /* UIView+FSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2271959A465F1822F436C3A2D727880 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		C2603F453D87394D4ADF6B6B2384F707 /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498535FB410DF65D6810D0F7C05364F2 /* TableRow.swift */; };
+		C502C4220F3FEA714A4ECE4889E2C893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		C60C0BAB1840ED78E320BF832EB7D90F /* CALayer+FSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E8B445E8FA6DE50D933D88C44A543258 /* CALayer+FSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C67EE7A964FCB5DF6F2B690907968C2A /* Sherpa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD57F7329A9E5467A72F76BDAA8804E2 /* Sherpa-dummy.m */; };
+		CAF471615301BAB50BAE663EF2F98EF5 /* PasscodeLockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B5A6F246EF53BD5EADFCCE9BEBF5FE8 /* PasscodeLockView.xib */; };
+		CB35C497A866EB05BDD08F6854BB5372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		CEBADA794147C66483B0C205EDED2F4B /* FSCalendarDynamicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D2D4BCD57BDA11EA801EA4D3E7CA5A /* FSCalendarDynamicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D41AFCB39F4325CDD4A9804BC8B1DE7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		D493F3B01798F3A72CE2FC7E0C25C0B5 /* OptionButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE9676B03441495E4A5933CF364F049 /* OptionButtonCell.swift */; };
+		D4B2E79A7850584715A743A46D4EFA14 /* FSCalendarConstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BABDFD75B5AFABEB73981D46ED31D59 /* FSCalendarConstance.m */; };
+		D55873867261927F7110E660A730DBD2 /* SwiftySettings-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC3C483062BD6FED5BA22CE54377AC8 /* SwiftySettings-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D603EE78D5DBF389EC429A33757BFF5C /* FSCalendarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E20224FC504BE98C5FE0A458264130 /* FSCalendarAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB0D7D2A2EDB8D6D5C18B850CB779F7B /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D77B4A000ACF1F4909F66DD1C1E343E /* FSCalendarCollectionView.m */; };
+		DE0A4E10ED1E104BF1DEF81453A6EBC8 /* FSCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0D80182DC282CEDFF68077EA527774C /* FSCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0111BB2402096122822D15CB1B72A89 /* ConfirmPasscodeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48886F93661D485C70E561947438FD93 /* ConfirmPasscodeState.swift */; };
+		E2544B54609FFC95656BACC1F34CE0FA /* SwiftySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5714CD53645BA89E45A54A0E1093868 /* SwiftySettings.swift */; };
+		E773A27D47BC2080FB249FBD4513AB1C /* FSCalendarAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6617375720F0A66BE63DB6241C628822 /* FSCalendarAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB059B6091930CACCEC5F28E5CD582BA /* TableViewModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B5340F24BF1DCE7C290A976F141C1D /* TableViewModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEA442FC4B39208978991B2F3934899C /* PasscodeLock.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD9CB22C67E4B7E03EAFDDDCC04B7645 /* PasscodeLock.strings */; };
+		F1E66038537D98993633DB3320F8F5A1 /* PasscodeSignPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14102DF7C93852F4418832063DEF27A /* PasscodeSignPlaceholderView.swift */; };
+		F7317B2BAF77EC9AF9422499C1D467AA /* FSCalendarEventIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = C7109FA38719CFF876A1ED6AA8BA8D3E /* FSCalendarEventIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7944D091AD240B80D98066395A99B95 /* FSCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 791764FEF0245C32A431BF66E5DE788B /* FSCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF9DC47636CA7F3233E90F83DE4627B8 /* Pods-Pelvic Floor Fitbit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0002C847F6D2B7DA9D8B7515160A740E /* Pods-Pelvic Floor Fitbit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00323923F6807F27E5166643CBFC84CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BD3A93739908AECDF6C377AA5F5BBEA;
+			remoteInfo = Sherpa;
+		};
+		03AA19338106A2B112FE2517E1160239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCF0ABD5469F46BADB187A7786962237;
+			remoteInfo = TableViewModel;
+		};
+		13949404DEAD03F5A78AE12F86B0E913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2619B2813D910DBC9FE9714E0788D55;
+			remoteInfo = FSCalendar;
+		};
+		3C69D80140A7A154EF95BE6E2AAEB562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C834ECA638B32EFA1287A04183F72DE6;
+			remoteInfo = SwiftySettings;
+		};
+		BAD6304F6271096D9AA816803E3FAC4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A40BAC0F60288F9EE81B4B77874D321;
+			remoteInfo = PasscodeLock;
+		};
+		CC1DEC4583FBBA5BBC31E18307FE4AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EB7382F04A9CDA2DE61BD4B65A5E33B;
+			remoteInfo = "TableViewModel-TableViewModel";
+		};
+		EBA1590EA8A34B65A2B32EA6E38FF9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6C13E3AA71EAAF3D002AB77D15F68D8;
+			remoteInfo = SwiftyUserDefaults;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0002C847F6D2B7DA9D8B7515160A740E /* Pods-Pelvic Floor Fitbit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pelvic Floor Fitbit-umbrella.h"; sourceTree = "<group>"; };
+		02B5061AAA43E85D07292770379AC507 /* SwiftyUserDefaults.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyUserDefaults.modulemap; sourceTree = "<group>"; };
+		05A605F4F80E37624F784E09DDCE1424 /* TableViewModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TableViewModel.modulemap; sourceTree = "<group>"; };
+		071F0080FEB68A0E671DF0E43C0D2781 /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = src/Sherpa/Document.swift; sourceTree = "<group>"; };
+		07EE744035915D68B4B53655334F5C69 /* SwiftySettings-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftySettings-prefix.pch"; sourceTree = "<group>"; };
+		091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0C16E3D3BEF0DC8B2695AB9524B6D23E /* FSCalendarAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAppearance.m; path = FSCalendar/FSCalendarAppearance.m; sourceTree = "<group>"; };
+		0CE81D9A5BDC6C26CA2A2DDC7AE472BE /* TableViewModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TableViewModel-dummy.m"; sourceTree = "<group>"; };
+		0D77B4A000ACF1F4909F66DD1C1E343E /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionView.m; path = FSCalendar/FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		0E09E3FB42339628AA31E6FA7C5A9F22 /* Pods-Pelvic Floor Fitbit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pelvic Floor Fitbit.modulemap"; sourceTree = "<group>"; };
+		118E3F6AB58E7368F71BF17C13167193 /* SwitchCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchCell.swift; path = Source/UI/SwitchCell.swift; sourceTree = "<group>"; };
+		121819EC38CE3586AA697DD8C957D3E0 /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionView.h; path = FSCalendar/FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		123DC848B7DAD4A183A0A413E08765A1 /* ListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = src/Sherpa/ListViewController.swift; sourceTree = "<group>"; };
+		15FA0229A44845FF68967B92E760CE1B /* PasscodeLockPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasscodeLockPresenter.swift; path = PasscodeLock/PasscodeLockPresenter.swift; sourceTree = "<group>"; };
+		183DCDE1486892F6103C4A8151EE49AB /* FSCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendar.m; path = FSCalendar/FSCalendar.m; sourceTree = "<group>"; };
+		18BE38267729ED6A17EDDBF756B61AE5 /* PasscodeLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasscodeLock.swift; path = PasscodeLock/PasscodeLock/PasscodeLock.swift; sourceTree = "<group>"; };
+		19CE1916C30391E8367FA59DBA8E5542 /* Pods-Pelvic Floor FitbitUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pelvic Floor FitbitUITests.modulemap"; sourceTree = "<group>"; };
+		1D4933B01734F4E4CB6DD347AC196470 /* Pods-Pelvic Floor FitbitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pelvic Floor FitbitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1DD59570339321283C2CCAACBF19DEF9 /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED4957EBC6CA4132CADA94145B8A29A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F4BF694F5DED42EA3DC02644B4F363 /* OptionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionCell.swift; path = Source/UI/OptionCell.swift; sourceTree = "<group>"; };
+		23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		2371FC07D4A62EC711E5B28F61F0DCBE /* Pods_Resolve_Issues.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resolve_Issues.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C68A073C78F64CF2E6DB654BD74B1C /* Sherpa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sherpa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2487D43E19EDF872D7554CAA92AD4CE6 /* Pods-Pelvic Floor FitbitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pelvic Floor FitbitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		29EF0B76E46EEFF9167E170D36D75C08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A03CA2BA5A9734045F88307BDE2335A /* SherpaViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SherpaViewController.swift; path = src/Sherpa/SherpaViewController.swift; sourceTree = "<group>"; };
+		2A1580D16D471C880A23E235C29A1608 /* PasscodeLockType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasscodeLockType.swift; path = PasscodeLock/Protocols/PasscodeLockType.swift; sourceTree = "<group>"; };
+		2AB2AB2125265E78FE61215D12871ABA /* FSCalendarHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarHeader.h; path = FSCalendar/FSCalendarHeader.h; sourceTree = "<group>"; };
+		2EE9676B03441495E4A5933CF364F049 /* OptionButtonCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionButtonCell.swift; path = Source/UI/OptionButtonCell.swift; sourceTree = "<group>"; };
+		307064122F626C0AB4357350F84C63BE /* Pods-Pelvic Floor Fitbit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pelvic Floor Fitbit-resources.sh"; sourceTree = "<group>"; };
+		312F42CDAB98223F129196D4074F5206 /* SwiftyUserDefaults-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyUserDefaults-prefix.pch"; sourceTree = "<group>"; };
+		31D8CA1C377C5CA05D34118FEA8186B6 /* Functions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functions.swift; path = PasscodeLock/Functions.swift; sourceTree = "<group>"; };
+		35FF99DEB9E35E320FB45C9C95C56BEC /* UIView+FSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FSExtension.m"; path = "FSCalendar/UIView+FSExtension.m"; sourceTree = "<group>"; };
+		36FB3196965019F4201C75D565CDF278 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386C46874366933D10A08FF7624CFFBF /* Pods-Resolve Issues-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Resolve Issues-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38BEA680CF9A29D78589CED69C2EC50C /* TableViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewModel.swift; path = Pod/Classes/TableViewModel.swift; sourceTree = "<group>"; };
+		38F52A0CB5914494A5E8A1353474E288 /* PasscodeLock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasscodeLock.xcconfig; sourceTree = "<group>"; };
+		3BABDFD75B5AFABEB73981D46ED31D59 /* FSCalendarConstance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarConstance.m; path = FSCalendar/FSCalendarConstance.m; sourceTree = "<group>"; };
+		3BC3C483062BD6FED5BA22CE54377AC8 /* SwiftySettings-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftySettings-umbrella.h"; sourceTree = "<group>"; };
+		3CBE28CDBAF29FC4B4B85DB25646FE40 /* Pods-Resolve Issues-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Resolve Issues-dummy.m"; sourceTree = "<group>"; };
+		3D656A5154C403EE156D1872910245E0 /* UITableView+ReuseIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+ReuseIdentifier.swift"; path = "Source/Extensions/UITableView+ReuseIdentifier.swift"; sourceTree = "<group>"; };
+		3E7A115C7C7DCE777A0171B6CB0FF9B7 /* TableViewModel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewModel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F73E4E8773C43192F6587BFE9BAE01D /* Pods-Pelvic Floor FitbitTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pelvic Floor FitbitTests-frameworks.sh"; sourceTree = "<group>"; };
+		3F75A50069E53E548187F561860DF46D /* ChangePasscodeState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChangePasscodeState.swift; path = PasscodeLock/PasscodeLock/ChangePasscodeState.swift; sourceTree = "<group>"; };
+		4141F0BAD15A64BD8316EE6C56105F44 /* SettingsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Source/UI/SettingsViewController.swift; sourceTree = "<group>"; };
+		438FC89CEC744325DF5C1C95B86DDC6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E20224FC504BE98C5FE0A458264130 /* FSCalendarAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarAppearance.h; path = FSCalendar/FSCalendarAppearance.h; sourceTree = "<group>"; };
+		47CC510D6A907C01B020A74D12CD4A0C /* SwiftySettingsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftySettingsViewController.swift; path = Source/SwiftySettingsViewController.swift; sourceTree = "<group>"; };
+		48886F93661D485C70E561947438FD93 /* ConfirmPasscodeState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmPasscodeState.swift; path = PasscodeLock/PasscodeLock/ConfirmPasscodeState.swift; sourceTree = "<group>"; };
+		492F40A2F1165BA81FB20D65677729A1 /* PasscodeLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PasscodeLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		498535FB410DF65D6810D0F7C05364F2 /* TableRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableRow.swift; path = Pod/Classes/TableRow.swift; sourceTree = "<group>"; };
+		49A7DF720A8CDCAC2E9E21BFAEF5F4B5 /* Pods-Pelvic Floor Fitbit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pelvic Floor Fitbit.release.xcconfig"; sourceTree = "<group>"; };
+		4A012460AFF62097B187871D3E691949 /* Pods-Resolve Issues-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Resolve Issues-umbrella.h"; sourceTree = "<group>"; };
+		4A64E2A5735B59A0F8B7D73A4046F8EB /* Pods-Pelvic Floor Fitbit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pelvic Floor Fitbit.debug.xcconfig"; sourceTree = "<group>"; };
+		4C4500687A5953B6F609EC6FEA4F426E /* PasscodeSignButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasscodeSignButton.swift; path = PasscodeLock/Views/PasscodeSignButton.swift; sourceTree = "<group>"; };
+		4D22AB8C4F170ED9BCFF796728AA9259 /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58485BCC2BDB25DB6F7E0499402C90BB /* FSCalendarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCell.h; path = FSCalendar/FSCalendarCell.h; sourceTree = "<group>"; };
+		590BDFB4879D5675DDFE328CFE305F77 /* SetPasscodeState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SetPasscodeState.swift; path = PasscodeLock/PasscodeLock/SetPasscodeState.swift; sourceTree = "<group>"; };
+		5975E89CB0DEF41BFBB78179BFF8910E /* FSCalendarFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarFlowLayout.h; path = FSCalendar/FSCalendarFlowLayout.h; sourceTree = "<group>"; };
+		59DD9111894DB875FC61FC34BDD67334 /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarStickyHeader.h; path = FSCalendar/FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		5B5A6F246EF53BD5EADFCCE9BEBF5FE8 /* PasscodeLockView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PasscodeLockView.xib; path = PasscodeLock/Views/PasscodeLockView.xib; sourceTree = "<group>"; };
+		5D9E7FC4B1688C4835C5E48238EFC2B0 /* SectionHeaderFooter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionHeaderFooter.swift; path = Source/UI/SectionHeaderFooter.swift; sourceTree = "<group>"; };
+		5DFE9E5E30FDFDAB4F63D710B912F4B6 /* PasscodeRepositoryType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasscodeRepositoryType.swift; path = PasscodeLock/Protocols/PasscodeRepositoryType.swift; sourceTree = "<group>"; };
+		5E5EA1D1276AC7062975C3BCFD246305 /* Sherpa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sherpa-prefix.pch"; sourceTree = "<group>"; };
+		6077AE4DB66FF38EC65509C096F306FC /* Pods-Pelvic Floor FitbitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pelvic Floor FitbitTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		61C628202C8D1BB4EED5DE264642B522 /* PasscodeLock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PasscodeLock.modulemap; sourceTree = "<group>"; };
+		625CB9C29CFBC7507958D1CDDEF54C7D /* Pods-Pelvic Floor FitbitUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pelvic Floor FitbitUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		62C24EB2D2C3CE2E2206367C4F405BA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637AF5CB1A046A18387F366606D013A8 /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarStickyHeader.m; path = FSCalendar/FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		63D4EA2E26F7F6E82F50630F008E79CF /* FSCalendarHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarHeader.m; path = FSCalendar/FSCalendarHeader.m; sourceTree = "<group>"; };
+		643015F8BF1F3570FAEF27991FEF90CD /* NSString+FSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FSExtension.m"; path = "FSCalendar/NSString+FSExtension.m"; sourceTree = "<group>"; };
+		6617375720F0A66BE63DB6241C628822 /* FSCalendarAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarAnimator.h; path = FSCalendar/FSCalendarAnimator.h; sourceTree = "<group>"; };
+		6710BC33C518E6BDD46723C2F5BE2D2F /* Pods-Pelvic Floor FitbitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pelvic Floor FitbitTests-umbrella.h"; sourceTree = "<group>"; };
+		696D5BA2ECDFB7CDF8202919C407FD2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A8FE4ACA9939E5EE84A2DAEE32FF09E /* Pods-Resolve Issues-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Resolve Issues-frameworks.sh"; sourceTree = "<group>"; };
+		6C61BC081E2D2D74E399928D2D377C80 /* DataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataSource.swift; path = src/Sherpa/DataSource.swift; sourceTree = "<group>"; };
+		6C665D995F422484DE2E1CE9FB2C8B8D /* NSDate+FSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+FSExtension.m"; path = "FSCalendar/NSDate+FSExtension.m"; sourceTree = "<group>"; };
+		730B34701119298CEC6B6D1EC31A47A3 /* Pods_Pelvic_Floor_FitbitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pelvic_Floor_FitbitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F996EA054773C41CD6B1A3E35AF4A1 /* PasscodeLock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasscodeLock-prefix.pch"; sourceTree = "<group>"; };
+		7601E26714DAF60099118A15A756497A /* SwiftyUserDefaults-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyUserDefaults-umbrella.h"; sourceTree = "<group>"; };
+		77B77B87A68F667AB2E2849D358F7A99 /* TextFieldCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldCell.swift; path = Source/UI/TextFieldCell.swift; sourceTree = "<group>"; };
+		7896612EEBE02C014CE420C983C32DA7 /* Pods-Pelvic Floor Fitbit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pelvic Floor Fitbit-frameworks.sh"; sourceTree = "<group>"; };
+		791764FEF0245C32A431BF66E5DE788B /* FSCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendar.h; path = FSCalendar/FSCalendar.h; sourceTree = "<group>"; };
+		798D7F3A69A617DC5155FC9B781BB88A /* Pods-Pelvic Floor Fitbit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pelvic Floor Fitbit-dummy.m"; sourceTree = "<group>"; };
+		7A5CE2B94A68668302C44F30EAD6F76D /* Pods-Pelvic Floor Fitbit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pelvic Floor Fitbit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B854B2B511A8693A321849AF6D653CE /* NSDate+FSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+FSExtension.h"; path = "FSCalendar/NSDate+FSExtension.h"; sourceTree = "<group>"; };
+		7C972341B5DC9BFBBDAB4EAE4DD17E91 /* TableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableSection.swift; path = Pod/Classes/TableSection.swift; sourceTree = "<group>"; };
+		7DA1F73FA3955D2BF20A1F741DF43A79 /* SwiftyUserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyUserDefaults.swift; path = Sources/SwiftyUserDefaults.swift; sourceTree = "<group>"; };
+		8279852A6F87C5408DE99F0B9A41F02E /* SwiftySettings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftySettings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		856410B24E9310F7ECF71867E985B122 /* CALayer+FSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+FSExtension.m"; path = "FSCalendar/CALayer+FSExtension.m"; sourceTree = "<group>"; };
+		8613975BA38BDEC7B643721DCD8767E8 /* Pods-Resolve Issues-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Resolve Issues-resources.sh"; sourceTree = "<group>"; };
+		86CDA600B1810EE7786E387103089A10 /* EnterPasscodeState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnterPasscodeState.swift; path = PasscodeLock/PasscodeLock/EnterPasscodeState.swift; sourceTree = "<group>"; };
+		88B5340F24BF1DCE7C290A976F141C1D /* TableViewModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableViewModel-umbrella.h"; sourceTree = "<group>"; };
+		8904FDC0AD7DB1E227438636462DB3BB /* PasscodeLock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PasscodeLock.h; path = PasscodeLock/PasscodeLock.h; sourceTree = "<group>"; };
+		8EE2F3670445E26F8A1B8B17DEEEA3A8 /* FSCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.xcconfig; sourceTree = "<group>"; };
+		91C5102DCC00EE822481AE40981B2C76 /* NSString+FSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FSExtension.h"; path = "FSCalendar/NSString+FSExtension.h"; sourceTree = "<group>"; };
+		92EC6A84D8A94C0E702F86E07F109B53 /* SettingsCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsCell.swift; path = Source/UI/SettingsCell.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94480880615FA363D05198EE9E5047BA /* Sherpa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sherpa-umbrella.h"; sourceTree = "<group>"; };
+		945853AE205EB94F363A006F7F4A23E0 /* TableViewModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TableViewModel.xcconfig; sourceTree = "<group>"; };
+		95F74D50987AD91EB8ACF4EBB5585661 /* TableViewModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableViewModel-prefix.pch"; sourceTree = "<group>"; };
+		97B7AD2E2DB7AE32B79E2EEA77EC0136 /* FSCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FSCalendar.modulemap; sourceTree = "<group>"; };
+		97F7F24E3273C139D1685D9D9712CCBF /* Pods-Pelvic Floor FitbitUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pelvic Floor FitbitUITests-dummy.m"; sourceTree = "<group>"; };
+		987E18C1DE633BD1B60197C296EC5419 /* Sherpa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sherpa.h; path = src/Sherpa/Sherpa.h; sourceTree = "<group>"; };
+		99414A5B283CD8E88BA2C0AEBE4F3B1F /* UIView+FSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FSExtension.h"; path = "FSCalendar/UIView+FSExtension.h"; sourceTree = "<group>"; };
+		9A28DA8B4F82CC970518D0361959E887 /* FSCalendar+IBExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FSCalendar+IBExtension.m"; path = "FSCalendar/FSCalendar+IBExtension.m"; sourceTree = "<group>"; };
+		9E40D9F0C34F889EDFF820D36CB7F477 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2CB17C8ED486EDB5D84B67F5A285A84 /* Pods-Pelvic Floor FitbitUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pelvic Floor FitbitUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A3BB61C17A98E58A162DB3F845A61537 /* Pods-Pelvic Floor FitbitTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pelvic Floor FitbitTests-resources.sh"; sourceTree = "<group>"; };
+		A6D2D4BCD57BDA11EA801EA4D3E7CA5A /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDynamicHeader.h; path = FSCalendar/FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A99F46BB8D06678605B6BF1C7457285D /* PasscodeLockViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasscodeLockViewController.swift; path = PasscodeLock/PasscodeLockViewController.swift; sourceTree = "<group>"; };
+		AAFE6CC82342CBA4FDCC38AD3D445AC3 /* SwiftyUserDefaults.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyUserDefaults.xcconfig; sourceTree = "<group>"; };
+		ADB988A8FF1BBD1108BF78F17E3DEE19 /* FSCalendarFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarFlowLayout.m; path = FSCalendar/FSCalendarFlowLayout.m; sourceTree = "<group>"; };
+		AF0BC93A4C825C3D330D7E8FE0E6D66F /* Pods-Resolve Issues.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Resolve Issues.modulemap"; sourceTree = "<group>"; };
+		AFB9269EE124812CB0CB7B8858DDF493 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B529E6B9A1A830957B55F5149E802447 /* PasscodeLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PasscodeLock-dummy.m"; sourceTree = "<group>"; };
+		B5714CD53645BA89E45A54A0E1093868 /* SwiftySettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftySettings.swift; path = Source/SwiftySettings.swift; sourceTree = "<group>"; };
+		BCDD17209853030FBD997F43417F5ED8 /* TableViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TableViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9CB22C67E4B7E03EAFDDDCC04B7645 /* PasscodeLock.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = PasscodeLock.strings; path = en.lproj/PasscodeLock.strings; sourceTree = "<group>"; };
+		BF9EBB1A2435C39A67DD93A5EECCE10D /* Pods-Pelvic Floor FitbitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pelvic Floor FitbitTests-dummy.m"; sourceTree = "<group>"; };
+		C277F1E8D7C3306F2D7099DC2603A8EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2FAAE6887AF20AFDBF3908E9AFB654C /* SliderCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderCell.swift; path = Source/UI/SliderCell.swift; sourceTree = "<group>"; };
+		C513152226E6B15C9D602678ECB5FAF2 /* UIColor+Default.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Default.swift"; path = "Source/Extensions/UIColor+Default.swift"; sourceTree = "<group>"; };
+		C5C69C47F917044E7A9A57E7EFEE8524 /* Pods-Pelvic Floor FitbitUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pelvic Floor FitbitUITests-umbrella.h"; sourceTree = "<group>"; };
+		C7109FA38719CFF876A1ED6AA8BA8D3E /* FSCalendarEventIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarEventIndicator.h; path = FSCalendar/FSCalendarEventIndicator.h; sourceTree = "<group>"; };
+		C9700BF7927B87C5F76C14D31A13EE43 /* FSCalendarEventIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarEventIndicator.m; path = FSCalendar/FSCalendarEventIndicator.m; sourceTree = "<group>"; };
+		C9C0263656F2410FA4BEDBB0A2264922 /* SwiftyUserDefaults-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyUserDefaults-dummy.m"; sourceTree = "<group>"; };
+		C9FB0F43F20451EE0E038AAF0C526094 /* ArticleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArticleViewController.swift; path = src/Sherpa/ArticleViewController.swift; sourceTree = "<group>"; };
+		CAFC7121120D808D4CF314BA46756605 /* Pods-Resolve Issues-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Resolve Issues-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBF0DD2FAE88F182987C2F3D03F147F5 /* FSCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar-dummy.m"; sourceTree = "<group>"; };
+		CC2B4E83B7AE295D0E1A84F1FCE62EE4 /* PasscodeLock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasscodeLock-umbrella.h"; sourceTree = "<group>"; };
+		D123628193C9F22B436B7559AD9F2666 /* FSCalendar+IBExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FSCalendar+IBExtension.h"; path = "FSCalendar/FSCalendar+IBExtension.h"; sourceTree = "<group>"; };
+		D1A08989DB3E7EB4888A30AB5101BB92 /* Pods-Pelvic Floor FitbitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pelvic Floor FitbitTests.release.xcconfig"; sourceTree = "<group>"; };
+		D66A75FF3A5C4E437CF034F9B39F4E93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF79F327FD2E0E20D2DD51D42885B0B1 /* SwiftySettings.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftySettings.xcconfig; sourceTree = "<group>"; };
+		E0D80182DC282CEDFF68077EA527774C /* FSCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-umbrella.h"; sourceTree = "<group>"; };
+		E233DB9D4DEB0E516DBF680F643E003D /* FSCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-prefix.pch"; sourceTree = "<group>"; };
+		E432F217AA3B394044F94F80BC3A8587 /* PasscodeLockConfigurationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasscodeLockConfigurationType.swift; path = PasscodeLock/Protocols/PasscodeLockConfigurationType.swift; sourceTree = "<group>"; };
+		E5B90FC7E219228EA73F1591A31E82E9 /* ResourceBundle-TableViewModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TableViewModel-Info.plist"; sourceTree = "<group>"; };
+		E5F2E18CF66F74D28CAD192B3D8FAEB2 /* FSCalendarCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCell.m; path = FSCalendar/FSCalendarCell.m; sourceTree = "<group>"; };
+		E6AC1A44E4F99DC33B20DD1BB366272D /* FSCalendarConstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarConstance.h; path = FSCalendar/FSCalendarConstance.h; sourceTree = "<group>"; };
+		E8498B6E3C18155A1D1DE44598BF7590 /* SwiftySettings.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftySettings.modulemap; sourceTree = "<group>"; };
+		E8B445E8FA6DE50D933D88C44A543258 /* CALayer+FSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+FSExtension.h"; path = "FSCalendar/CALayer+FSExtension.h"; sourceTree = "<group>"; };
+		EA129A5160CFB69008F662850F477BF7 /* Pods-Pelvic Floor FitbitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pelvic Floor FitbitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EBB8237DDB02F62B5AA78E7D527EB2FD /* Pods-Pelvic Floor Fitbit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pelvic Floor Fitbit-acknowledgements.plist"; sourceTree = "<group>"; };
+		ECA641CB368AD4ACCEB27730EE436BD6 /* Pods-Resolve Issues.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Resolve Issues.release.xcconfig"; sourceTree = "<group>"; };
+		F14102DF7C93852F4418832063DEF27A /* PasscodeSignPlaceholderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasscodeSignPlaceholderView.swift; path = PasscodeLock/Views/PasscodeSignPlaceholderView.swift; sourceTree = "<group>"; };
+		F1E918778D8C02BA2DEA3D44BAE65224 /* Pods-Pelvic Floor FitbitUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pelvic Floor FitbitUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F30F9A1886A7D78F6E8D2B58CAD585FD /* Sherpa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Sherpa.modulemap; sourceTree = "<group>"; };
+		F3403EDE80F709376D620B46E946CACB /* Pods_Pelvic_Floor_Fitbit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pelvic_Floor_Fitbit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38FB7C3ED64BBCDBC73A194D877E18F /* Sherpa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sherpa.xcconfig; sourceTree = "<group>"; };
+		F3AB985ECDDC6638C159E9D21970C2C6 /* FSCalendarAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAnimator.m; path = FSCalendar/FSCalendarAnimator.m; sourceTree = "<group>"; };
+		F4F5D50D2A6F3B4CB772C544EF58A249 /* Pods-Pelvic Floor FitbitUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pelvic Floor FitbitUITests-resources.sh"; sourceTree = "<group>"; };
+		F65B7798E69DADFA6E67C85AA6F2A365 /* Pods_Pelvic_Floor_FitbitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pelvic_Floor_FitbitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F79BD72910A3FD7A108E2E9F305F3F18 /* PasscodeLockStateType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasscodeLockStateType.swift; path = PasscodeLock/Protocols/PasscodeLockStateType.swift; sourceTree = "<group>"; };
+		FB23DED2A01682358CB57D51299C6D26 /* SwiftySettings-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftySettings-dummy.m"; sourceTree = "<group>"; };
+		FB702D35A2FB28B12E85CC04494AF24F /* Pods-Pelvic Floor FitbitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pelvic Floor FitbitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC3526D7A95DDA31616C523E9FD4FB1F /* Pods-Pelvic Floor FitbitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pelvic Floor FitbitTests.modulemap"; sourceTree = "<group>"; };
+		FD57F7329A9E5467A72F76BDAA8804E2 /* Sherpa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Sherpa-dummy.m"; sourceTree = "<group>"; };
+		FFBEF55F3C4696F1EE797C685F10F901 /* Pods-Resolve Issues.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Resolve Issues.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A4340EA0C99FEE431E9C00F8DF15399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B914E8BDFC18B5DD8CC8F54DCE771163 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		175124B26E41CBE3E204D26488942BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F9BCE151DD957417CEAFDEF07A9E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD7788A3F4C0CE12D7D8AB510B2A0F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A6EBA9EAE5017F65E804F351F8C1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB35C497A866EB05BDD08F6854BB5372 /* Foundation.framework in Frameworks */,
+				A572FB0032B0CFB592BE607D98CE8574 /* QuartzCore.framework in Frameworks */,
+				7809AA924DA6A77DB380CF2A5A6974B0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFE0486731CC41306BAFBEBB4CE77D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345D5A9ED9BFE445F2BC1311EDCEBAB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C9969578116D1E70D499B38690D65B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067A296EC895D5C0615781E6AB07BDDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73D4BDEE7BBCA81BC962ADF7186C525F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5AE57F3C60C01E7F5EE05457C8F324 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A7FF8DBBCF8893C07BA76BD8A765DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2271959A465F1822F436C3A2D727880 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B2417306B0BE7FEC77690ED7755F643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41AFCB39F4325CDD4A9804BC8B1DE7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF51978DC0B396D5A8A3FDA3DB09E303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D46D190E9E3962DD5801F540428E57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC8FF6BA5350EAF5FEC497F88A3B38A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C502C4220F3FEA714A4ECE4889E2C893 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F70E0B851CBEBF53AA8D94FE104300 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D66A75FF3A5C4E437CF034F9B39F4E93 /* Info.plist */,
+				02B5061AAA43E85D07292770379AC507 /* SwiftyUserDefaults.modulemap */,
+				AAFE6CC82342CBA4FDCC38AD3D445AC3 /* SwiftyUserDefaults.xcconfig */,
+				C9C0263656F2410FA4BEDBB0A2264922 /* SwiftyUserDefaults-dummy.m */,
+				312F42CDAB98223F129196D4074F5206 /* SwiftyUserDefaults-prefix.pch */,
+				7601E26714DAF60099118A15A756497A /* SwiftyUserDefaults-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyUserDefaults";
+			sourceTree = "<group>";
+		};
+		03B1191F3093ED86081F5B4FBBE924AB /* SwiftyUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				7DA1F73FA3955D2BF20A1F741DF43A79 /* SwiftyUserDefaults.swift */,
+				00F70E0B851CBEBF53AA8D94FE104300 /* Support Files */,
+			);
+			path = SwiftyUserDefaults;
+			sourceTree = "<group>";
+		};
+		0BCEB296052209307EFAFCF8BBFF404F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62C24EB2D2C3CE2E2206367C4F405BA2 /* Info.plist */,
+				E5B90FC7E219228EA73F1591A31E82E9 /* ResourceBundle-TableViewModel-Info.plist */,
+				05A605F4F80E37624F784E09DDCE1424 /* TableViewModel.modulemap */,
+				945853AE205EB94F363A006F7F4A23E0 /* TableViewModel.xcconfig */,
+				0CE81D9A5BDC6C26CA2A2DDC7AE472BE /* TableViewModel-dummy.m */,
+				95F74D50987AD91EB8ACF4EBB5585661 /* TableViewModel-prefix.pch */,
+				88B5340F24BF1DCE7C290A976F141C1D /* TableViewModel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TableViewModel";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFDE779C6E5D3445E0CB8CCB8D424449 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12C54F8177D28C35FFB4F60F79D4A2ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F31102626997D2EE71D212BA26CDFD1 /* FSCalendar */,
+				4C39E355F133E211D921A43CFBE4376F /* PasscodeLock */,
+				73796B6460C9293306D460A36983DC64 /* Sherpa */,
+				A1650E6B83061E6F571F602CCD809959 /* SwiftySettings */,
+				03B1191F3093ED86081F5B4FBBE924AB /* SwiftyUserDefaults */,
+				9D737EBB42CF2629929CC805E73FC0CA /* TableViewModel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		26141E91DD97B4108653111546D6C36D /* Pods-Pelvic Floor FitbitTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB9269EE124812CB0CB7B8858DDF493 /* Info.plist */,
+				FC3526D7A95DDA31616C523E9FD4FB1F /* Pods-Pelvic Floor FitbitTests.modulemap */,
+				EA129A5160CFB69008F662850F477BF7 /* Pods-Pelvic Floor FitbitTests-acknowledgements.markdown */,
+				6077AE4DB66FF38EC65509C096F306FC /* Pods-Pelvic Floor FitbitTests-acknowledgements.plist */,
+				BF9EBB1A2435C39A67DD93A5EECCE10D /* Pods-Pelvic Floor FitbitTests-dummy.m */,
+				3F73E4E8773C43192F6587BFE9BAE01D /* Pods-Pelvic Floor FitbitTests-frameworks.sh */,
+				A3BB61C17A98E58A162DB3F845A61537 /* Pods-Pelvic Floor FitbitTests-resources.sh */,
+				6710BC33C518E6BDD46723C2F5BE2D2F /* Pods-Pelvic Floor FitbitTests-umbrella.h */,
+				2487D43E19EDF872D7554CAA92AD4CE6 /* Pods-Pelvic Floor FitbitTests.debug.xcconfig */,
+				D1A08989DB3E7EB4888A30AB5101BB92 /* Pods-Pelvic Floor FitbitTests.release.xcconfig */,
+			);
+			name = "Pods-Pelvic Floor FitbitTests";
+			path = "Target Support Files/Pods-Pelvic Floor FitbitTests";
+			sourceTree = "<group>";
+		};
+		28B81D7EE9B5D4D0AB34B8AB42390C11 /* Pods-Pelvic Floor Fitbit */ = {
+			isa = PBXGroup;
+			children = (
+				29EF0B76E46EEFF9167E170D36D75C08 /* Info.plist */,
+				0E09E3FB42339628AA31E6FA7C5A9F22 /* Pods-Pelvic Floor Fitbit.modulemap */,
+				7A5CE2B94A68668302C44F30EAD6F76D /* Pods-Pelvic Floor Fitbit-acknowledgements.markdown */,
+				EBB8237DDB02F62B5AA78E7D527EB2FD /* Pods-Pelvic Floor Fitbit-acknowledgements.plist */,
+				798D7F3A69A617DC5155FC9B781BB88A /* Pods-Pelvic Floor Fitbit-dummy.m */,
+				7896612EEBE02C014CE420C983C32DA7 /* Pods-Pelvic Floor Fitbit-frameworks.sh */,
+				307064122F626C0AB4357350F84C63BE /* Pods-Pelvic Floor Fitbit-resources.sh */,
+				0002C847F6D2B7DA9D8B7515160A740E /* Pods-Pelvic Floor Fitbit-umbrella.h */,
+				4A64E2A5735B59A0F8B7D73A4046F8EB /* Pods-Pelvic Floor Fitbit.debug.xcconfig */,
+				49A7DF720A8CDCAC2E9E21BFAEF5F4B5 /* Pods-Pelvic Floor Fitbit.release.xcconfig */,
+			);
+			name = "Pods-Pelvic Floor Fitbit";
+			path = "Target Support Files/Pods-Pelvic Floor Fitbit";
+			sourceTree = "<group>";
+		};
+		3F31102626997D2EE71D212BA26CDFD1 /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				E8B445E8FA6DE50D933D88C44A543258 /* CALayer+FSExtension.h */,
+				856410B24E9310F7ECF71867E985B122 /* CALayer+FSExtension.m */,
+				791764FEF0245C32A431BF66E5DE788B /* FSCalendar.h */,
+				183DCDE1486892F6103C4A8151EE49AB /* FSCalendar.m */,
+				D123628193C9F22B436B7559AD9F2666 /* FSCalendar+IBExtension.h */,
+				9A28DA8B4F82CC970518D0361959E887 /* FSCalendar+IBExtension.m */,
+				6617375720F0A66BE63DB6241C628822 /* FSCalendarAnimator.h */,
+				F3AB985ECDDC6638C159E9D21970C2C6 /* FSCalendarAnimator.m */,
+				46E20224FC504BE98C5FE0A458264130 /* FSCalendarAppearance.h */,
+				0C16E3D3BEF0DC8B2695AB9524B6D23E /* FSCalendarAppearance.m */,
+				58485BCC2BDB25DB6F7E0499402C90BB /* FSCalendarCell.h */,
+				E5F2E18CF66F74D28CAD192B3D8FAEB2 /* FSCalendarCell.m */,
+				121819EC38CE3586AA697DD8C957D3E0 /* FSCalendarCollectionView.h */,
+				0D77B4A000ACF1F4909F66DD1C1E343E /* FSCalendarCollectionView.m */,
+				E6AC1A44E4F99DC33B20DD1BB366272D /* FSCalendarConstance.h */,
+				3BABDFD75B5AFABEB73981D46ED31D59 /* FSCalendarConstance.m */,
+				A6D2D4BCD57BDA11EA801EA4D3E7CA5A /* FSCalendarDynamicHeader.h */,
+				C7109FA38719CFF876A1ED6AA8BA8D3E /* FSCalendarEventIndicator.h */,
+				C9700BF7927B87C5F76C14D31A13EE43 /* FSCalendarEventIndicator.m */,
+				5975E89CB0DEF41BFBB78179BFF8910E /* FSCalendarFlowLayout.h */,
+				ADB988A8FF1BBD1108BF78F17E3DEE19 /* FSCalendarFlowLayout.m */,
+				2AB2AB2125265E78FE61215D12871ABA /* FSCalendarHeader.h */,
+				63D4EA2E26F7F6E82F50630F008E79CF /* FSCalendarHeader.m */,
+				59DD9111894DB875FC61FC34BDD67334 /* FSCalendarStickyHeader.h */,
+				637AF5CB1A046A18387F366606D013A8 /* FSCalendarStickyHeader.m */,
+				7B854B2B511A8693A321849AF6D653CE /* NSDate+FSExtension.h */,
+				6C665D995F422484DE2E1CE9FB2C8B8D /* NSDate+FSExtension.m */,
+				91C5102DCC00EE822481AE40981B2C76 /* NSString+FSExtension.h */,
+				643015F8BF1F3570FAEF27991FEF90CD /* NSString+FSExtension.m */,
+				99414A5B283CD8E88BA2C0AEBE4F3B1F /* UIView+FSExtension.h */,
+				35FF99DEB9E35E320FB45C9C95C56BEC /* UIView+FSExtension.m */,
+				4739F8CFBB52677889E3E23F669627CD /* Support Files */,
+			);
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		4739F8CFBB52677889E3E23F669627CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97B7AD2E2DB7AE32B79E2EEA77EC0136 /* FSCalendar.modulemap */,
+				8EE2F3670445E26F8A1B8B17DEEEA3A8 /* FSCalendar.xcconfig */,
+				CBF0DD2FAE88F182987C2F3D03F147F5 /* FSCalendar-dummy.m */,
+				E233DB9D4DEB0E516DBF680F643E003D /* FSCalendar-prefix.pch */,
+				E0D80182DC282CEDFF68077EA527774C /* FSCalendar-umbrella.h */,
+				696D5BA2ECDFB7CDF8202919C407FD2E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FSCalendar";
+			sourceTree = "<group>";
+		};
+		4C39E355F133E211D921A43CFBE4376F /* PasscodeLock */ = {
+			isa = PBXGroup;
+			children = (
+				3F75A50069E53E548187F561860DF46D /* ChangePasscodeState.swift */,
+				48886F93661D485C70E561947438FD93 /* ConfirmPasscodeState.swift */,
+				86CDA600B1810EE7786E387103089A10 /* EnterPasscodeState.swift */,
+				31D8CA1C377C5CA05D34118FEA8186B6 /* Functions.swift */,
+				8904FDC0AD7DB1E227438636462DB3BB /* PasscodeLock.h */,
+				18BE38267729ED6A17EDDBF756B61AE5 /* PasscodeLock.swift */,
+				E432F217AA3B394044F94F80BC3A8587 /* PasscodeLockConfigurationType.swift */,
+				15FA0229A44845FF68967B92E760CE1B /* PasscodeLockPresenter.swift */,
+				F79BD72910A3FD7A108E2E9F305F3F18 /* PasscodeLockStateType.swift */,
+				2A1580D16D471C880A23E235C29A1608 /* PasscodeLockType.swift */,
+				A99F46BB8D06678605B6BF1C7457285D /* PasscodeLockViewController.swift */,
+				5DFE9E5E30FDFDAB4F63D710B912F4B6 /* PasscodeRepositoryType.swift */,
+				4C4500687A5953B6F609EC6FEA4F426E /* PasscodeSignButton.swift */,
+				F14102DF7C93852F4418832063DEF27A /* PasscodeSignPlaceholderView.swift */,
+				590BDFB4879D5675DDFE328CFE305F77 /* SetPasscodeState.swift */,
+				82D9BD0B81304FD405F83CE26F49AEAE /* Resources */,
+				56C87A5EC575685DA616191A7E4F927F /* Support Files */,
+			);
+			path = PasscodeLock;
+			sourceTree = "<group>";
+		};
+		56C87A5EC575685DA616191A7E4F927F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				438FC89CEC744325DF5C1C95B86DDC6B /* Info.plist */,
+				61C628202C8D1BB4EED5DE264642B522 /* PasscodeLock.modulemap */,
+				38F52A0CB5914494A5E8A1353474E288 /* PasscodeLock.xcconfig */,
+				B529E6B9A1A830957B55F5149E802447 /* PasscodeLock-dummy.m */,
+				73F996EA054773C41CD6B1A3E35AF4A1 /* PasscodeLock-prefix.pch */,
+				CC2B4E83B7AE295D0E1A84F1FCE62EE4 /* PasscodeLock-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PasscodeLock";
+			sourceTree = "<group>";
+		};
+		59D7203406EFCDF48410CCF3FCE34D9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D22AB8C4F170ED9BCFF796728AA9259 /* FSCalendar.framework */,
+				492F40A2F1165BA81FB20D65677729A1 /* PasscodeLock.framework */,
+				F3403EDE80F709376D620B46E946CACB /* Pods_Pelvic_Floor_Fitbit.framework */,
+				F65B7798E69DADFA6E67C85AA6F2A365 /* Pods_Pelvic_Floor_FitbitTests.framework */,
+				730B34701119298CEC6B6D1EC31A47A3 /* Pods_Pelvic_Floor_FitbitUITests.framework */,
+				2371FC07D4A62EC711E5B28F61F0DCBE /* Pods_Resolve_Issues.framework */,
+				23C68A073C78F64CF2E6DB654BD74B1C /* Sherpa.framework */,
+				8279852A6F87C5408DE99F0B9A41F02E /* SwiftySettings.framework */,
+				1DD59570339321283C2CCAACBF19DEF9 /* SwiftyUserDefaults.framework */,
+				3E7A115C7C7DCE777A0171B6CB0FF9B7 /* TableViewModel.bundle */,
+				BCDD17209853030FBD997F43417F5ED8 /* TableViewModel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61C81DF18DB5E97FB998D983E07F830B /* Pods-Pelvic Floor FitbitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E40D9F0C34F889EDFF820D36CB7F477 /* Info.plist */,
+				19CE1916C30391E8367FA59DBA8E5542 /* Pods-Pelvic Floor FitbitUITests.modulemap */,
+				F1E918778D8C02BA2DEA3D44BAE65224 /* Pods-Pelvic Floor FitbitUITests-acknowledgements.markdown */,
+				625CB9C29CFBC7507958D1CDDEF54C7D /* Pods-Pelvic Floor FitbitUITests-acknowledgements.plist */,
+				97F7F24E3273C139D1685D9D9712CCBF /* Pods-Pelvic Floor FitbitUITests-dummy.m */,
+				A2CB17C8ED486EDB5D84B67F5A285A84 /* Pods-Pelvic Floor FitbitUITests-frameworks.sh */,
+				F4F5D50D2A6F3B4CB772C544EF58A249 /* Pods-Pelvic Floor FitbitUITests-resources.sh */,
+				C5C69C47F917044E7A9A57E7EFEE8524 /* Pods-Pelvic Floor FitbitUITests-umbrella.h */,
+				FB702D35A2FB28B12E85CC04494AF24F /* Pods-Pelvic Floor FitbitUITests.debug.xcconfig */,
+				1D4933B01734F4E4CB6DD347AC196470 /* Pods-Pelvic Floor FitbitUITests.release.xcconfig */,
+			);
+			name = "Pods-Pelvic Floor FitbitUITests";
+			path = "Target Support Files/Pods-Pelvic Floor FitbitUITests";
+			sourceTree = "<group>";
+		};
+		73796B6460C9293306D460A36983DC64 /* Sherpa */ = {
+			isa = PBXGroup;
+			children = (
+				C9FB0F43F20451EE0E038AAF0C526094 /* ArticleViewController.swift */,
+				6C61BC081E2D2D74E399928D2D377C80 /* DataSource.swift */,
+				071F0080FEB68A0E671DF0E43C0D2781 /* Document.swift */,
+				123DC848B7DAD4A183A0A413E08765A1 /* ListViewController.swift */,
+				987E18C1DE633BD1B60197C296EC5419 /* Sherpa.h */,
+				2A03CA2BA5A9734045F88307BDE2335A /* SherpaViewController.swift */,
+				AAB41A74C85A9BB0B066969F6D4ECD82 /* Support Files */,
+			);
+			path = Sherpa;
+			sourceTree = "<group>";
+		};
+		74882ED0C60010A0FADA23E15847C7E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ED4957EBC6CA4132CADA94145B8A29A /* Info.plist */,
+				E8498B6E3C18155A1D1DE44598BF7590 /* SwiftySettings.modulemap */,
+				DF79F327FD2E0E20D2DD51D42885B0B1 /* SwiftySettings.xcconfig */,
+				FB23DED2A01682358CB57D51299C6D26 /* SwiftySettings-dummy.m */,
+				07EE744035915D68B4B53655334F5C69 /* SwiftySettings-prefix.pch */,
+				3BC3C483062BD6FED5BA22CE54377AC8 /* SwiftySettings-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftySettings";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				12C54F8177D28C35FFB4F60F79D4A2ED /* Pods */,
+				59D7203406EFCDF48410CCF3FCE34D9D /* Products */,
+				DBE93A9EF60625020C09DFF88FA1DB37 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F8617C8ACD729D498AF1574FF479E75 /* Pods-Resolve Issues */ = {
+			isa = PBXGroup;
+			children = (
+				C277F1E8D7C3306F2D7099DC2603A8EC /* Info.plist */,
+				AF0BC93A4C825C3D330D7E8FE0E6D66F /* Pods-Resolve Issues.modulemap */,
+				386C46874366933D10A08FF7624CFFBF /* Pods-Resolve Issues-acknowledgements.markdown */,
+				CAFC7121120D808D4CF314BA46756605 /* Pods-Resolve Issues-acknowledgements.plist */,
+				3CBE28CDBAF29FC4B4B85DB25646FE40 /* Pods-Resolve Issues-dummy.m */,
+				6A8FE4ACA9939E5EE84A2DAEE32FF09E /* Pods-Resolve Issues-frameworks.sh */,
+				8613975BA38BDEC7B643721DCD8767E8 /* Pods-Resolve Issues-resources.sh */,
+				4A012460AFF62097B187871D3E691949 /* Pods-Resolve Issues-umbrella.h */,
+				FFBEF55F3C4696F1EE797C685F10F901 /* Pods-Resolve Issues.debug.xcconfig */,
+				ECA641CB368AD4ACCEB27730EE436BD6 /* Pods-Resolve Issues.release.xcconfig */,
+			);
+			name = "Pods-Resolve Issues";
+			path = "Target Support Files/Pods-Resolve Issues";
+			sourceTree = "<group>";
+		};
+		82D9BD0B81304FD405F83CE26F49AEAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7B5A40F242B78B655EEAA434780274F6 /* PasscodeLock.strings */,
+				5B5A6F246EF53BD5EADFCCE9BEBF5FE8 /* PasscodeLockView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9D737EBB42CF2629929CC805E73FC0CA /* TableViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				498535FB410DF65D6810D0F7C05364F2 /* TableRow.swift */,
+				7C972341B5DC9BFBBDAB4EAE4DD17E91 /* TableSection.swift */,
+				38BEA680CF9A29D78589CED69C2EC50C /* TableViewModel.swift */,
+				0BCEB296052209307EFAFCF8BBFF404F /* Support Files */,
+			);
+			path = TableViewModel;
+			sourceTree = "<group>";
+		};
+		A1650E6B83061E6F571F602CCD809959 /* SwiftySettings */ = {
+			isa = PBXGroup;
+			children = (
+				2EE9676B03441495E4A5933CF364F049 /* OptionButtonCell.swift */,
+				21F4BF694F5DED42EA3DC02644B4F363 /* OptionCell.swift */,
+				5D9E7FC4B1688C4835C5E48238EFC2B0 /* SectionHeaderFooter.swift */,
+				92EC6A84D8A94C0E702F86E07F109B53 /* SettingsCell.swift */,
+				4141F0BAD15A64BD8316EE6C56105F44 /* SettingsViewController.swift */,
+				C2FAAE6887AF20AFDBF3908E9AFB654C /* SliderCell.swift */,
+				B5714CD53645BA89E45A54A0E1093868 /* SwiftySettings.swift */,
+				47CC510D6A907C01B020A74D12CD4A0C /* SwiftySettingsViewController.swift */,
+				118E3F6AB58E7368F71BF17C13167193 /* SwitchCell.swift */,
+				77B77B87A68F667AB2E2849D358F7A99 /* TextFieldCell.swift */,
+				C513152226E6B15C9D602678ECB5FAF2 /* UIColor+Default.swift */,
+				3D656A5154C403EE156D1872910245E0 /* UITableView+ReuseIdentifier.swift */,
+				74882ED0C60010A0FADA23E15847C7E3 /* Support Files */,
+			);
+			path = SwiftySettings;
+			sourceTree = "<group>";
+		};
+		AAB41A74C85A9BB0B066969F6D4ECD82 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36FB3196965019F4201C75D565CDF278 /* Info.plist */,
+				F30F9A1886A7D78F6E8D2B58CAD585FD /* Sherpa.modulemap */,
+				F38FB7C3ED64BBCDBC73A194D877E18F /* Sherpa.xcconfig */,
+				FD57F7329A9E5467A72F76BDAA8804E2 /* Sherpa-dummy.m */,
+				5E5EA1D1276AC7062975C3BCFD246305 /* Sherpa-prefix.pch */,
+				94480880615FA363D05198EE9E5047BA /* Sherpa-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Sherpa";
+			sourceTree = "<group>";
+		};
+		DBE93A9EF60625020C09DFF88FA1DB37 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28B81D7EE9B5D4D0AB34B8AB42390C11 /* Pods-Pelvic Floor Fitbit */,
+				26141E91DD97B4108653111546D6C36D /* Pods-Pelvic Floor FitbitTests */,
+				61C81DF18DB5E97FB998D983E07F830B /* Pods-Pelvic Floor FitbitUITests */,
+				7F8617C8ACD729D498AF1574FF479E75 /* Pods-Resolve Issues */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DFDE779C6E5D3445E0CB8CCB8D424449 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */,
+				23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */,
+				091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		276B754D9E276E61D8DFF286321A9C57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55873867261927F7110E660A730DBD2 /* SwiftySettings-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358108EB3FDF9009D4B99855217AE02C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C8B6E1AF08FF55F6E5EC1B7D134651 /* SwiftyUserDefaults-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848CAA779F22E44C4E79C91F9A46DA84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60C0BAB1840ED78E320BF832EB7D90F /* CALayer+FSExtension.h in Headers */,
+				5C88EB02C6D789D20C6298CF77049112 /* FSCalendar+IBExtension.h in Headers */,
+				DE0A4E10ED1E104BF1DEF81453A6EBC8 /* FSCalendar-umbrella.h in Headers */,
+				F7944D091AD240B80D98066395A99B95 /* FSCalendar.h in Headers */,
+				E773A27D47BC2080FB249FBD4513AB1C /* FSCalendarAnimator.h in Headers */,
+				D603EE78D5DBF389EC429A33757BFF5C /* FSCalendarAppearance.h in Headers */,
+				9522DA78F08119D9EAFA3E30698BDE41 /* FSCalendarCell.h in Headers */,
+				11F20D807E923A4DBE6CDFDA9A73C229 /* FSCalendarCollectionView.h in Headers */,
+				2FCE1C00460CF74F457E0093A676A834 /* FSCalendarConstance.h in Headers */,
+				CEBADA794147C66483B0C205EDED2F4B /* FSCalendarDynamicHeader.h in Headers */,
+				F7317B2BAF77EC9AF9422499C1D467AA /* FSCalendarEventIndicator.h in Headers */,
+				6983260381111B42F335961452EEE2B0 /* FSCalendarFlowLayout.h in Headers */,
+				0E44012DD097816D61C9AF7B4D509469 /* FSCalendarHeader.h in Headers */,
+				7FE3ECFE7843570AAFAD9216E3546026 /* FSCalendarStickyHeader.h in Headers */,
+				39582F80068C0DEF708DEE01B8C053F7 /* NSDate+FSExtension.h in Headers */,
+				B08294E2247DE35943C7180A647EE72D /* NSString+FSExtension.h in Headers */,
+				C17B63D63425ED26125A32CC2E15B2A6 /* UIView+FSExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88263A845D9BCC39F54D071A02169D21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BF3DA931833B571C0809C535BB656E /* PasscodeLock-umbrella.h in Headers */,
+				1B2827EBB6685C875DA445AACF0E93C1 /* PasscodeLock.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9BEE0075DF3ACFF66FDD3453702588 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB059B6091930CACCEC5F28E5CD582BA /* TableViewModel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30FDAE5D4112A348A88F322AF72DC58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8FA088505B6D5F3C8A79720106D009 /* Pods-Pelvic Floor FitbitUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B428FC08E37DFAEE1B07E217EEA0F4EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282134342BFCF8A598E95E81758DB753 /* Pods-Resolve Issues-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC4352029CDFE1F5CBA30196A8175D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9A0A361ABACB7DF6BA945511F097FA /* Pods-Pelvic Floor FitbitTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D257BC2B076C4F566A234C96E26AF02D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9DC47636CA7F3233E90F83DE4627B8 /* Pods-Pelvic Floor Fitbit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E04D061D2E0DBC78D0AB896F296278 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F4A1B48D13D132A0C3DBD814A580E4 /* Sherpa-umbrella.h in Headers */,
+				A1DC76E7984033B4208848F5FC6646E7 /* Sherpa.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BD3A93739908AECDF6C377AA5F5BBEA /* Sherpa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618489C2356AA9D25EB11948AFD2B687 /* Build configuration list for PBXNativeTarget "Sherpa" */;
+			buildPhases = (
+				BC7E262E692DDC795EA090FF6079B55E /* Sources */,
+				79A7FF8DBBCF8893C07BA76BD8A765DA /* Frameworks */,
+				F6E04D061D2E0DBC78D0AB896F296278 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sherpa;
+			productName = Sherpa;
+			productReference = 23C68A073C78F64CF2E6DB654BD74B1C /* Sherpa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A40BAC0F60288F9EE81B4B77874D321 /* PasscodeLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FC78FD9691329B21E9B6EAA84E3FE4 /* Build configuration list for PBXNativeTarget "PasscodeLock" */;
+			buildPhases = (
+				67D5E78DD3559AE455DBAB0BD820215C /* Sources */,
+				FCC8FF6BA5350EAF5FEC497F88A3B38A /* Frameworks */,
+				88263A845D9BCC39F54D071A02169D21 /* Headers */,
+				DAB396DE077927D3C6E2759C9FADDB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasscodeLock;
+			productName = PasscodeLock;
+			productReference = 492F40A2F1165BA81FB20D65677729A1 /* PasscodeLock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4EB7382F04A9CDA2DE61BD4B65A5E33B /* TableViewModel-TableViewModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 591D2529E958243296D4D6B364D55429 /* Build configuration list for PBXNativeTarget "TableViewModel-TableViewModel" */;
+			buildPhases = (
+				254739B785F23993375F869E78FD34C9 /* Sources */,
+				175124B26E41CBE3E204D26488942BB8 /* Frameworks */,
+				93EBDE95B21B4D523FC8972D91DD4041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableViewModel-TableViewModel";
+			productName = "TableViewModel-TableViewModel";
+			productReference = 3E7A115C7C7DCE777A0171B6CB0FF9B7 /* TableViewModel.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4F6E48F28AED893149EE20359DDA907F /* Pods-Resolve Issues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D0EF9E904AA3CDA77884303335628B /* Build configuration list for PBXNativeTarget "Pods-Resolve Issues" */;
+			buildPhases = (
+				C88F2A0591A12DAB62E780327839D649 /* Sources */,
+				CF51978DC0B396D5A8A3FDA3DB09E303 /* Frameworks */,
+				B428FC08E37DFAEE1B07E217EEA0F4EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Resolve Issues";
+			productName = "Pods-Resolve Issues";
+			productReference = 2371FC07D4A62EC711E5B28F61F0DCBE /* Pods_Resolve_Issues.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B2058EC6975545DC93587BA507CB85E /* Pods-Pelvic Floor FitbitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5E25D9B06A93077698E3AFA931C012 /* Build configuration list for PBXNativeTarget "Pods-Pelvic Floor FitbitTests" */;
+			buildPhases = (
+				C5AC0597E8A335EE2028170B25063D02 /* Sources */,
+				0A4340EA0C99FEE431E9C00F8DF15399 /* Frameworks */,
+				BEC4352029CDFE1F5CBA30196A8175D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Pelvic Floor FitbitTests";
+			productName = "Pods-Pelvic Floor FitbitTests";
+			productReference = F65B7798E69DADFA6E67C85AA6F2A365 /* Pods_Pelvic_Floor_FitbitTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2619B2813D910DBC9FE9714E0788D55 /* FSCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E66DDA4D9ACEE4559FE14589C5F582B /* Build configuration list for PBXNativeTarget "FSCalendar" */;
+			buildPhases = (
+				4C57AC1B079DBD5A5910873EA4FE09F2 /* Sources */,
+				24A6EBA9EAE5017F65E804F351F8C1E0 /* Frameworks */,
+				848CAA779F22E44C4E79C91F9A46DA84 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSCalendar;
+			productName = FSCalendar;
+			productReference = 4D22AB8C4F170ED9BCFF796728AA9259 /* FSCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C834ECA638B32EFA1287A04183F72DE6 /* SwiftySettings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC001A30566FDD92794107F8758B99A /* Build configuration list for PBXNativeTarget "SwiftySettings" */;
+			buildPhases = (
+				15DFDBE5D6A59943C527B68E90D5F97C /* Sources */,
+				54C9969578116D1E70D499B38690D65B /* Frameworks */,
+				276B754D9E276E61D8DFF286321A9C57 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftySettings;
+			productName = SwiftySettings;
+			productReference = 8279852A6F87C5408DE99F0B9A41F02E /* SwiftySettings.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D59763E6066D91ED5EB3E7F946FE79CE /* Pods-Pelvic Floor Fitbit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 475199FF45F0BCEFFB9248E0A12EBCA6 /* Build configuration list for PBXNativeTarget "Pods-Pelvic Floor Fitbit" */;
+			buildPhases = (
+				057378B22891DDA70866C03BF6374EA9 /* Sources */,
+				73D4BDEE7BBCA81BC962ADF7186C525F /* Frameworks */,
+				D257BC2B076C4F566A234C96E26AF02D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B3AC5A2DF5BF108584716151EB7B1C2 /* PBXTargetDependency */,
+				4CAE98808AD30B95B769AD9D40F3B5ED /* PBXTargetDependency */,
+				FCAD29EA4ADDB7D6439BF7ECCB67AAD2 /* PBXTargetDependency */,
+				FFC538F2079994790CCC9D8991529B53 /* PBXTargetDependency */,
+				F3BF66DBE7198FAE65706707BC79A2D7 /* PBXTargetDependency */,
+				56204FFAAB015B74F76CC369B9F02DE7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Pelvic Floor Fitbit";
+			productName = "Pods-Pelvic Floor Fitbit";
+			productReference = F3403EDE80F709376D620B46E946CACB /* Pods_Pelvic_Floor_Fitbit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DCF0ABD5469F46BADB187A7786962237 /* TableViewModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C96A150F8D6C91EADEBBBB09374985C8 /* Build configuration list for PBXNativeTarget "TableViewModel" */;
+			buildPhases = (
+				C9689DDBBE1CBBB6FC570D359D784A16 /* Sources */,
+				22F9BCE151DD957417CEAFDEF07A9E88 /* Frameworks */,
+				AABBCBD8A0853236EB196C87CFA765AA /* Resources */,
+				9B9BEE0075DF3ACFF66FDD3453702588 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2470A0888895030170FBE5B4B9DFA01 /* PBXTargetDependency */,
+			);
+			name = TableViewModel;
+			productName = TableViewModel;
+			productReference = BCDD17209853030FBD997F43417F5ED8 /* TableViewModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E05A5C087935EEA6605CA54ACE39B487 /* Pods-Pelvic Floor FitbitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B79D9F8A7E384E347874E499DDAFA1 /* Build configuration list for PBXNativeTarget "Pods-Pelvic Floor FitbitUITests" */;
+			buildPhases = (
+				F387F317126ABCF78A4BCEF886E63133 /* Sources */,
+				9B2417306B0BE7FEC77690ED7755F643 /* Frameworks */,
+				A30FDAE5D4112A348A88F322AF72DC58 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Pelvic Floor FitbitUITests";
+			productName = "Pods-Pelvic Floor FitbitUITests";
+			productReference = 730B34701119298CEC6B6D1EC31A47A3 /* Pods_Pelvic_Floor_FitbitUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6C13E3AA71EAAF3D002AB77D15F68D8 /* SwiftyUserDefaults */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B3873CFDFF162C3CD3993DB2BC3A1E0 /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults" */;
+			buildPhases = (
+				C0F7C57233B09DE42D4A30763762020F /* Sources */,
+				3FFE0486731CC41306BAFBEBB4CE77D5 /* Frameworks */,
+				358108EB3FDF9009D4B99855217AE02C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyUserDefaults;
+			productName = SwiftyUserDefaults;
+			productReference = 1DD59570339321283C2CCAACBF19DEF9 /* SwiftyUserDefaults.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 59D7203406EFCDF48410CCF3FCE34D9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2619B2813D910DBC9FE9714E0788D55 /* FSCalendar */,
+				2A40BAC0F60288F9EE81B4B77874D321 /* PasscodeLock */,
+				D59763E6066D91ED5EB3E7F946FE79CE /* Pods-Pelvic Floor Fitbit */,
+				9B2058EC6975545DC93587BA507CB85E /* Pods-Pelvic Floor FitbitTests */,
+				E05A5C087935EEA6605CA54ACE39B487 /* Pods-Pelvic Floor FitbitUITests */,
+				4F6E48F28AED893149EE20359DDA907F /* Pods-Resolve Issues */,
+				0BD3A93739908AECDF6C377AA5F5BBEA /* Sherpa */,
+				C834ECA638B32EFA1287A04183F72DE6 /* SwiftySettings */,
+				E6C13E3AA71EAAF3D002AB77D15F68D8 /* SwiftyUserDefaults */,
+				DCF0ABD5469F46BADB187A7786962237 /* TableViewModel */,
+				4EB7382F04A9CDA2DE61BD4B65A5E33B /* TableViewModel-TableViewModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93EBDE95B21B4D523FC8972D91DD4041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABBCBD8A0853236EB196C87CFA765AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A0F4F99BAD8356299C54937919F825 /* TableViewModel.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB396DE077927D3C6E2759C9FADDB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA442FC4B39208978991B2F3934899C /* PasscodeLock.strings in Resources */,
+				CAF471615301BAB50BAE663EF2F98EF5 /* PasscodeLockView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		057378B22891DDA70866C03BF6374EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D17E283C7F341AB7DA5F07B86553740 /* Pods-Pelvic Floor Fitbit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DFDBE5D6A59943C527B68E90D5F97C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D493F3B01798F3A72CE2FC7E0C25C0B5 /* OptionButtonCell.swift in Sources */,
+				6D7E4C39E46AC21A441905A16EBB6288 /* OptionCell.swift in Sources */,
+				B7A2C33F449D7498A1FF54F7CBAF2E93 /* SectionHeaderFooter.swift in Sources */,
+				9E8416A0D4991BCCCA20FE018899CC38 /* SettingsCell.swift in Sources */,
+				3765DA79176E0F5AA936CFAE2FC7D470 /* SettingsViewController.swift in Sources */,
+				68482DD8A169863AEDCEE325FCE1EA71 /* SliderCell.swift in Sources */,
+				356435FF8231C909DAF6BE695632119C /* SwiftySettings-dummy.m in Sources */,
+				E2544B54609FFC95656BACC1F34CE0FA /* SwiftySettings.swift in Sources */,
+				869AE1ECA7C5EBF2917887484D1914F6 /* SwiftySettingsViewController.swift in Sources */,
+				706BBE93D3FE4FAF04496A4AFCF0AAC8 /* SwitchCell.swift in Sources */,
+				970E75ED81B8DD255BD7165C89E77E9F /* TextFieldCell.swift in Sources */,
+				6A18A345B871F8EA55FBBE32B6B277E9 /* UIColor+Default.swift in Sources */,
+				35723F9E90CB25C525674D42DD17719F /* UITableView+ReuseIdentifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254739B785F23993375F869E78FD34C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C57AC1B079DBD5A5910873EA4FE09F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1B58C9322E8E27C3376E330C124FC7 /* CALayer+FSExtension.m in Sources */,
+				4814EE71271BC074621A5ABB07525ACF /* FSCalendar+IBExtension.m in Sources */,
+				7A779B7652F894A80FBCAF67E3E960FA /* FSCalendar-dummy.m in Sources */,
+				6ECD11C96CBDCA50F0331F3FBDAECE64 /* FSCalendar.m in Sources */,
+				785778BB36B2F9B21FAE5E476E1B6E2E /* FSCalendarAnimator.m in Sources */,
+				082C46A244A1077339875D1132DF9874 /* FSCalendarAppearance.m in Sources */,
+				21209814564B699E013C0579D7617C88 /* FSCalendarCell.m in Sources */,
+				DB0D7D2A2EDB8D6D5C18B850CB779F7B /* FSCalendarCollectionView.m in Sources */,
+				D4B2E79A7850584715A743A46D4EFA14 /* FSCalendarConstance.m in Sources */,
+				51D1AC1D010EA99E078E75C69C6D2111 /* FSCalendarEventIndicator.m in Sources */,
+				6C92086C1DC08BB2A45B0A66F839CA48 /* FSCalendarFlowLayout.m in Sources */,
+				3B202C12728218C238D98AEE659FF7D1 /* FSCalendarHeader.m in Sources */,
+				3CBF88CA2DE4F67B82C36AE6290DCC90 /* FSCalendarStickyHeader.m in Sources */,
+				9EFD5A3145CC48882E4B6F6A71EE1505 /* NSDate+FSExtension.m in Sources */,
+				078D4DF75013A50AAFBCC75467214CFB /* NSString+FSExtension.m in Sources */,
+				42E18A7773D704188DAE03B594B0B690 /* UIView+FSExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D5E78DD3559AE455DBAB0BD820215C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EDB380414B0E5EF1258D480A0C8B701 /* ChangePasscodeState.swift in Sources */,
+				E0111BB2402096122822D15CB1B72A89 /* ConfirmPasscodeState.swift in Sources */,
+				2F939CF983F67EB2902CC7E05CC26D78 /* EnterPasscodeState.swift in Sources */,
+				17AACDA4176BF53122DEE26E111B25BA /* Functions.swift in Sources */,
+				39148D23D5224E34F23101E605E6446E /* PasscodeLock-dummy.m in Sources */,
+				7ABFB401D28569E422CE656F7B16D85E /* PasscodeLock.swift in Sources */,
+				A3B06437EC5926482381251689914E76 /* PasscodeLockConfigurationType.swift in Sources */,
+				4715A472747706D3B189EBE61A88EBAB /* PasscodeLockPresenter.swift in Sources */,
+				B387995458AF0B6A16629D5743A37059 /* PasscodeLockStateType.swift in Sources */,
+				2F18AA2CC3416AEA6B7CAFBCEA74F58D /* PasscodeLockType.swift in Sources */,
+				094DC915B110D6B7018ABA03A5C0A046 /* PasscodeLockViewController.swift in Sources */,
+				0ED7D19B16C7F492A1B04EE62C195740 /* PasscodeRepositoryType.swift in Sources */,
+				0A2258B079C90FA54B04CD9C1E87093D /* PasscodeSignButton.swift in Sources */,
+				F1E66038537D98993633DB3320F8F5A1 /* PasscodeSignPlaceholderView.swift in Sources */,
+				5F4D35E6FE0D020D8E833454A229D585 /* SetPasscodeState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7E262E692DDC795EA090FF6079B55E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CA565CC2A7BC20BEA063F82D7FA3CC /* ArticleViewController.swift in Sources */,
+				C10D61600C6A487CA0252F899D751A44 /* DataSource.swift in Sources */,
+				A69318AD4F6FB4D85235C569B552A521 /* Document.swift in Sources */,
+				19773F31DFDCCD48D9EE19511D3B5260 /* ListViewController.swift in Sources */,
+				C67EE7A964FCB5DF6F2B690907968C2A /* Sherpa-dummy.m in Sources */,
+				36571E1BD182F51D893E068E2961644B /* SherpaViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F7C57233B09DE42D4A30763762020F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923963117F3FDD3F31E7F3453BD63F79 /* SwiftyUserDefaults-dummy.m in Sources */,
+				016C32FA241E98E2A0AD967B0983FBBA /* SwiftyUserDefaults.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AC0597E8A335EE2028170B25063D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890A37D70AE44A97BCAFEC5637C40661 /* Pods-Pelvic Floor FitbitTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88F2A0591A12DAB62E780327839D649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9653493316275DB55693DBADBEC5C5A9 /* Pods-Resolve Issues-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9689DDBBE1CBBB6FC570D359D784A16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2603F453D87394D4ADF6B6B2384F707 /* TableRow.swift in Sources */,
+				76A0E42854018ED8A3CE4F3FB1955260 /* TableSection.swift in Sources */,
+				17D7C14E87CA70E1CCA1B9730518EF63 /* TableViewModel-dummy.m in Sources */,
+				59D0C44703E328D5CBE51B612B15BEA9 /* TableViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F387F317126ABCF78A4BCEF886E63133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D6EE79F3E1CCFAC61218174FE61618 /* Pods-Pelvic Floor FitbitUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B3AC5A2DF5BF108584716151EB7B1C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSCalendar;
+			target = B2619B2813D910DBC9FE9714E0788D55 /* FSCalendar */;
+			targetProxy = 13949404DEAD03F5A78AE12F86B0E913 /* PBXContainerItemProxy */;
+		};
+		4CAE98808AD30B95B769AD9D40F3B5ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PasscodeLock;
+			target = 2A40BAC0F60288F9EE81B4B77874D321 /* PasscodeLock */;
+			targetProxy = BAD6304F6271096D9AA816803E3FAC4E /* PBXContainerItemProxy */;
+		};
+		56204FFAAB015B74F76CC369B9F02DE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TableViewModel;
+			target = DCF0ABD5469F46BADB187A7786962237 /* TableViewModel */;
+			targetProxy = 03AA19338106A2B112FE2517E1160239 /* PBXContainerItemProxy */;
+		};
+		B2470A0888895030170FBE5B4B9DFA01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TableViewModel-TableViewModel";
+			target = 4EB7382F04A9CDA2DE61BD4B65A5E33B /* TableViewModel-TableViewModel */;
+			targetProxy = CC1DEC4583FBBA5BBC31E18307FE4AE9 /* PBXContainerItemProxy */;
+		};
+		F3BF66DBE7198FAE65706707BC79A2D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyUserDefaults;
+			target = E6C13E3AA71EAAF3D002AB77D15F68D8 /* SwiftyUserDefaults */;
+			targetProxy = EBA1590EA8A34B65A2B32EA6E38FF9D2 /* PBXContainerItemProxy */;
+		};
+		FCAD29EA4ADDB7D6439BF7ECCB67AAD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sherpa;
+			target = 0BD3A93739908AECDF6C377AA5F5BBEA /* Sherpa */;
+			targetProxy = 00323923F6807F27E5166643CBFC84CE /* PBXContainerItemProxy */;
+		};
+		FFC538F2079994790CCC9D8991529B53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftySettings;
+			target = C834ECA638B32EFA1287A04183F72DE6 /* SwiftySettings */;
+			targetProxy = 3C69D80140A7A154EF95BE6E2AAEB562 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B5A40F242B78B655EEAA434780274F6 /* PasscodeLock.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD9CB22C67E4B7E03EAFDDDCC04B7645 /* PasscodeLock.strings */,
+			);
+			name = PasscodeLock.strings;
+			path = PasscodeLock;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06D27477DAA6867BD52E4085DADA3C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38FB7C3ED64BBCDBC73A194D877E18F /* Sherpa.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Sherpa/Sherpa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sherpa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sherpa/Sherpa.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Sherpa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A2B7CC7B87CD1FB49DFDDC57E047AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFBEF55F3C4696F1EE797C685F10F901 /* Pods-Resolve Issues.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Resolve Issues/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Resolve Issues/Pods-Resolve Issues.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Resolve_Issues;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C7F7DBCCCE1B633424AD1096AF492F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F52A0CB5914494A5E8A1353474E288 /* PasscodeLock.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PasscodeLock/PasscodeLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PasscodeLock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PasscodeLock/PasscodeLock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PasscodeLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2FE3253CE30017D2B0411D4F4F9991B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945853AE205EB94F363A006F7F4A23E0 /* TableViewModel.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TableViewModel";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TableViewModel/ResourceBundle-TableViewModel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TableViewModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2FE9926F9DD49C8D420E7937A396CFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945853AE205EB94F363A006F7F4A23E0 /* TableViewModel.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TableViewModel";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TableViewModel/ResourceBundle-TableViewModel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TableViewModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		373BB2F50BC2F72D976BA7C981510202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A7DF720A8CDCAC2E9E21BFAEF5F4B5 /* Pods-Pelvic Floor Fitbit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pelvic Floor Fitbit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pelvic Floor Fitbit/Pods-Pelvic Floor Fitbit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pelvic_Floor_Fitbit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41800CD782B9314FC1B7AA5F1A62D963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF79F327FD2E0E20D2DD51D42885B0B1 /* SwiftySettings.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftySettings/SwiftySettings-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftySettings/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftySettings/SwiftySettings.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftySettings;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4450C450612BD270182F16CE410CF797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAFE6CC82342CBA4FDCC38AD3D445AC3 /* SwiftyUserDefaults.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyUserDefaults/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyUserDefaults;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5FD133028FA69D2C577DCD3503F31114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A08989DB3E7EB4888A30AB5101BB92 /* Pods-Pelvic Floor FitbitTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pelvic Floor FitbitTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pelvic Floor FitbitTests/Pods-Pelvic Floor FitbitTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pelvic_Floor_FitbitTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A4B2B4EE39FB7347FE11E08CCBE456B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAFE6CC82342CBA4FDCC38AD3D445AC3 /* SwiftyUserDefaults.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyUserDefaults/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyUserDefaults;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C5ED500A43A3D10FE4D81D1CC909ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EE2F3670445E26F8A1B8B17DEEEA3A8 /* FSCalendar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B5033FE3D7D0BB5CA440D784D813780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D4933B01734F4E4CB6DD347AC196470 /* Pods-Pelvic Floor FitbitUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pelvic Floor FitbitUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pelvic Floor FitbitUITests/Pods-Pelvic Floor FitbitUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pelvic_Floor_FitbitUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A07156ACB02FCADC8AC2F6CEF860BD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB702D35A2FB28B12E85CC04494AF24F /* Pods-Pelvic Floor FitbitUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pelvic Floor FitbitUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pelvic Floor FitbitUITests/Pods-Pelvic Floor FitbitUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pelvic_Floor_FitbitUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A12375C27040B38B3420224D35131816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945853AE205EB94F363A006F7F4A23E0 /* TableViewModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TableViewModel/TableViewModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TableViewModel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TableViewModel/TableViewModel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TableViewModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADD0922FFEF01FEE58FF5183526DB2F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EE2F3670445E26F8A1B8B17DEEEA3A8 /* FSCalendar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0D65CFE547411091959BAF9F0DE45B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF79F327FD2E0E20D2DD51D42885B0B1 /* SwiftySettings.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftySettings/SwiftySettings-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftySettings/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftySettings/SwiftySettings.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftySettings;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5DCC53A76390C944918A39AE8D5E143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2487D43E19EDF872D7554CAA92AD4CE6 /* Pods-Pelvic Floor FitbitTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pelvic Floor FitbitTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pelvic Floor FitbitTests/Pods-Pelvic Floor FitbitTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pelvic_Floor_FitbitTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7DC03BAB21B479C6045EBFF9B09D735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945853AE205EB94F363A006F7F4A23E0 /* TableViewModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TableViewModel/TableViewModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TableViewModel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TableViewModel/TableViewModel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TableViewModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7AD8B9730AE1EB72712CF91D98A3319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA641CB368AD4ACCEB27730EE436BD6 /* Pods-Resolve Issues.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Resolve Issues/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Resolve Issues/Pods-Resolve Issues.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Resolve_Issues;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC2EF33E4039BCFD719F4DFEBCDB9A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38FB7C3ED64BBCDBC73A194D877E18F /* Sherpa.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Sherpa/Sherpa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sherpa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sherpa/Sherpa.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Sherpa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3DCC141E22B3BA50D89AA6A7CD2D312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A64E2A5735B59A0F8B7D73A4046F8EB /* Pods-Pelvic Floor Fitbit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pelvic Floor Fitbit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pelvic Floor Fitbit/Pods-Pelvic Floor Fitbit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pelvic_Floor_Fitbit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB6EB9D2A78ED49DB6226867D8C9A11E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F52A0CB5914494A5E8A1353474E288 /* PasscodeLock.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PasscodeLock/PasscodeLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PasscodeLock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PasscodeLock/PasscodeLock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PasscodeLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC001A30566FDD92794107F8758B99A /* Build configuration list for PBXNativeTarget "SwiftySettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D65CFE547411091959BAF9F0DE45B8 /* Debug */,
+				41800CD782B9314FC1B7AA5F1A62D963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		475199FF45F0BCEFFB9248E0A12EBCA6 /* Build configuration list for PBXNativeTarget "Pods-Pelvic Floor Fitbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3DCC141E22B3BA50D89AA6A7CD2D312 /* Debug */,
+				373BB2F50BC2F72D976BA7C981510202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591D2529E958243296D4D6B364D55429 /* Build configuration list for PBXNativeTarget "TableViewModel-TableViewModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE9926F9DD49C8D420E7937A396CFC6 /* Debug */,
+				2FE3253CE30017D2B0411D4F4F9991B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618489C2356AA9D25EB11948AFD2B687 /* Build configuration list for PBXNativeTarget "Sherpa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2EF33E4039BCFD719F4DFEBCDB9A2A /* Debug */,
+				06D27477DAA6867BD52E4085DADA3C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B79D9F8A7E384E347874E499DDAFA1 /* Build configuration list for PBXNativeTarget "Pods-Pelvic Floor FitbitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07156ACB02FCADC8AC2F6CEF860BD68 /* Debug */,
+				9B5033FE3D7D0BB5CA440D784D813780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D0EF9E904AA3CDA77884303335628B /* Build configuration list for PBXNativeTarget "Pods-Resolve Issues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2B7CC7B87CD1FB49DFDDC57E047AB0 /* Debug */,
+				D7AD8B9730AE1EB72712CF91D98A3319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B3873CFDFF162C3CD3993DB2BC3A1E0 /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4B2B4EE39FB7347FE11E08CCBE456B /* Debug */,
+				4450C450612BD270182F16CE410CF797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E66DDA4D9ACEE4559FE14589C5F582B /* Build configuration list for PBXNativeTarget "FSCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5ED500A43A3D10FE4D81D1CC909ABF /* Debug */,
+				ADD0922FFEF01FEE58FF5183526DB2F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FC78FD9691329B21E9B6EAA84E3FE4 /* Build configuration list for PBXNativeTarget "PasscodeLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6EB9D2A78ED49DB6226867D8C9A11E /* Debug */,
+				2C7F7DBCCCE1B633424AD1096AF492F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5E25D9B06A93077698E3AFA931C012 /* Build configuration list for PBXNativeTarget "Pods-Pelvic Floor FitbitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5DCC53A76390C944918A39AE8D5E143 /* Debug */,
+				5FD133028FA69D2C577DCD3503F31114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C96A150F8D6C91EADEBBBB09374985C8 /* Build configuration list for PBXNativeTarget "TableViewModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DC03BAB21B479C6045EBFF9B09D735 /* Debug */,
+				A12375C27040B38B3420224D35131816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

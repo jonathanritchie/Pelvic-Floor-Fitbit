@@ -3,17 +3,133 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Workout-->
+        <!--Activities-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="WorkoutViewController" customModule="Intim8" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="ActivitiesViewController" customModule="Pelvic_Floor_Fitbit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="sa0-Jt-DAX">
+                                <rect key="frame" x="0.0" y="20" width="600" height="531"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hkt-Tt-AUv">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Intim8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lfF-7W-4PF">
+                                                <rect key="frame" x="0.0" y="0.0" width="600" height="33"/>
+                                                <color key="backgroundColor" red="1" green="0.41025304540000002" blue="0.72661059120000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Your Activity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcE-Ha-Ic4">
+                                                <rect key="frame" x="0.0" y="43" width="600" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="1" green="0.41025304540000002" blue="0.72661059120000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Y9C-BB-ZUE">
+                                        <rect key="frame" x="0.0" y="64" width="600" height="467"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="YeN-Bo-ocm">
+                                                <rect key="frame" x="0.0" y="0.0" width="600" height="142"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gc-fR-nRs">
+                                                        <rect key="frame" x="0.0" y="0.0" width="290" height="142"/>
+                                                        <state key="normal" image="Chair-100"/>
+                                                        <connections>
+                                                            <action selector="activityButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="5d7-1L-2CB"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gj-6g-TtG">
+                                                        <rect key="frame" x="310" y="0.0" width="290" height="142"/>
+                                                        <state key="normal" image="Walking-100"/>
+                                                        <connections>
+                                                            <action selector="activityButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="sxc-uY-tzy"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="SGV-Eb-cnH">
+                                                <rect key="frame" x="0.0" y="162" width="600" height="143"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcM-sy-Z21">
+                                                        <rect key="frame" x="0.0" y="0.0" width="290" height="143"/>
+                                                        <state key="normal" image="Running-100"/>
+                                                        <connections>
+                                                            <action selector="activityButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="g9e-3k-HCq"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXd-p3-hnl">
+                                                        <rect key="frame" x="310" y="0.0" width="290" height="143"/>
+                                                        <state key="normal" image="Yoga-100"/>
+                                                        <connections>
+                                                            <action selector="activityButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="vvN-Iq-yoA"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="gCA-1S-wW8">
+                                                <rect key="frame" x="0.0" y="325" width="600" height="142"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKp-fp-CFk">
+                                                        <rect key="frame" x="0.0" y="0.0" width="290" height="142"/>
+                                                        <state key="normal" image="Dumbbell-100"/>
+                                                        <connections>
+                                                            <action selector="activityButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="hAU-J0-aqW"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xG3-Kq-1wI">
+                                                        <rect key="frame" x="310" y="0.0" width="290" height="142"/>
+                                                        <state key="normal" image="Recurring Appointment-100"/>
+                                                        <connections>
+                                                            <action selector="activityButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Ivk-O4-EYg"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="sa0-Jt-DAX" secondAttribute="leading" constant="20" id="Iek-dz-PFW"/>
+                            <constraint firstItem="sa0-Jt-DAX" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="K2W-BR-giv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sa0-Jt-DAX" secondAttribute="trailing" constant="-20" id="swD-2X-r7u"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="sa0-Jt-DAX" secondAttribute="bottom" id="xFH-pV-p9R"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Activities" image="Female Filled-50" id="acW-dT-cKf"/>
+                    <connections>
+                        <segue destination="lwL-gp-S8X" kind="showDetail" identifier="showConnectionView" id="FoS-Fs-opR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="-308"/>
+        </scene>
+        <!--Device Connect View Controller-->
+        <scene sceneID="YPT-az-BtZ">
+            <objects>
+                <viewController id="lwL-gp-S8X" customClass="DeviceConnectViewController" customModule="Pelvic_Floor_Fitbit" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BFC-bM-HaT"/>
+                        <viewControllerLayoutGuide type="bottom" id="PWj-eD-4tU"/>
+                    </layoutGuides>
+                    <view key="view" userInteractionEnabled="NO" contentMode="scaleToFill" id="bbb-YG-wt8" customClass="DeviceConnectViewController">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -25,56 +141,55 @@
                                 </state>
                                 <connections>
                                     <action selector="ConnectFitbitPressed" destination="9pv-A4-QxB" eventType="touchUpInside" id="yHz-iV-ic1"/>
-                                    <segue destination="lwL-gp-S8X" kind="showDetail" identifier="connectSearchSegue" id="nFr-Sg-oUl"/>
+                                    <segue destination="NhE-Nx-A58" kind="presentation" id="Sij-Fu-lZm"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="etx-06-ejY" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="Oz6-cC-y6S"/>
-                            <constraint firstItem="etx-06-ejY" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="kB8-bg-JQH"/>
+                            <constraint firstItem="etx-06-ejY" firstAttribute="centerY" secondItem="bbb-YG-wt8" secondAttribute="centerY" id="Hxi-sl-KKg"/>
+                            <constraint firstItem="etx-06-ejY" firstAttribute="centerX" secondItem="bbb-YG-wt8" secondAttribute="centerX" id="qJU-Ah-hwO"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Workout" image="Female Filled-50" id="acW-dT-cKf"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B2L-YG-dQ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-308"/>
+            <point key="canvasLocation" x="1558" y="-308"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="YPT-az-BtZ">
+        <!--Connect View Controller-->
+        <scene sceneID="sPO-Bi-YaN">
             <objects>
-                <viewController id="lwL-gp-S8X" sceneMemberID="viewController">
+                <viewController id="NhE-Nx-A58" customClass="ConnectViewController" customModule="Pelvic_Floor_Fitbit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="BFC-bM-HaT"/>
-                        <viewControllerLayoutGuide type="bottom" id="PWj-eD-4tU"/>
+                        <viewControllerLayoutGuide type="top" id="Bn7-f1-nfJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="afU-PG-AM5"/>
                     </layoutGuides>
-                    <view key="view" userInteractionEnabled="NO" contentMode="scaleToFill" id="bbb-YG-wt8" customClass="DeviceConnectViewController">
+                    <view key="view" contentMode="scaleToFill" id="0am-af-kgm">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Searching for Fitbit..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dgu-5U-P3R">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Searching for Fitbit..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z1v-3v-zUx">
                                 <rect key="frame" x="197" y="285" width="206" height="30"/>
-                                <color key="textColor" red="1" green="0.3641568401570533" blue="0.99466378041813697" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.41025304540000002" blue="0.72661059120000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="dgu-5U-P3R" firstAttribute="centerY" secondItem="bbb-YG-wt8" secondAttribute="centerY" id="U1o-cu-C88"/>
-                            <constraint firstItem="dgu-5U-P3R" firstAttribute="centerX" secondItem="bbb-YG-wt8" secondAttribute="centerX" id="W1s-sh-oge"/>
+                            <constraint firstItem="z1v-3v-zUx" firstAttribute="centerY" secondItem="0am-af-kgm" secondAttribute="centerY" id="a1L-Qe-i9b"/>
+                            <constraint firstItem="z1v-3v-zUx" firstAttribute="centerX" secondItem="0am-af-kgm" secondAttribute="centerX" id="iz6-8z-p4e"/>
                         </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="B2L-YG-dQ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hnc-SY-gdC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1480" y="-308"/>
+            <point key="canvasLocation" x="2354" y="-308"/>
         </scene>
-        <!--Calendar-->
+        <!--Data Source-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="CalendarViewController" customModule="Intim8" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="CalendarViewController" customModule="Pelvic_Floor_Fitbit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
@@ -82,9 +197,105 @@
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Pgg-zc-IL6">
+                                <rect key="frame" x="0.0" y="20" width="600" height="511"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="mY4-AF-8MC">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="441"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Intim8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNG-Zz-kAJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="600" height="33"/>
+                                                <color key="backgroundColor" red="1" green="0.41025304540000002" blue="0.72661059120000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Days to Add or Remove Workout Reminders" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8h-yN-SCP">
+                                                <rect key="frame" x="0.0" y="43" width="600" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="1" green="0.41025304540000002" blue="0.72661059120000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="87C-ZY-QqT" customClass="FSCalendar">
+                                                <rect key="frame" x="0.0" y="74" width="600" height="367"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="allowsMultipleSelection" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="allowsSelection" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="todayColor">
+                                                        <color key="value" red="1" green="0.41025304540000002" blue="0.72661059120000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="todaySelectionColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="selectionColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="titleTodayColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="titlePlaceholderColor">
+                                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="titleDefaultColor">
+                                                        <color key="value" red="1" green="0.41025304540000002" blue="0.72661059120000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="weekdayTextColor">
+                                                        <color key="value" red="0.00016025641025640969" green="6.6132065103379837e-05" blue="0.00011856687284381737" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="weekdayTextSize">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="adjustsFontSizeToFitContentSize" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="headerTitleColor">
+                                                        <color key="value" red="0.00016025641030000001" green="6.6132065099999999e-05" blue="0.0001185668728" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="eventColor">
+                                                        <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="8rJ-Kc-sve" id="6hr-K4-dv0"/>
+                                                    <outlet property="delegate" destination="8rJ-Kc-sve" id="rTW-ky-pec"/>
+                                                </connections>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hui-sc-JID">
+                                        <rect key="frame" x="0.0" y="461" width="600" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yaS-OO-IoP">
+                                                <rect key="frame" x="0.0" y="0.0" width="290" height="50"/>
+                                                <state key="normal" image="Minus Filled-100"/>
+                                                <connections>
+                                                    <action selector="removeReminderButtonPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="wmt-xb-G23"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTO-zZ-d1Q">
+                                                <rect key="frame" x="310" y="0.0" width="290" height="50"/>
+                                                <state key="normal" image="Plus Filled-100"/>
+                                                <connections>
+                                                    <action selector="addReminderButtonPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Yg3-qR-Yx8"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Pgg-zc-IL6" secondAttribute="trailing" constant="-20" id="ADW-Mn-GnQ"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="Pgg-zc-IL6" secondAttribute="bottom" constant="20" id="RgB-q7-e70"/>
+                            <constraint firstItem="Pgg-zc-IL6" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="-20" id="pbn-h1-DkF"/>
+                            <constraint firstItem="Pgg-zc-IL6" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="rgy-Gi-FkD"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Calendar" image="Calendar Filled-50" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="calendar" destination="87C-ZY-QqT" id="sVL-2f-Sz5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -93,7 +304,7 @@
         <!--History-->
         <scene sceneID="xa3-QH-gAm">
             <objects>
-                <viewController id="duF-X7-hmP" sceneMemberID="viewController">
+                <viewController id="duF-X7-hmP" customClass="HistoryListViewController" customModule="Pelvic_Floor_Fitbit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1Ae-yg-FeI"/>
                         <viewControllerLayoutGuide type="bottom" id="kfQ-dc-ims"/>
@@ -101,10 +312,37 @@
                     <view key="view" contentMode="scaleToFill" id="4Wb-gC-nfS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Jvp-OV-pJT">
+                                <rect key="frame" x="0.0" y="20" width="600" height="531"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Intim8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVg-fC-qLL">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="33"/>
+                                        <color key="backgroundColor" red="1" green="0.41025304540000002" blue="0.72661059120000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Cae-Kn-Ahx">
+                                        <rect key="frame" x="0.0" y="33" width="600" height="498"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </tableView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Jvp-OV-pJT" firstAttribute="leading" secondItem="4Wb-gC-nfS" secondAttribute="leadingMargin" constant="-20" id="Mr2-PY-1z6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Jvp-OV-pJT" secondAttribute="trailing" constant="-20" id="aRe-zl-ecg"/>
+                            <constraint firstItem="Jvp-OV-pJT" firstAttribute="top" secondItem="1Ae-yg-FeI" secondAttribute="bottom" id="cwZ-Aj-jod"/>
+                            <constraint firstItem="kfQ-dc-ims" firstAttribute="top" secondItem="Jvp-OV-pJT" secondAttribute="bottom" id="exE-Oi-rmD"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="History" image="Clock Filled-50" id="SJN-S8-c8m"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="Cae-Kn-Ahx" id="ZPM-Ay-hrV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5td-gr-gZa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -113,7 +351,7 @@
         <!--Settings-->
         <scene sceneID="MW2-un-vtn">
             <objects>
-                <viewController id="7dd-H9-eMY" sceneMemberID="viewController">
+                <viewController id="7dd-H9-eMY" customClass="ExampleSettingsController" customModule="Pelvic_Floor_Fitbit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uqx-rP-gOH"/>
                         <viewControllerLayoutGuide type="bottom" id="tgF-5g-Fm9"/>
@@ -130,10 +368,10 @@
             </objects>
             <point key="canvasLocation" x="750" y="1724"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController id="49e-Tb-3d3" customClass="TabBar" customModule="Pelvic_Floor_Fitbit" customModuleProvider="target" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
@@ -154,9 +392,18 @@
     </scenes>
     <resources>
         <image name="Calendar Filled-50" width="25" height="25"/>
+        <image name="Chair-100" width="100" height="100"/>
         <image name="Clock Filled-50" width="25" height="25"/>
+        <image name="Dumbbell-100" width="100" height="100"/>
         <image name="Female Filled-50" width="25" height="25"/>
         <image name="Link Filled-50" width="25" height="25"/>
+        <image name="Minus Filled-100" width="50" height="50"/>
+        <image name="Plus Filled-100" width="50" height="50"/>
+        <image name="Recurring Appointment-100" width="100" height="100"/>
+        <image name="Running-100" width="100" height="100"/>
         <image name="Settings Filled-50" width="25" height="25"/>
+        <image name="Walking-100" width="100" height="100"/>
+        <image name="Yoga-100" width="100" height="100"/>
     </resources>
+    <color key="tintColor" red="1" green="0.41025304540000002" blue="0.72661059120000004" alpha="1" colorSpace="calibratedRGB"/>
 </document>

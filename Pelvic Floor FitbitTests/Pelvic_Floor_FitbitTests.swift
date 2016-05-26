@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import Pelvic_Floor_Fitbit
 
 class Pelvic_Floor_FitbitTests: XCTestCase {
     

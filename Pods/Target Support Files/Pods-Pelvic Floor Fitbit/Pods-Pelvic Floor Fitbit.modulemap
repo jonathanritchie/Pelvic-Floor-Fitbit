@@ -1,0 +1,6 @@
+framework module Pods_Pelvic_Floor_Fitbit {
+  umbrella header "Pods-Pelvic Floor Fitbit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pelvic Floor Fitbit/AppDelegate.swift"
+            timestampString = "485405046.731361"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pelvic_Floor_Fitbit.AppDelegate.passcodeLockPresenter.getter : PasscodeLock.PasscodeLockPresenter"
+                  moduleName = "Pelvic Floor Fitbit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathanritchie/Documents/App%20Development/Pelvic%20Floor%20Fitbit/Pelvic%20Floor%20Fitbit/AppDelegate.swift"
+                  timestampString = "485406639.880583"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pelvic_Floor_Fitbit.AppDelegate.passcodeLockPresenter.setter : PasscodeLock.PasscodeLockPresenter"
+                  moduleName = "Pelvic Floor Fitbit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathanritchie/Documents/App%20Development/Pelvic%20Floor%20Fitbit/Pelvic%20Floor%20Fitbit/AppDelegate.swift"
+                  timestampString = "485406639.880956"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pelvic_Floor_Fitbit.AppDelegate.init () -&gt; Pelvic_Floor_Fitbit.AppDelegate"
+                  moduleName = "Pelvic Floor Fitbit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathanritchie/Documents/App%20Development/Pelvic%20Floor%20Fitbit/Pelvic%20Floor%20Fitbit/AppDelegate.swift"
+                  timestampString = "485406639.881161"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pelvic_Floor_Fitbit.AppDelegate.(passcodeLockPresenter.getter : PasscodeLock.PasscodeLockPresenter).(closure #1)"
+                  moduleName = "Pelvic Floor Fitbit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathanritchie/Documents/App%20Development/Pelvic%20Floor%20Fitbit/Pelvic%20Floor%20Fitbit/AppDelegate.swift"
+                  timestampString = "485406639.881345"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pelvic Floor Fitbit/CalendarViewController.swift"
+            timestampString = "485916594.270002"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "deselectDays(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pelvic Floor Fitbit/CalendarViewController.swift"
+            timestampString = "485916446.458449"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "addReminderButtonPressed(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Downloads/ios-sherpa-master/src/Sherpa/Document.swift"
+            timestampString = "485922328.454774"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "Document"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

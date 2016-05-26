@@ -7,19 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7878596A9E82CA647B7E973A /* Pods_Resolve_Issues.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97A22FBB6DE983734383386 /* Pods_Resolve_Issues.framework */; };
+		7A523BDB0B9A2F907AE2342D /* Pods_Pelvic_Floor_Fitbit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3866B030C17F44AD1D31C9 /* Pods_Pelvic_Floor_Fitbit.framework */; };
+		970D612C1CF3E4E600531FA0 /* ExampleSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D612B1CF3E4E600531FA0 /* ExampleSettingsController.swift */; };
+		973665BE1CEE88E70049C2E6 /* PasscodeRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973665BD1CEE88E70049C2E6 /* PasscodeRepositoryType.swift */; };
 		9766566B1CEB36860045CBEF /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766566A1CEB36860045CBEF /* BluetoothManager.swift */; };
 		9766566D1CEB44CE0045CBEF /* DeviceConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766566C1CEB44CE0045CBEF /* DeviceConnectViewController.swift */; };
+		97A5A6041CF4125600E6041E /* HistoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A6031CF4125600E6041E /* HistoryListViewController.swift */; };
+		97A5A6201CF520A500E6041E /* FeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97A5A61A1CF520A500E6041E /* FeedCell.xib */; };
+		97A5A6211CF520A500E6041E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A61B1CF520A500E6041E /* FeedCell.swift */; };
+		97A5A6221CF520A500E6041E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A61C1CF520A500E6041E /* User.swift */; };
+		97A5A6251CF520A500E6041E /* SpacerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97A5A61F1CF520A500E6041E /* SpacerCell.xib */; };
+		97A5A6271CF520E900E6041E /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A6261CF520E900E6041E /* FeedItem.swift */; };
+		97A5A6291CF5296300E6041E /* PasscodeLockConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A6281CF5296300E6041E /* PasscodeLockConfiguration.swift */; };
+		97A5A62B1CF55DE700E6041E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97A5A62A1CF55DE600E6041E /* Images.xcassets */; };
+		97A5A62D1CF5C4D400E6041E /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A62C1CF5C4D300E6041E /* ActivitiesViewController.swift */; };
+		97A5A6411CF69BA100E6041E /* UserGuide.json in Resources */ = {isa = PBXBuildFile; fileRef = 97A5A6401CF69BA000E6041E /* UserGuide.json */; };
+		97A5A6471CF6ABA300E6041E /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A6461CF6ABA300E6041E /* TabBar.swift */; };
+		97A5A6491CF6CB7B00E6041E /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A6481CF6CB7B00E6041E /* ConnectViewController.swift */; };
 		97CCDF471CE997B7009E8AA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF461CE997B7009E8AA3 /* AppDelegate.swift */; };
 		97CCDF491CE997B7009E8AA3 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF481CE997B7009E8AA3 /* WorkoutViewController.swift */; };
 		97CCDF4B1CE997B7009E8AA3 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF4A1CE997B7009E8AA3 /* CalendarViewController.swift */; };
 		97CCDF4E1CE997B7009E8AA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CCDF4C1CE997B7009E8AA3 /* Main.storyboard */; };
-		97CCDF501CE997B7009E8AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97CCDF4F1CE997B7009E8AA3 /* Assets.xcassets */; };
 		97CCDF531CE997B7009E8AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CCDF511CE997B7009E8AA3 /* LaunchScreen.storyboard */; };
 		97CCDF5E1CE997B7009E8AA3 /* Pelvic_Floor_FitbitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF5D1CE997B7009E8AA3 /* Pelvic_Floor_FitbitTests.swift */; };
 		97CCDF691CE997B7009E8AA3 /* Pelvic_Floor_FitbitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCDF681CE997B7009E8AA3 /* Pelvic_Floor_FitbitUITests.swift */; };
+		EB9477CE6C1108E1039E7652 /* Pods_Pelvic_Floor_FitbitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C631819E6B716D09C53A96D9 /* Pods_Pelvic_Floor_FitbitTests.framework */; };
+		FA4798831943F2133D93D635 /* Pods_Pelvic_Floor_FitbitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D88F0A2F064833B276947D5 /* Pods_Pelvic_Floor_FitbitUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		979A80071CEDDD1200D419C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97CCDF3B1CE997B7009E8AA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97CCDF421CE997B7009E8AA3;
+			remoteInfo = "Pelvic Floor Fitbit";
+		};
 		97CCDF5A1CE997B7009E8AA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 97CCDF3B1CE997B7009E8AA3 /* Project object */;
@@ -37,14 +61,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A3866B030C17F44AD1D31C9 /* Pods_Pelvic_Floor_Fitbit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pelvic_Floor_Fitbit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D88F0A2F064833B276947D5 /* Pods_Pelvic_Floor_FitbitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pelvic_Floor_FitbitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		281EA4F7559FBE7D918ABE24 /* Pods-Pelvic Floor Fitbit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelvic Floor Fitbit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pelvic Floor Fitbit/Pods-Pelvic Floor Fitbit.release.xcconfig"; sourceTree = "<group>"; };
+		323F9C94A4336FD7AAC9D4A1 /* Pods-Pelvic Floor FitbitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelvic Floor FitbitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pelvic Floor FitbitTests/Pods-Pelvic Floor FitbitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4826BD7A2E9BA2B7DC5E731C /* Pods-Pelvic Floor FitbitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelvic Floor FitbitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pelvic Floor FitbitUITests/Pods-Pelvic Floor FitbitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7475083E64A8C4F174E1866F /* Pods-Resolve Issues.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resolve Issues.release.xcconfig"; path = "Pods/Target Support Files/Pods-Resolve Issues/Pods-Resolve Issues.release.xcconfig"; sourceTree = "<group>"; };
+		7C811A0509DD6919F780AB80 /* Pods-Resolve Issues.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resolve Issues.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Resolve Issues/Pods-Resolve Issues.debug.xcconfig"; sourceTree = "<group>"; };
+		8B3183CD227381D4673D54FA /* Pods-Pelvic Floor FitbitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelvic Floor FitbitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pelvic Floor FitbitUITests/Pods-Pelvic Floor FitbitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		970D612B1CF3E4E600531FA0 /* ExampleSettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleSettingsController.swift; sourceTree = "<group>"; };
+		973665BD1CEE88E70049C2E6 /* PasscodeRepositoryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeRepositoryType.swift; sourceTree = "<group>"; };
+		973665C11CEEAEF50049C2E6 /* PelvicFloorFitbit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PelvicFloorFitbit-Bridging-Header.h"; sourceTree = "<group>"; };
 		9766566A1CEB36860045CBEF /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BluetoothManager.swift; path = "Pelvic Floor Fitbit/BluetoothManager.swift"; sourceTree = SOURCE_ROOT; };
 		9766566C1CEB44CE0045CBEF /* DeviceConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceConnectViewController.swift; sourceTree = "<group>"; };
+		979A80021CEDDD1200D419C1 /* Resolve Issues.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Resolve Issues.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A5A6031CF4125600E6041E /* HistoryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryListViewController.swift; sourceTree = "<group>"; };
+		97A5A61A1CF520A500E6041E /* FeedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FeedCell.xib; path = "../../../../Downloads/TableViewModel-master/Example/TableViewModel/FeedExample/FeedCell.xib"; sourceTree = "<group>"; };
+		97A5A61B1CF520A500E6041E /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedCell.swift; path = "../../../../Downloads/TableViewModel-master/Example/TableViewModel/FeedExample/FeedCell.swift"; sourceTree = "<group>"; };
+		97A5A61C1CF520A500E6041E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = "../../../../Downloads/TableViewModel-master/Example/TableViewModel/FeedExample/User.swift"; sourceTree = "<group>"; };
+		97A5A61F1CF520A500E6041E /* SpacerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SpacerCell.xib; path = "../../../../Downloads/TableViewModel-master/Example/TableViewModel/FeedExample/SpacerCell.xib"; sourceTree = "<group>"; };
+		97A5A6261CF520E900E6041E /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedItem.swift; path = "../../../../Downloads/TableViewModel-master/Example/TableViewModel/FeedExample/Model/FeedItem.swift"; sourceTree = "<group>"; };
+		97A5A6281CF5296300E6041E /* PasscodeLockConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasscodeLockConfiguration.swift; path = ../PasscodeLockConfiguration.swift; sourceTree = "<group>"; };
+		97A5A62A1CF55DE600E6041E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Images.xcassets/Images.xcassets; sourceTree = "<group>"; };
+		97A5A62C1CF5C4D300E6041E /* ActivitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
+		97A5A6401CF69BA000E6041E /* UserGuide.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = UserGuide.json; path = "../../../../Downloads/ios-sherpa-master/example/SherpaExample/UserGuide.json"; sourceTree = "<group>"; };
+		97A5A6461CF6ABA300E6041E /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		97A5A6481CF6CB7B00E6041E /* ConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
 		97CCDF431CE997B7009E8AA3 /* Pelvic Floor Fitbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pelvic Floor Fitbit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CCDF461CE997B7009E8AA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97CCDF481CE997B7009E8AA3 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WorkoutViewController.swift; path = "Pelvic Floor Fitbit/WorkoutViewController.swift"; sourceTree = SOURCE_ROOT; };
 		97CCDF4A1CE997B7009E8AA3 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		97CCDF4D1CE997B7009E8AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		97CCDF4F1CE997B7009E8AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97CCDF521CE997B7009E8AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97CCDF541CE997B7009E8AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97CCDF591CE997B7009E8AA3 /* Pelvic Floor Fitbit.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pelvic Floor Fitbit.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,13 +101,26 @@
 		97CCDF681CE997B7009E8AA3 /* Pelvic_Floor_FitbitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pelvic_Floor_FitbitUITests.swift; sourceTree = "<group>"; };
 		97CCDF6A1CE997B7009E8AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97CCDF781CE9E4E4009E8AA3 /* Pelvic Floor Fitbit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Pelvic Floor Fitbit.entitlements"; sourceTree = "<group>"; };
+		9AC3F81815CFCFEBB8E973DE /* Pods-Pelvic Floor Fitbit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelvic Floor Fitbit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pelvic Floor Fitbit/Pods-Pelvic Floor Fitbit.debug.xcconfig"; sourceTree = "<group>"; };
+		C1504D5DAF3A6171AF579F6C /* Pods-Pelvic Floor FitbitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelvic Floor FitbitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pelvic Floor FitbitTests/Pods-Pelvic Floor FitbitTests.release.xcconfig"; sourceTree = "<group>"; };
+		C631819E6B716D09C53A96D9 /* Pods_Pelvic_Floor_FitbitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pelvic_Floor_FitbitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97A22FBB6DE983734383386 /* Pods_Resolve_Issues.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resolve_Issues.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		979A7FFF1CEDDD1200D419C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7878596A9E82CA647B7E973A /* Pods_Resolve_Issues.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97CCDF401CE997B7009E8AA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A523BDB0B9A2F907AE2342D /* Pods_Pelvic_Floor_Fitbit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB9477CE6C1108E1039E7652 /* Pods_Pelvic_Floor_FitbitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +136,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4798831943F2133D93D635 /* Pods_Pelvic_Floor_FitbitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		149674264F05E9637E3850D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A3866B030C17F44AD1D31C9 /* Pods_Pelvic_Floor_Fitbit.framework */,
+				C631819E6B716D09C53A96D9 /* Pods_Pelvic_Floor_FitbitTests.framework */,
+				0D88F0A2F064833B276947D5 /* Pods_Pelvic_Floor_FitbitUITests.framework */,
+				C97A22FBB6DE983734383386 /* Pods_Resolve_Issues.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97A5A6191CF5209500E6041E /* History */ = {
+			isa = PBXGroup;
+			children = (
+				97A5A61A1CF520A500E6041E /* FeedCell.xib */,
+				97A5A61B1CF520A500E6041E /* FeedCell.swift */,
+				97A5A61C1CF520A500E6041E /* User.swift */,
+				97A5A6261CF520E900E6041E /* FeedItem.swift */,
+				97A5A61F1CF520A500E6041E /* SpacerCell.xib */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
 		97CCDF3A1CE997B6009E8AA3 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +173,8 @@
 				97CCDF5C1CE997B7009E8AA3 /* Pelvic Floor FitbitTests */,
 				97CCDF671CE997B7009E8AA3 /* Pelvic Floor FitbitUITests */,
 				97CCDF441CE997B7009E8AA3 /* Products */,
+				D4FBECA866AC3C953DDEAE86 /* Pods */,
+				149674264F05E9637E3850D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +184,7 @@
 				97CCDF431CE997B7009E8AA3 /* Pelvic Floor Fitbit.app */,
 				97CCDF591CE997B7009E8AA3 /* Pelvic Floor Fitbit.xctest */,
 				97CCDF641CE997B7009E8AA3 /* Pelvic Floor Fitbit.xctest */,
+				979A80021CEDDD1200D419C1 /* Resolve Issues.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,14 +192,24 @@
 		97CCDF451CE997B7009E8AA3 /* Pelvic Floor Fitbit */ = {
 			isa = PBXGroup;
 			children = (
+				97A5A6191CF5209500E6041E /* History */,
 				97CCDF781CE9E4E4009E8AA3 /* Pelvic Floor Fitbit.entitlements */,
 				9766566A1CEB36860045CBEF /* BluetoothManager.swift */,
+				97A5A6461CF6ABA300E6041E /* TabBar.swift */,
 				97CCDF461CE997B7009E8AA3 /* AppDelegate.swift */,
 				97CCDF481CE997B7009E8AA3 /* WorkoutViewController.swift */,
+				973665BD1CEE88E70049C2E6 /* PasscodeRepositoryType.swift */,
 				9766566C1CEB44CE0045CBEF /* DeviceConnectViewController.swift */,
+				97A5A6281CF5296300E6041E /* PasscodeLockConfiguration.swift */,
+				973665C11CEEAEF50049C2E6 /* PelvicFloorFitbit-Bridging-Header.h */,
+				97A5A6401CF69BA000E6041E /* UserGuide.json */,
 				97CCDF4A1CE997B7009E8AA3 /* CalendarViewController.swift */,
 				97CCDF4C1CE997B7009E8AA3 /* Main.storyboard */,
-				97CCDF4F1CE997B7009E8AA3 /* Assets.xcassets */,
+				97A5A6481CF6CB7B00E6041E /* ConnectViewController.swift */,
+				97A5A62C1CF5C4D300E6041E /* ActivitiesViewController.swift */,
+				97A5A62A1CF55DE600E6041E /* Images.xcassets */,
+				970D612B1CF3E4E600531FA0 /* ExampleSettingsController.swift */,
+				97A5A6031CF4125600E6041E /* HistoryListViewController.swift */,
 				97CCDF511CE997B7009E8AA3 /* LaunchScreen.storyboard */,
 				97CCDF541CE997B7009E8AA3 /* Info.plist */,
 			);
@@ -136,16 +234,55 @@
 			path = "Pelvic Floor FitbitUITests";
 			sourceTree = "<group>";
 		};
+		D4FBECA866AC3C953DDEAE86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AC3F81815CFCFEBB8E973DE /* Pods-Pelvic Floor Fitbit.debug.xcconfig */,
+				281EA4F7559FBE7D918ABE24 /* Pods-Pelvic Floor Fitbit.release.xcconfig */,
+				323F9C94A4336FD7AAC9D4A1 /* Pods-Pelvic Floor FitbitTests.debug.xcconfig */,
+				C1504D5DAF3A6171AF579F6C /* Pods-Pelvic Floor FitbitTests.release.xcconfig */,
+				4826BD7A2E9BA2B7DC5E731C /* Pods-Pelvic Floor FitbitUITests.debug.xcconfig */,
+				8B3183CD227381D4673D54FA /* Pods-Pelvic Floor FitbitUITests.release.xcconfig */,
+				7C811A0509DD6919F780AB80 /* Pods-Resolve Issues.debug.xcconfig */,
+				7475083E64A8C4F174E1866F /* Pods-Resolve Issues.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		979A80011CEDDD1200D419C1 /* Resolve Issues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979A80091CEDDD1200D419C1 /* Build configuration list for PBXNativeTarget "Resolve Issues" */;
+			buildPhases = (
+				5DEC2C49B0028CA4C5EDC75E /* 📦 Check Pods Manifest.lock */,
+				979A7FFE1CEDDD1200D419C1 /* Sources */,
+				979A7FFF1CEDDD1200D419C1 /* Frameworks */,
+				979A80001CEDDD1200D419C1 /* Resources */,
+				FBA333FBF662EE4A457AF2C2 /* 📦 Embed Pods Frameworks */,
+				58D0AE46D51B9B5F39A723BA /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979A80081CEDDD1200D419C1 /* PBXTargetDependency */,
+			);
+			name = "Resolve Issues";
+			productName = "Resolve Issues";
+			productReference = 979A80021CEDDD1200D419C1 /* Resolve Issues.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		97CCDF421CE997B7009E8AA3 /* Pelvic Floor Fitbit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97CCDF6D1CE997B7009E8AA3 /* Build configuration list for PBXNativeTarget "Pelvic Floor Fitbit" */;
 			buildPhases = (
+				262E019C635436C37802AB5B /* 📦 Check Pods Manifest.lock */,
 				97CCDF3F1CE997B7009E8AA3 /* Sources */,
 				97CCDF401CE997B7009E8AA3 /* Frameworks */,
 				97CCDF411CE997B7009E8AA3 /* Resources */,
+				E4AFF3696F6107F83C174BFC /* 📦 Embed Pods Frameworks */,
+				6A812AD86CA16C5575E06529 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,9 +297,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97CCDF701CE997B7009E8AA3 /* Build configuration list for PBXNativeTarget "Pelvic Floor FitbitTests" */;
 			buildPhases = (
+				223C8C1BA38A646DA2C2A84E /* 📦 Check Pods Manifest.lock */,
 				97CCDF551CE997B7009E8AA3 /* Sources */,
 				97CCDF561CE997B7009E8AA3 /* Frameworks */,
 				97CCDF571CE997B7009E8AA3 /* Resources */,
+				F3061098D461F3780C7CEB2A /* 📦 Embed Pods Frameworks */,
+				F7B53200E106FC53891E7182 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,9 +318,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97CCDF731CE997B7009E8AA3 /* Build configuration list for PBXNativeTarget "Pelvic Floor FitbitUITests" */;
 			buildPhases = (
+				2103FEF00C45CAC548F307EE /* 📦 Check Pods Manifest.lock */,
 				97CCDF601CE997B7009E8AA3 /* Sources */,
 				97CCDF611CE997B7009E8AA3 /* Frameworks */,
 				97CCDF621CE997B7009E8AA3 /* Resources */,
+				E6D3F815AC522EE44B1400C8 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,8 +344,14 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Jonathan Ritchie";
 				TargetAttributes = {
+					979A80011CEDDD1200D419C1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SHAQC265VT;
+						TestTargetID = 97CCDF421CE997B7009E8AA3;
+					};
 					97CCDF421CE997B7009E8AA3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SHAQC265VT;
 						SystemCapabilities = {
 							com.apple.HealthKit = {
 								enabled = 0;
@@ -238,18 +386,29 @@
 				97CCDF421CE997B7009E8AA3 /* Pelvic Floor Fitbit */,
 				97CCDF581CE997B7009E8AA3 /* Pelvic Floor FitbitTests */,
 				97CCDF631CE997B7009E8AA3 /* Pelvic Floor FitbitUITests */,
+				979A80011CEDDD1200D419C1 /* Resolve Issues */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		979A80001CEDDD1200D419C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97CCDF411CE997B7009E8AA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				97CCDF531CE997B7009E8AA3 /* LaunchScreen.storyboard in Resources */,
-				97CCDF501CE997B7009E8AA3 /* Assets.xcassets in Resources */,
+				97A5A62B1CF55DE700E6041E /* Images.xcassets in Resources */,
+				97A5A6201CF520A500E6041E /* FeedCell.xib in Resources */,
+				97A5A6411CF69BA100E6041E /* UserGuide.json in Resources */,
 				97CCDF4E1CE997B7009E8AA3 /* Main.storyboard in Resources */,
+				97A5A6251CF520A500E6041E /* SpacerCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,16 +428,201 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2103FEF00C45CAC548F307EE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		223C8C1BA38A646DA2C2A84E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		262E019C635436C37802AB5B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		58D0AE46D51B9B5F39A723BA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Resolve Issues/Pods-Resolve Issues-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DEC2C49B0028CA4C5EDC75E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A812AD86CA16C5575E06529 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pelvic Floor Fitbit/Pods-Pelvic Floor Fitbit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4AFF3696F6107F83C174BFC /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pelvic Floor Fitbit/Pods-Pelvic Floor Fitbit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6D3F815AC522EE44B1400C8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pelvic Floor FitbitUITests/Pods-Pelvic Floor FitbitUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3061098D461F3780C7CEB2A /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pelvic Floor FitbitTests/Pods-Pelvic Floor FitbitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7B53200E106FC53891E7182 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pelvic Floor FitbitTests/Pods-Pelvic Floor FitbitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBA333FBF662EE4A457AF2C2 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Resolve Issues/Pods-Resolve Issues-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		979A7FFE1CEDDD1200D419C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97CCDF3F1CE997B7009E8AA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97A5A6491CF6CB7B00E6041E /* ConnectViewController.swift in Sources */,
 				9766566D1CEB44CE0045CBEF /* DeviceConnectViewController.swift in Sources */,
+				97A5A6291CF5296300E6041E /* PasscodeLockConfiguration.swift in Sources */,
+				97A5A6211CF520A500E6041E /* FeedCell.swift in Sources */,
+				973665BE1CEE88E70049C2E6 /* PasscodeRepositoryType.swift in Sources */,
+				97A5A62D1CF5C4D400E6041E /* ActivitiesViewController.swift in Sources */,
 				97CCDF4B1CE997B7009E8AA3 /* CalendarViewController.swift in Sources */,
 				97CCDF471CE997B7009E8AA3 /* AppDelegate.swift in Sources */,
 				9766566B1CEB36860045CBEF /* BluetoothManager.swift in Sources */,
+				97A5A6471CF6ABA300E6041E /* TabBar.swift in Sources */,
 				97CCDF491CE997B7009E8AA3 /* WorkoutViewController.swift in Sources */,
+				97A5A6271CF520E900E6041E /* FeedItem.swift in Sources */,
+				970D612C1CF3E4E600531FA0 /* ExampleSettingsController.swift in Sources */,
+				97A5A6041CF4125600E6041E /* HistoryListViewController.swift in Sources */,
+				97A5A6221CF520A500E6041E /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +645,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		979A80081CEDDD1200D419C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97CCDF421CE997B7009E8AA3 /* Pelvic Floor Fitbit */;
+			targetProxy = 979A80071CEDDD1200D419C1 /* PBXContainerItemProxy */;
+		};
 		97CCDF5B1CE997B7009E8AA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 97CCDF421CE997B7009E8AA3 /* Pelvic Floor Fitbit */;
@@ -333,6 +682,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		979A800A1CEDDD1200D419C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C811A0509DD6919F780AB80 /* Pods-Resolve Issues.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Resolve Issues/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unisolutions.jnritchie.Resolve-Issues";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pelvic Floor Fitbit.app/Pelvic Floor Fitbit";
+			};
+			name = Debug;
+		};
+		979A800B1CEDDD1200D419C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7475083E64A8C4F174E1866F /* Pods-Resolve Issues.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Resolve Issues/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unisolutions.jnritchie.Resolve-Issues";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pelvic Floor Fitbit.app/Pelvic Floor Fitbit";
+			};
+			name = Release;
+		};
 		97CCDF6B1CE997B7009E8AA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -374,6 +749,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Pelvic Floor Fitbit/PelvicFloorFitbit-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -412,90 +788,95 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Pelvic Floor Fitbit/PelvicFloorFitbit-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		97CCDF6E1CE997B7009E8AA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC3F81815CFCFEBB8E973DE /* Pods-Pelvic Floor Fitbit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = "Pelvic Floor Fitbit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.unisolutions.jnritchie.Pelvic-Floor-Fitbit";
 				PRODUCT_NAME = "Pelvic Floor Fitbit";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Pelvic Floor Fitbit/PelvicFloorFitbit-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		97CCDF6F1CE997B7009E8AA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 281EA4F7559FBE7D918ABE24 /* Pods-Pelvic Floor Fitbit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = "Pelvic Floor Fitbit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.unisolutions.jnritchie.Pelvic-Floor-Fitbit";
 				PRODUCT_NAME = "Pelvic Floor Fitbit";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Pelvic Floor Fitbit/PelvicFloorFitbit-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		97CCDF711CE997B7009E8AA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 323F9C94A4336FD7AAC9D4A1 /* Pods-Pelvic Floor FitbitTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Pelvic Floor FitbitTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.unisolutions.jnritchie.Pelvic-Floor-FitbitTests";
 				PRODUCT_NAME = "Pelvic Floor Fitbit";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Pelvic Floor Fitbit/PelvicFloorFitbit-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pelvic Floor Fitbit.app/Pelvic Floor Fitbit";
 			};
 			name = Debug;
 		};
 		97CCDF721CE997B7009E8AA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1504D5DAF3A6171AF579F6C /* Pods-Pelvic Floor FitbitTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Pelvic Floor FitbitTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.unisolutions.jnritchie.Pelvic-Floor-FitbitTests";
 				PRODUCT_NAME = "Pelvic Floor Fitbit";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Pelvic Floor Fitbit/PelvicFloorFitbit-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pelvic Floor Fitbit.app/Pelvic Floor Fitbit";
 			};
 			name = Release;
 		};
 		97CCDF741CE997B7009E8AA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4826BD7A2E9BA2B7DC5E731C /* Pods-Pelvic Floor FitbitUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Pelvic Floor FitbitUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.unisolutions.jnritchie.Pelvic-Floor-FitbitUITests";
 				PRODUCT_NAME = "Pelvic Floor Fitbit";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Pelvic Floor Fitbit/PelvicFloorFitbit-Bridging-Header.h";
 				TEST_TARGET_NAME = "Pelvic Floor Fitbit";
 			};
 			name = Debug;
 		};
 		97CCDF751CE997B7009E8AA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3183CD227381D4673D54FA /* Pods-Pelvic Floor FitbitUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Pelvic Floor FitbitUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.unisolutions.jnritchie.Pelvic-Floor-FitbitUITests";
 				PRODUCT_NAME = "Pelvic Floor Fitbit";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Pelvic Floor Fitbit/PelvicFloorFitbit-Bridging-Header.h";
 				TEST_TARGET_NAME = "Pelvic Floor Fitbit";
 			};
 			name = Release;
@@ -503,6 +884,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		979A80091CEDDD1200D419C1 /* Build configuration list for PBXNativeTarget "Resolve Issues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979A800A1CEDDD1200D419C1 /* Debug */,
+				979A800B1CEDDD1200D419C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		97CCDF3E1CE997B7009E8AA3 /* Build configuration list for PBXProject "Pelvic Floor Fitbit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

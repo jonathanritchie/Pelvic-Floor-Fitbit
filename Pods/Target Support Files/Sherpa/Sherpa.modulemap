@@ -1,0 +1,6 @@
+framework module Sherpa {
+  umbrella header "Sherpa-umbrella.h"
+
+  export *
+  module * { export * }
+}
